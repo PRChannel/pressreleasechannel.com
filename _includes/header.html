@@ -4,10 +4,30 @@
       <span class="brand-mark">PR</span>
       <span><strong>{{ site.data.company.brand }}</strong><small>{{ site.data.company.tagline }}</small></span>
     </a>
+
     <button class="nav-toggle" aria-label="Toggle navigation" data-nav-toggle>☰</button>
-    <nav class="nav" data-nav>
+
+    {% assign current_path = page.url | default: '/' %}
+    <nav class="nav" data-nav aria-label="Primary navigation">
       {% for item in site.data.navigation %}
-      <a href="{{ item.url }}"{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.label }}</a>
+        {% assign is_active = false %}
+
+        {% if item.url == '/' and current_path == '/' %}
+          {% assign is_active = true %}
+
+        {% elsif item.url == '/china-media-guide/' %}
+          {% if current_path contains '/china-media-guide/' or current_path contains '/china-communication-reviews/' %}
+            {% assign is_active = true %}
+          {% endif %}
+
+        {% elsif current_path == item.url %}
+          {% assign is_active = true %}
+        {% endif %}
+
+        <a href="{{ item.url }}"
+           {% if is_active %}class="is-active" aria-current="page"{% endif %}>
+          {{ item.label }}
+        </a>
       {% endfor %}
     </nav>
   </div>
