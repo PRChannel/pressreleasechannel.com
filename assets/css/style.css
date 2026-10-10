@@ -344,3 +344,77 @@ main .article-content li a:hover{
     right:auto;
   }
 }
+
+
+
+
+/* Restore original PR Channel teal logo square */
+.brand-mark{
+  background:#00837e !important;
+  color:#ffffff !important;
+}
+
+/* Keep brand text neutral */
+.brand,
+.brand:hover{
+  color:#182124 !important;
+}
+.brand small{
+  color:#727a7e !important;
+}
+
+/* Give the homepage hero a clear but restrained visual zone */
+.hero{
+  background:#f4f5f3 !important;
+  border-top:1px solid #ececea !important;
+  border-bottom:1px solid #dedfdd !important;
+}
+
+/* Hero labels stay monochrome */
+.hero .eyebrow{
+  color:#596267 !important;
+}
+.hero .eyebrow:before{
+  background:#7d8588 !important;
+}
+
+/* Fix primary CTA readability */
+.hero .btn,
+.hero .btn-primary,
+.btn,
+.btn-primary{
+  background:#1b2326 !important;
+  border-color:#1b2326 !important;
+  color:#ffffff !important;
+}
+.hero .btn:hover,
+.hero .btn-primary:hover,
+.btn:hover,
+.btn-primary:hover{
+  background:#000000 !important;
+  border-color:#000000 !important;
+  color:#ffffff !important;
+}
+
+/* Secondary CTA remains neutral */
+.hero .btn-secondary{
+  background:#ffffff !important;
+  border-color:#7c8487 !important;
+  color:#1b2326 !important;
+}
+.hero .btn-secondary:hover{
+  background:#ededeb !important;
+  border-color:#4f575b !important;
+  color:#000000 !important;
+}
+
+/* Teal remains reserved for navigation states */
+.nav a:hover,
+.nav a[aria-current="page"],
+.nav a.is-active{
+  color:#00837e !important;
+}
+.nav a[aria-current="page"]::after,
+.nav a.is-active::after{
+  background:#00837e !important;
+}
