@@ -48,191 +48,299 @@
 .about-author-inline{margin-top:56px;padding-top:34px;border-top:1px solid var(--line);max-width:780px}.about-author-inline h2{font-size:28px;margin-top:7px}.about-author-inline p{color:var(--muted);font-size:16px;max-width:700px}
 @media(max-width:860px){.hub-grid,.home-hub-grid{grid-template-columns:1fr}}
 
-/* Editorial neutral visual patch — keep PR Channel green as an accent, not a surface color */
+
+/* =========================================================
+   FINAL VISUAL SYSTEM — MONOCHROME CONTENT + ACTIVE NAV ACCENT
+   PR Channel / pressreleasechannel.com
+   ---------------------------------------------------------
+   Principle:
+   - Content area: black / white / neutral gray only
+   - Teal (#00837e): reserved for navigation active/hover state
+   - No colored content blocks, teal article titles, teal buttons,
+     teal labels, teal borders, or teal decorative markers
+   ========================================================= */
+
 :root{
-  --line:#e4e7e6;
-  --soft:#fafaf9;
-  --soft2:#f3f4f3;
+  --brand:#20282b;
+  --brand-dark:#000000;
+  --nav-accent:#00837e;
+  --ink:#182124;
+  --muted:#687176;
+  --line:#ddddda;
+  --soft:#f7f7f5;
+  --soft2:#efefec;
 }
 
-/* White/neutral page surfaces: avoid large green-tinted bands */
-.hero{
-  background:#fff;
-  border-bottom:1px solid var(--line);
+/* Header / brand becomes monochrome */
+.brand-mark{
+  background:#1b2326 !important;
+  color:#fff !important;
 }
-.section-soft{
-  background:#fafaf9;
-  border-top:1px solid #f0f1f0;
-  border-bottom:1px solid #f0f1f0;
+.brand,
+.brand:hover{
+  color:#182124 !important;
 }
-.page-hero{
-  background:#fff;
-  border-bottom:1px solid var(--line);
+.brand small{
+  color:#727a7e !important;
 }
 
-/* Keep the brand color on small accents; use dark neutral for primary actions */
-.btn-primary{
-  background:var(--ink);
-  border-color:var(--ink);
-  color:#fff;
+/* Navigation is the ONLY place where teal is used */
+.nav a{
+  position:relative;
+  color:#30383c !important;
+  border:0 !important;
+  padding:8px 0 !important;
+  background:transparent !important;
 }
-.btn-primary:hover{
-  background:#2b373c;
-  border-color:#2b373c;
-  color:#fff;
+.nav a:hover{
+  color:var(--nav-accent) !important;
 }
-.btn-secondary{
-  color:var(--ink);
-  background:#fff;
-  border-color:#bcc4c2;
+.nav a[aria-current="page"],
+.nav a.is-active{
+  color:var(--nav-accent) !important;
 }
-.btn-secondary:hover{
-  color:var(--brand-dark);
-  border-color:var(--brand);
+.nav a[aria-current="page"]::after,
+.nav a.is-active::after{
+  content:"";
+  position:absolute;
+  left:0;
+  right:0;
+  bottom:0;
+  height:2px;
+  background:var(--nav-accent);
 }
-
-/* Neutral information surfaces */
-.step:before{
-  background:#f3f4f3;
-  color:var(--brand-dark);
+.nav-cta{
+  border:0 !important;
+  color:#30383c !important;
+  padding:8px 0 !important;
 }
-.content blockquote,
-.article-content blockquote{
-  background:#f8f8f7;
-}
-.aside-note{
-  background:#fbfbfa;
-  border-color:#dfe3e2;
-}
-.contact-box{
-  background:#fafaf9;
-}
-.tag{
-  background:#fff;
-  border-color:#d9dfdd;
-  color:#465359;
+.nav-cta:hover{
+  color:var(--nav-accent) !important;
 }
 
-/* Content hubs should read like editorial indexes, not colored cards */
-.hub-card,
-.hub-card-primary,
-.home-hub-grid a{
-  background:#fff;
-}
-.hub-card:hover,
-.home-hub-grid a:hover{
-  background:#fafaf9;
-}
-
-/* Preserve separation with rules and typography instead of tinted blocks */
-.featured-guide,
-.latest-list,
-.principle-list,
-.topic-strip,
-.home-hub-grid,
-.service-focus{
-  border-top-color:#273237;
+/* Main content: remove teal completely */
+main,
+main p,
+main li,
+main span,
+main small,
+main strong,
+main h1,
+main h2,
+main h3,
+main h4,
+main h5,
+main h6{
+  color:inherit;
 }
 
-/* Slightly quieter green usage in metadata while retaining brand identity */
-.featured-guide .meta,
+main a,
+main a:visited{
+  color:#1d2528 !important;
+}
+main a:hover{
+  color:#000 !important;
+}
+
+/* Inline editorial links stay discoverable via underline, not color */
+main .content p a,
+main .content li a,
+main .article-content p a,
+main .article-content li a{
+  text-decoration:underline;
+  text-decoration-color:#9ca2a5;
+  text-underline-offset:3px;
+}
+main .content p a:hover,
+main .content li a:hover,
+main .article-content p a:hover,
+main .article-content li a:hover{
+  text-decoration-color:#000;
+}
+
+/* Editorial labels and eyebrow become neutral */
+.eyebrow,
+.section-kicker,
+.card .kicker,
 .service-primary .kicker,
 .service-secondary .kicker,
-.card .kicker{
-  color:#3e6f6c;
-}
-
-/* Footer remains a deliberate dark anchor; everything above stays light */
-.site-footer{
-  margin-top:0;
-}
-
-/* PR Channel visual refinement: reduce brand-green fatigue
-   Append this block to the END of assets/css/style.css */
-
-/* Keep teal as an accent, not as the default reading color */
-:root{
-  --link-reading:#172326;
-  --link-muted:#4f5d63;
-  --line-neutral:#d9dfdf;
-}
-
-/* Article / guide list titles: charcoal by default */
-.guide-list a,
-.post-list a,
-.article-list a,
-.related-guides a,
-.buyer-guides a,
-.topic-list a,
-.review-index h2 a,
-.review-index-item h2 a {
-  color: var(--link-reading) !important;
-  text-decoration: none;
-}
-
-.guide-list a:hover,
-.post-list a:hover,
-.article-list a:hover,
-.related-guides a:hover,
-.buyer-guides a:hover,
-.topic-list a:hover,
-.review-index h2 a:hover,
-.review-index-item h2 a:hover {
-  color: #00837e !important;
-}
-
-/* De-emphasize utility links so every row is not teal */
-.read-link,
-.text-link,
-.guide-read,
-.article-read {
-  color: var(--link-muted) !important;
-  font-weight: 600;
-}
-
-.read-link:hover,
-.text-link:hover,
-.guide-read:hover,
-.article-read:hover {
-  color: #00837e !important;
-}
-
-/* Metadata should read as editorial metadata, not brand accents */
+.featured-guide .meta,
 .guide-meta,
 .post-meta,
 .article-meta,
 .review-meta,
-.category-label {
-  color: #6b777c !important;
+.category-label{
+  color:#596267 !important;
+}
+.eyebrow:before,
+.scope-list li:before{
+  background:#7d8588 !important;
 }
 
-/* Keep only small editorial accents in teal */
-.eyebrow,
-.section-kicker {
-  color: #00837e;
+/* Buttons: monochrome */
+.btn,
+.btn-primary{
+  background:#1b2326 !important;
+  border-color:#1b2326 !important;
+  color:#fff !important;
+}
+.btn:hover,
+.btn-primary:hover{
+  background:#000 !important;
+  border-color:#000 !important;
+  color:#fff !important;
+}
+.btn-secondary{
+  background:#fff !important;
+  border-color:#70777a !important;
+  color:#1b2326 !important;
+}
+.btn-secondary:hover{
+  background:#f2f2f0 !important;
+  color:#000 !important;
 }
 
-/* Neutral separators */
-.guide-list > *,
-.post-list > *,
-.article-list > *,
-.related-guides > *,
-.review-index-item {
-  border-color: var(--line-neutral) !important;
+/* Neutral backgrounds — no green tint */
+.hero{
+  background:linear-gradient(180deg,#fafafa 0%,#fff 100%) !important;
+  border-bottom-color:#e6e6e3 !important;
+}
+.page-hero{
+  background:#fafafa !important;
+  border-bottom-color:#e2e2df !important;
+}
+.section-soft,
+.contact-box,
+.aside-note,
+.content blockquote,
+.article-content blockquote{
+  background:#f6f6f4 !important;
+}
+.hub-card-primary,
+.hub-card:hover,
+.home-hub-grid a:hover{
+  background:#f7f7f5 !important;
 }
 
-/* Review index: editorial treatment, no card-color blocks */
+/* No teal borders or callout rules */
+.content blockquote,
+.article-content blockquote{
+  border-left-color:#8b9194 !important;
+}
+.aside-block{
+  border-top-color:#353d40 !important;
+}
+.tag{
+  border-color:#c9cccd !important;
+  background:#f5f5f3 !important;
+  color:#50585c !important;
+}
+
+/* Process markers become gray */
+.step:before{
+  background:#efefec !important;
+  color:#3f474b !important;
+}
+
+/* FAQ symbols neutral */
+.faq-q:after{
+  color:#4f575b !important;
+}
+
+/* Listing / guide / buyer-intent titles: charcoal, not teal */
+.latest-item h3,
+.latest-item h3 a,
+.guide-item strong,
+.guide-item a,
+.featured-guide h3,
+.featured-guide h3 a,
+.hub-card h3,
+.hub-card b,
+.home-hub-grid strong,
+.post-list-section h2,
+.related-posts h2,
+.review-index-item h2,
+.review-index-item h2 a,
+.article-context a{
+  color:#182124 !important;
+}
+
+/* Utility "Read" links are gray-black */
+.latest-item b,
+.latest-item b a,
+.read-link,
+.text-link,
+.guide-read,
+.article-read{
+  color:#4f575b !important;
+}
+.latest-item b:hover,
+.latest-item b a:hover,
+.read-link:hover,
+.text-link:hover,
+.guide-read:hover,
+.article-read:hover{
+  color:#000 !important;
+}
+
+/* Tables, cards, separators: neutral */
+.card,
+.fact-box,
+.guide-item,
+.hub-card,
+.home-hub-grid a,
+.principle,
+.topic-strip>div,
 .review-index-item{
-  padding: 28px 0;
-  border-top: 1px solid var(--line-neutral);
-  background: transparent !important;
+  border-color:#ddddda !important;
+}
+.fact-row,
+.step,
+.latest-item,
+.service-secondary,
+.article-context,
+.related-posts{
+  border-color:#ddddda !important;
 }
 
-.review-index-item h2{
-  margin: 8px 0 10px;
+/* Footer monochrome */
+.site-footer{
+  background:#191f21 !important;
+  color:#d9dddd !important;
+}
+.site-footer a,
+.footer-grid a{
+  color:#d9dddd !important;
+}
+.site-footer a:hover,
+.footer-grid a:hover{
+  color:#fff !important;
+}
+.footer-grid p{
+  color:#aeb4b6 !important;
+}
+.footer-bottom{
+  color:#8f979a !important;
 }
 
-.review-index-item p{
-  color:#536067;
-  max-width: 820px;
+/* Keep article/list links editorial, not branded */
+.latest-item h3 a:hover,
+.guide-item a:hover,
+.featured-guide h3 a:hover,
+.hub-card:hover h3,
+.review-index-item h2 a:hover{
+  color:#000 !important;
+}
+
+/* Mobile active navigation keeps the same clear state */
+@media(max-width:860px){
+  .nav a[aria-current="page"],
+  .nav a.is-active{
+    color:var(--nav-accent) !important;
+  }
+  .nav a[aria-current="page"]::after,
+  .nav a.is-active::after{
+    width:30px;
+    right:auto;
+  }
 }
