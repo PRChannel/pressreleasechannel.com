@@ -1,10 +1,11 @@
 ---
-title: Press Release Distribution vs Media Invitation in China
-description: The difference between online press release distribution and inviting journalists to events in China, and how overseas companies can decide which approach fits a launch, forum, exhibition or corporate announcement.
+title: "Press Release Distribution vs Media Invitation in China"
+description: "The difference between online press release distribution and inviting journalists to events in China, and how overseas companies can decide which approach fits a launch, forum, exhibition or corporate announcement."
 date: 2026-10-09
 last_modified_at: 2026-10-10
 author: Yang Xiaole
 category: Media Invitation
+hub: media-invitation
 tags:
   - Media Invitation
   - Press Release Distribution

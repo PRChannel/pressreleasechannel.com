@@ -1,10 +1,11 @@
 ---
-title: What Happens After a Press Release Is Submitted to Chinese Media?
-description: What overseas companies should expect after submitting a press release to Chinese media, from editorial review and revisions to publication and live-page verification.
+title: "What Happens After a Press Release Is Submitted to Chinese Media?"
+description: "What overseas companies should expect after submitting a press release to Chinese media, from editorial review and revisions to publication and live-page verification."
 date: 2026-10-05
 last_modified_at: 2026-10-10
 author: Yang Xiaole
 category: Press Release Distribution
+hub: press-release-distribution
 tags:
   - Editorial Review
   - China Media

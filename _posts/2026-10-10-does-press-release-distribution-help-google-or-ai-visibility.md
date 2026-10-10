@@ -1,10 +1,11 @@
 ---
-title: Does Press Release Distribution Help Google or AI Visibility?
-description: How press release distribution can create public information for search engines and AI systems, and why publication does not guarantee indexing, citation, ranking or inclusion in an AI answer.
+title: "Does Press Release Distribution Help Google or AI Visibility?"
+description: "How press release distribution can create public information for search engines and AI systems, and why publication does not guarantee indexing, citation, ranking or inclusion in an AI answer."
 date: 2026-10-10
 last_modified_at: 2026-10-10
 author: Yang Xiaole
 category: AI & GEO
+hub: search-ai-visibility
 tags:
   - AI Visibility
   - GEO

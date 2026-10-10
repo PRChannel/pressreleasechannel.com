@@ -1,10 +1,11 @@
 ---
-title: How to Choose a Press Release Distribution Service in China
-description: A practical checklist for overseas companies comparing press release distribution providers in China, with attention to media relevance, verification, editorial boundaries and service transparency.
+title: "How to Choose a Press Release Distribution Service in China"
+description: "A practical checklist for overseas companies comparing press release distribution providers in China, with attention to media relevance, verification, editorial boundaries and service transparency."
 date: 2026-10-03
 last_modified_at: 2026-10-10
 author: Yang Xiaole
 category: Press Release Distribution
+hub: press-release-distribution
 tags:
   - Press Release Distribution
   - China PR

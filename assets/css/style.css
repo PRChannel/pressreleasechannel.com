@@ -37,3 +37,13 @@
 .subsection-heading h3{font-size:24px;margin:6px 0 0}
 .secondary-guides-heading{margin-top:42px}
 @media(max-width:860px){.subsection-heading{margin-top:30px}}
+/* v2.3 final architecture: topic hubs, buyer-intent cluster and entity pages */
+.hub-grid{display:grid;grid-template-columns:repeat(2,1fr);border-top:2px solid var(--ink);border-left:1px solid var(--line)}
+.hub-card{display:block;padding:28px;border-right:1px solid var(--line);border-bottom:1px solid var(--line);background:#fff;color:var(--ink)}
+.hub-card:hover{background:#f8fbfb;color:var(--ink)}
+.hub-card h3{font-size:25px;margin:7px 0 10px}.hub-card p{color:var(--muted);margin:0 0 18px}.hub-card b{color:var(--brand)}
+.hub-card-primary{background:#f5faf9}.home-hub-grid{display:grid;grid-template-columns:repeat(2,1fr);margin-top:28px;border-top:2px solid var(--ink);border-left:1px solid var(--line)}
+.home-hub-grid a{display:block;padding:22px;border-right:1px solid var(--line);border-bottom:1px solid var(--line);color:var(--ink);background:#fff}.home-hub-grid a:hover{background:#f8fbfb}.home-hub-grid strong{display:block;font-size:18px;margin-bottom:6px}.home-hub-grid span{display:block;color:var(--muted);font-size:14px}
+.article-context{margin-top:54px;padding:22px 0;border-top:2px solid var(--ink);border-bottom:1px solid var(--line)}.article-context p{margin:6px 0 0;font-size:15px}
+.about-author-inline{margin-top:56px;padding-top:34px;border-top:1px solid var(--line);max-width:780px}.about-author-inline h2{font-size:28px;margin-top:7px}.about-author-inline p{color:var(--muted);font-size:16px;max-width:700px}
+@media(max-width:860px){.hub-grid,.home-hub-grid{grid-template-columns:1fr}}

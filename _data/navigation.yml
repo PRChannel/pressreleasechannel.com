@@ -1,9 +1,11 @@
 - label: Press Release Distribution
   url: /
-- label: Media Invitation
-  url: /media-invitation-china/
 - label: China Media Guide
   url: /china-media-guide/
+- label: Media Invitation
+  url: /media-invitation-china/
+- label: Methodology
+  url: /how-we-evaluate-chinese-media-placements/
 - label: About
   url: /about/
 - label: Contact

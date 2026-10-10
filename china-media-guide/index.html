@@ -1,13 +1,32 @@
 ---
 layout: default
 title: China Media Guide
-description: Practical guides for overseas companies on press release distribution in China, Chinese media placements, journalist invitations and AI visibility.
+description: Practical guides for overseas companies on press release distribution in China, media placement verification, journalist invitation and search or AI visibility.
 permalink: /china-media-guide/
 ---
-<section class="page-hero"><div class="container"><nav class="breadcrumbs"><a href="/">Home</a> → China Media Guide</nav><span class="eyebrow">Knowledge hub</span><h1>China Media Guide</h1><p class="lead">Practical explanations for overseas companies working with Chinese media, led by our core topic: press release distribution in China.</p></div></section>
-<section class="section"><div class="container post-index"><aside class="topic-nav"><a href="#press-release-distribution">Press Release Distribution</a><a href="#media-placement">Media Placement</a><a href="#media-invitation">Media Invitation</a><a href="#ai-geo">AI & GEO</a></aside><div>
-<section class="post-list-section" id="press-release-distribution"><h2>Press Release Distribution</h2><p class="topic-intro">How Chinese press release distribution works, how media are selected, what editorial review means and what companies should expect after publication.</p><div class="latest-list">{% assign found = false %}{% for post in site.posts %}{% if post.category == 'Press Release Distribution' %}{% assign found = true %}<a class="latest-item" href="{{ post.url }}"><div class="meta">{{ post.date | date: '%Y-%m-%d' }}</div><div><h3>{{ post.title }}</h3><p>{{ post.description }}</p></div><b>Read →</b></a>{% endif %}{% endfor %}{% unless found %}<div class="latest-item"><div class="meta">Coming next</div><div><h3>More press release guides are being added</h3><p>This section will expand with practical questions about distributing company news in China.</p></div></div>{% endunless %}</div></section>
-<section class="post-list-section" id="media-placement"><h2>Media Placement</h2><p class="topic-intro">How to check domains, page types, public accessibility and the differences between publication, recommendation and account-based content.</p><div class="latest-list">{% for post in site.posts %}{% if post.category == 'Media Placement' %}<a class="latest-item" href="{{ post.url }}"><div class="meta">{{ post.date | date: '%Y-%m-%d' }}</div><div><h3>{{ post.title }}</h3><p>{{ post.description }}</p></div><b>Read →</b></a>{% endif %}{% endfor %}</div></section>
-<section class="post-list-section" id="media-invitation"><h2>Media Invitation</h2><p class="topic-intro">When journalist attendance makes sense for launches, forums, exhibitions, interviews and other events in China.</p><div class="latest-list">{% for post in site.posts %}{% if post.category == 'Media Invitation' %}<a class="latest-item" href="{{ post.url }}"><div class="meta">{{ post.date | date: '%Y-%m-%d' }}</div><div><h3>{{ post.title }}</h3><p>{{ post.description }}</p></div><b>Read →</b></a>{% endif %}{% endfor %}</div></section>
-<section class="post-list-section" id="ai-geo"><h2>AI & GEO</h2><p class="topic-intro">A secondary topic covering the difference between publication, indexing, retrieval, citation and final-answer visibility in search and AI systems.</p><div class="latest-list">{% for post in site.posts %}{% if post.category == 'AI & GEO' %}<a class="latest-item" href="{{ post.url }}"><div class="meta">{{ post.date | date: '%Y-%m-%d' }}</div><div><h3>{{ post.title }}</h3><p>{{ post.description }}</p></div><b>Read →</b></a>{% endif %}{% endfor %}</div></section>
-</div></div></section>
+<section class="page-hero"><div class="container"><nav class="breadcrumbs"><a href="/">Home</a> → China Media Guide</nav><span class="eyebrow">Knowledge hub</span><h1>China Media Guide</h1><p class="lead">A structured guide for overseas companies buying or evaluating press release distribution and media communications in China.</p></div></section>
+
+<section class="section"><div class="container">
+  <div class="section-title"><span class="eyebrow">Start with the core service</span><h2>Press Release Distribution in China</h2><p>Understand the process first, then evaluate providers, pricing, media types and the final published result.</p></div>
+  <div class="hub-grid">
+    <a class="hub-card hub-card-primary" href="/china-media-guide/press-release-distribution/"><span class="kicker">Core topic</span><h3>Press Release Distribution</h3><p>Process, cost, provider selection, editorial review, buyer questions and local-vs-global distribution models.</p><b>Explore the topic →</b></a>
+    <a class="hub-card" href="/china-media-guide/media-placement-verification/"><span class="kicker">Evaluation</span><h3>Media Placement & Verification</h3><p>Actual domains, page types, pickup counts, publishing URLs, coverage reports and placement value.</p><b>Explore the topic →</b></a>
+    <a class="hub-card" href="/china-media-guide/media-invitation/"><span class="kicker">Related service</span><h3>Media Invitation</h3><p>When journalist attendance makes sense for launches, exhibitions, forums, interviews and other events.</p><b>Explore the topic →</b></a>
+    <a class="hub-card" href="/china-media-guide/search-ai-visibility/"><span class="kicker">Secondary research</span><h3>Search & AI Visibility</h3><p>Publication, indexing, retrieval and citation are different outcomes. This section explains the distinction.</p><b>Explore the topic →</b></a>
+  </div>
+</div></section>
+
+<section class="section section-soft"><div class="container">
+  <div class="section-title"><span class="eyebrow">For overseas companies</span><h2>Buying Press Release Distribution in China</h2><p>These guides focus on the questions buyers usually need to answer before paying: what is included, what the media placements actually are, how pricing works and when local execution may be more practical.</p></div>
+  <div class="latest-list">
+  {% assign buyer_posts = site.posts | where: "buyer_intent", true %}
+  {% for post in buyer_posts %}
+    {% if post.title and post.title != '' %}<a class="latest-item" href="{{ post.url }}"><div class="meta">{{ post.category }}<br>{{ post.date | date: '%Y-%m-%d' }}</div><div><h3>{{ post.title }}</h3><p>{{ post.description }}</p></div><b>Read →</b></a>{% endif %}
+  {% endfor %}
+  </div>
+</div></section>
+
+<section class="section"><div class="container">
+  <div class="section-title"><span class="eyebrow">PR Channel methodology</span><h2>How we evaluate Chinese media placements</h2><p>The guide is supported by a stable evaluation framework covering actual domains, page types, public accessibility, editorial boundaries and verifiable publishing results.</p></div>
+  <p><a class="btn btn-secondary" href="/how-we-evaluate-chinese-media-placements/">Read the evaluation methodology</a></p>
+</div></section>

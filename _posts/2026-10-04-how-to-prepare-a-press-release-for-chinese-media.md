@@ -1,10 +1,11 @@
 ---
-title: How to Prepare a Press Release for Chinese Media
-description: A practical guide for overseas companies preparing factual, reviewable press releases for distribution to Chinese media.
+title: "How to Prepare a Press Release for Chinese Media"
+description: "A practical guide for overseas companies preparing factual, reviewable press releases for distribution to Chinese media."
 date: 2026-10-04
 last_modified_at: 2026-10-10
 author: Yang Xiaole
 category: Press Release Distribution
+hub: press-release-distribution
 tags:
   - Press Release Writing
   - China Media

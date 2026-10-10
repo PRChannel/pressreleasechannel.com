@@ -1,38 +1,52 @@
 ---
 layout: default
 ---
+{% assign hub_label = 'China Media Guide' %}
+{% assign hub_url = '/china-media-guide/' %}
+{% if page.hub == 'press-release-distribution' %}{% assign hub_label = 'Press Release Distribution' %}{% assign hub_url = '/china-media-guide/press-release-distribution/' %}{% endif %}
+{% if page.hub == 'media-placement-verification' %}{% assign hub_label = 'Media Placement & Verification' %}{% assign hub_url = '/china-media-guide/media-placement-verification/' %}{% endif %}
+{% if page.hub == 'media-invitation' %}{% assign hub_label = 'Media Invitation' %}{% assign hub_url = '/china-media-guide/media-invitation/' %}{% endif %}
+{% if page.hub == 'search-ai-visibility' %}{% assign hub_label = 'Search & AI Visibility' %}{% assign hub_url = '/china-media-guide/search-ai-visibility/' %}{% endif %}
 <article class="article-wrap">
   <div class="container article-shell">
-    <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="/">Home</a><span>→</span><a href="/china-media-guide/">China Media Guide</a><span>→</span><span>{{ page.title }}</span></nav>
+    <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="/">Home</a><span>→</span><a href="/china-media-guide/">China Media Guide</a><span>→</span><a href="{{ hub_url }}">{{ hub_label }}</a><span>→</span><span>{{ page.title }}</span></nav>
     <header class="article-header">
       <span class="eyebrow">{{ page.category | default: 'China Media Guide' }}</span>
       <h1>{{ page.title }}</h1>
       {% if page.description %}<p class="lead">{{ page.description }}</p>{% endif %}
-      <div class="article-meta"><span>By {{ page.author | default: 'Yang Xiaole' }}</span><span>{{ page.date | date: '%B %-d, %Y' }}</span>{% if page.last_modified_at %}<span>Updated {{ page.last_modified_at | date: '%B %-d, %Y' }}</span>{% endif %}</div>
+      <div class="article-meta"><span>By <a href="/author/yang-xiaole/">{{ page.author | default: 'Yang Xiaole' }}</a></span><span>{{ page.date | date: '%B %-d, %Y' }}</span>{% if page.last_modified_at %}<span>Updated {{ page.last_modified_at | date: '%B %-d, %Y' }}</span>{% endif %}</div>
     </header>
     <div class="article-grid">
-      <div class="article-content">{{ content }}</div>
+      <div class="article-content">
+        {{ content }}
+        <div class="article-context">
+          <strong>Continue with the topic</strong>
+          <p><a href="{{ hub_url }}">{{ hub_label }}</a> · <a href="/how-we-evaluate-chinese-media-placements/">How PR Channel evaluates Chinese media placements</a> · <a href="/">Press Release Distribution in China</a></p>
+        </div>
+      </div>
       <aside class="article-aside">
         <div class="aside-block"><strong>PR Channel</strong><p>{{ site.data.company.primary_service }} for overseas companies, with clearer placement information and realistic editorial boundaries.</p><a href="/about/">About PR Channel →</a></div>
-        <div class="aside-block"><strong>Related service</strong><p>{% if page.category == 'Media Invitation' %}<a href="/media-invitation-china/">Media Invitation in China</a>{% else %}<a href="/verify-chinese-media-placement/">Media Placement Verification</a>{% endif %}</p></div>
+        <div class="aside-block"><strong>Topic hub</strong><p><a href="{{ hub_url }}">{{ hub_label }}</a></p></div>
+        <div class="aside-block"><strong>Methodology</strong><p><a href="/how-we-evaluate-chinese-media-placements/">How we evaluate Chinese media placements</a></p></div>
       </aside>
     </div>
     <section class="related-posts"><span class="eyebrow">Continue reading</span><h2>Related China Media Guides</h2><div class="guide-list">
       {% assign count = 0 %}
       {% for post in site.posts %}
-        {% if post.url != page.url and post.category == page.category and count < 3 %}
+        {% if post.url != page.url and post.hub == page.hub and post.title and post.title != '' and count < 3 %}
         <a class="guide-item" href="{{ post.url }}"><div><strong>{{ post.title }}</strong><span>{{ post.description }}</span></div><b>Read →</b></a>
         {% assign count = count | plus: 1 %}
         {% endif %}
       {% endfor %}
       {% if count < 3 %}
         {% for post in site.posts %}
-          {% if post.url != page.url and post.category != page.category and count < 3 %}
+          {% if post.url != page.url and post.hub != page.hub and post.title and post.title != '' and count < 3 %}
           <a class="guide-item" href="{{ post.url }}"><div><strong>{{ post.title }}</strong><span>{{ post.description }}</span></div><b>Read →</b></a>
           {% assign count = count | plus: 1 %}
           {% endif %}
         {% endfor %}
       {% endif %}
     </div></section>
+    <section class="about-author-inline"><span class="eyebrow">Author</span><h2>About Yang Xiaole</h2><p>Yang Xiaole writes for PR Channel about press release distribution, Chinese media placement verification, media invitation and public information visibility in China.</p><a href="/author/yang-xiaole/">View author page →</a></section>
   </div>
 </article>

@@ -47,21 +47,23 @@ permalink: /
 
 <section class="section section-soft">
   <div class="container">
-    <div class="section-title"><span class="eyebrow">China Media Guide</span><h2>Practical answers for companies working with Chinese media</h2><p>The guide covers press release distribution, media placement, media invitation and the difference between publication, search visibility and AI visibility.</p></div>
+    <div class="section-title"><span class="eyebrow">China Media Guide</span><h2>A structured guide to buying and evaluating Chinese media distribution</h2><p>The content is organized around one core service — press release distribution in China — with separate sections for media verification, media invitation and search or AI visibility.</p></div>
     {% assign core_post = site.posts | where: "featured_core", true | first %}
     {% if core_post %}<a class="featured-guide" href="{{ core_post.url }}"><div class="meta">Essential guide · {{ core_post.date | date: '%Y-%m-%d' }}</div><div><h3>{{ core_post.title }}</h3><p>{{ core_post.description }}</p></div><b>Read guide →</b></a>{% endif %}
-
-    <div class="subsection-heading"><span class="kicker">More on the core service</span><h3>Press Release Distribution Guides</h3></div>
-    <div class="latest-list home-latest">{% assign shown_core = 0 %}{% for post in site.posts %}{% if post.category == 'Press Release Distribution' and post.featured_core != true and shown_core < 4 %}<a class="latest-item" href="{{ post.url }}"><div class="meta">{{ post.date | date: '%Y-%m-%d' }}</div><div><h3>{{ post.title }}</h3><p>{{ post.description }}</p></div><b>Read →</b></a>{% assign shown_core = shown_core | plus: 1 %}{% endif %}{% endfor %}</div>
-
-    <div class="subsection-heading secondary-guides-heading"><span class="kicker">Related topics</span><h3>Media Placement, Invitation & AI Visibility</h3></div>
-    <div class="latest-list home-latest">{% assign shown = 0 %}{% for post in site.posts %}{% if post.category != 'Press Release Distribution' and shown < 3 %}<a class="latest-item" href="{{ post.url }}"><div class="meta">{{ post.category }}<br>{{ post.date | date: '%Y-%m-%d' }}</div><div><h3>{{ post.title }}</h3><p>{{ post.description }}</p></div><b>Read →</b></a>{% assign shown = shown | plus: 1 %}{% endif %}{% endfor %}</div>
+    <div class="home-hub-grid">
+      <a href="/china-media-guide/press-release-distribution/"><strong>Press Release Distribution</strong><span>Process, pricing, provider selection and buyer questions.</span></a>
+      <a href="/china-media-guide/media-placement-verification/"><strong>Media Placement & Verification</strong><span>Domains, page types, URLs, pickups and coverage reports.</span></a>
+      <a href="/china-media-guide/media-invitation/"><strong>Media Invitation</strong><span>When journalist attendance makes sense for China events.</span></a>
+      <a href="/china-media-guide/search-ai-visibility/"><strong>Search & AI Visibility</strong><span>Publication, indexing, retrieval and citation are separate outcomes.</span></a>
+    </div>
+    <div class="subsection-heading"><span class="kicker">For overseas companies</span><h3>Buyer-focused guides</h3></div>
+    <div class="latest-list home-latest">{% assign shown_buyers = 0 %}{% for post in site.posts %}{% if post.buyer_intent == true and post.title and shown_buyers < 4 %}<a class="latest-item" href="{{ post.url }}"><div class="meta">Buyer guide<br>{{ post.date | date: '%Y-%m-%d' }}</div><div><h3>{{ post.title }}</h3><p>{{ post.description }}</p></div><b>Read →</b></a>{% assign shown_buyers = shown_buyers | plus: 1 %}{% endif %}{% endfor %}</div>
     <p style="margin-top:24px"><a class="btn btn-secondary" href="/china-media-guide/">Browse all China Media Guides</a></p>
   </div>
 </section>
 
 <section class="section">
-  <div class="container"><div class="section-title"><span class="eyebrow">How we evaluate placements</span><h2>A media name is only one part of the placement</h2><p>We look at the actual publishing environment behind a placement, not the logo alone.</p></div><div class="principle-list"><div class="principle"><h3>Actual domain</h3><p>Check where the page is really hosted and whether the domain matches the claimed media environment.</p></div><div class="principle"><h3>Page type</h3><p>Main-site news, content accounts, regional pages and recommendation placements are not equivalent.</p></div><div class="principle"><h3>Public accessibility</h3><p>A placement should be independently accessible and verifiable, rather than supported only by screenshots.</p></div><div class="principle"><h3>Editorial boundaries</h3><p>Publication, recommendation, indexing and AI citation are separate outcomes and should not be presented as the same thing.</p></div></div><p style="margin-top:24px"><a href="/our-media-placement-principles/">Read our Chinese media placement principles →</a></p></div>
+  <div class="container"><div class="section-title"><span class="eyebrow">How we evaluate placements</span><h2>A media name is only one part of the placement</h2><p>We look at the actual publishing environment behind a placement, not the logo alone.</p></div><div class="principle-list"><div class="principle"><h3>Actual domain</h3><p>Check where the page is really hosted and whether the domain matches the claimed media environment.</p></div><div class="principle"><h3>Page type</h3><p>Main-site news, content accounts, regional pages and recommendation placements are not equivalent.</p></div><div class="principle"><h3>Public accessibility</h3><p>A placement should be independently accessible and verifiable, rather than supported only by screenshots.</p></div><div class="principle"><h3>Editorial boundaries</h3><p>Publication, recommendation, indexing and AI citation are separate outcomes and should not be presented as the same thing.</p></div></div><p style="margin-top:24px"><a href="/how-we-evaluate-chinese-media-placements/">Read our Chinese media placement principles →</a></p></div>
 </section>
 
 <section class="section section-soft">

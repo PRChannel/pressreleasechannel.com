@@ -1,0 +1,9 @@
+---
+layout: default
+title: Yang Xiaole | PR Channel Author
+seo_title: Yang Xiaole
+description: Yang Xiaole writes for PR Channel about press release distribution, Chinese media placement verification, media invitation and public information visibility in China.
+permalink: /author/yang-xiaole/
+---
+<section class="page-hero"><div class="container"><nav class="breadcrumbs"><a href="/">Home</a> → Author → Yang Xiaole</nav><span class="eyebrow">Author</span><h1>Yang Xiaole</h1><p class="lead">Yang Xiaole works with PR Channel on press release distribution, Chinese media placement verification, media invitation and public information research in China.</p></div></section>
+<section class="section"><div class="container entity-strip"><div><div class="section-title"><span class="eyebrow">Articles</span><h2>China Media Guide contributions</h2><p>Practical writing focused on how overseas companies can understand the Chinese media distribution environment more clearly.</p></div><div class="latest-list">{% for post in site.posts %}{% if post.author == 'Yang Xiaole' and post.title %}<a class="latest-item" href="{{ post.url }}"><div class="meta">{{ post.category }}<br>{{ post.date | date: '%Y-%m-%d' }}</div><div><h3>{{ post.title }}</h3><p>{{ post.description }}</p></div><b>Read →</b></a>{% endif %}{% endfor %}</div></div><aside class="fact-box"><div class="fact-row"><strong>Role</strong><span>PR Channel author</span></div><div class="fact-row"><strong>Focus</strong><span>Press release distribution and Chinese media</span></div><div class="fact-row"><strong>Organization</strong><span>{{ site.data.company.brand }}</span></div><div class="fact-row"><strong>Location</strong><span>{{ site.data.company.location }}</span></div></aside></div></section>

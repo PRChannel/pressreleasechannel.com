@@ -1,0 +1,12 @@
+---
+layout: default
+title: Press Release Distribution in China Guides
+seo_title: Press Release Distribution in China Guides
+description: Practical guides for overseas companies on China press release distribution, pricing, provider selection, editorial review and buying decisions.
+permalink: /china-media-guide/press-release-distribution/
+---
+<section class="page-hero"><div class="container"><nav class="breadcrumbs"><a href="/">Home</a> → <a href="/china-media-guide/">China Media Guide</a> → Press Release Distribution</nav><span class="eyebrow">Core topic</span><h1>Press Release Distribution in China</h1><p class="lead">Practical guidance on how distribution works, what buyers are paying for, how to compare providers and what to expect after submission.</p></div></section>
+<section class="section"><div class="container post-index"><aside class="topic-nav"><a href="#essentials">Essential guides</a><a href="#buyers">Buyer guides</a><a href="/how-we-evaluate-chinese-media-placements/">Evaluation methodology</a><a href="/">Service overview</a></aside><div>
+<section class="post-list-section" id="essentials"><h2>Essential guides</h2><p class="topic-intro">Start here if you are new to the Chinese media distribution process.</p><div class="latest-list">{% for post in site.posts %}{% if post.hub == 'press-release-distribution' and post.buyer_intent != true and post.title %}<a class="latest-item" href="{{ post.url }}"><div class="meta">{{ post.date | date: '%Y-%m-%d' }}</div><div><h3>{{ post.title }}</h3><p>{{ post.description }}</p></div><b>Read →</b></a>{% endif %}{% endfor %}</div></section>
+<section class="post-list-section" id="buyers"><h2>Buyer guides for overseas companies</h2><p class="topic-intro">Use these when comparing a global newswire, a local provider, pricing or the exact deliverables behind a China distribution package.</p><div class="latest-list">{% for post in site.posts %}{% if post.hub == 'press-release-distribution' and post.buyer_intent == true and post.title %}<a class="latest-item" href="{{ post.url }}"><div class="meta">Buyer guide<br>{{ post.date | date: '%Y-%m-%d' }}</div><div><h3>{{ post.title }}</h3><p>{{ post.description }}</p></div><b>Read →</b></a>{% endif %}{% endfor %}</div></section>
+</div></div></section>

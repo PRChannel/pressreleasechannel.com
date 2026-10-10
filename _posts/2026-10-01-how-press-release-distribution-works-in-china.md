@@ -1,10 +1,11 @@
 ---
-title: How Press Release Distribution Works in China
-description: A practical guide for overseas companies on Chinese media selection, publishing formats, editorial review, verification and post-publication expectations.
+title: "How Press Release Distribution Works in China"
+description: "A practical guide for overseas companies on Chinese media selection, publishing formats, editorial review, verification and post-publication expectations."
 date: 2026-10-01
 last_modified_at: 2026-10-10
 author: Yang Xiaole
 category: Press Release Distribution
+hub: press-release-distribution
 featured_core: true
 tags:
   - Press Release Distribution

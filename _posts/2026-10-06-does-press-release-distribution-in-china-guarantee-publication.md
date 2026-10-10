@@ -1,10 +1,11 @@
 ---
-title: Does Press Release Distribution in China Guarantee Publication?
-description: Why press release distribution in China normally involves editorial review and why submission, publication, recommendation and long-term page availability should be treated as separate outcomes.
+title: "Does Press Release Distribution in China Guarantee Publication?"
+description: "Why press release distribution in China normally involves editorial review and why submission, publication, recommendation and long-term page availability should be treated as separate outcomes."
 date: 2026-10-06
 last_modified_at: 2026-10-10
 author: Yang Xiaole
 category: Press Release Distribution
+hub: press-release-distribution
 tags:
   - Editorial Review
   - Press Release Distribution

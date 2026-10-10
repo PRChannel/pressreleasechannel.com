@@ -1,8 +1,9 @@
 ---
 layout: default
-title: Our Chinese Media Placement Principles
-description: The practical criteria PR Channel uses to evaluate Chinese media placements, including domain, page type, accessibility, editorial review and post-publication boundaries.
+title: Media Placement Principles
 permalink: /our-media-placement-principles/
+sitemap: false
 ---
-<section class="page-hero"><div class="container"><nav class="breadcrumbs"><a href="/">Home</a> → Media Placement Principles</nav><span class="eyebrow">How we evaluate media</span><h1>Our Chinese Media Placement Principles</h1><p class="lead">We do not judge a placement by the media logo alone. We look at the actual publishing environment and what can be independently verified.</p></div></section>
-<section class="section"><div class="container"><div class="principle-list"><div class="principle"><h3>1. Actual domain</h3><p>The live domain should be checked before a placement is described or compared.</p></div><div class="principle"><h3>2. Page type</h3><p>Main-site news, content accounts, regional pages and special-topic pages should be identified separately.</p></div><div class="principle"><h3>3. Public accessibility</h3><p>The published page should be independently accessible where possible, rather than evidenced only by screenshots.</p></div><div class="principle"><h3>4. Media relevance</h3><p>Subject matter, geography and audience fit matter more than media-name recognition alone.</p></div><div class="principle"><h3>5. Editorial review</h3><p>Submission is not publication. Editors may accept, edit, delay or reject content.</p></div><div class="principle"><h3>6. Publication is not recommendation</h3><p>Being published is different from homepage recommendation, app recommendation or other forms of distribution.</p></div><div class="principle"><h3>7. Search visibility is separate</h3><p>A live page may or may not be indexed or ranked by search engines.</p></div><div class="principle"><h3>8. AI visibility is separate</h3><p>Publication does not guarantee retrieval, citation or inclusion in an AI-generated answer.</p></div></div></div></section>
+<meta http-equiv="refresh" content="0; url=/how-we-evaluate-chinese-media-placements/">
+<link rel="canonical" href="https://pressreleasechannel.com/how-we-evaluate-chinese-media-placements/">
+<p>This page has moved to <a href="/how-we-evaluate-chinese-media-placements/">How PR Channel Evaluates Chinese Media Placements</a>.</p>
