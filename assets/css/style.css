@@ -418,3 +418,109 @@ main .article-content li a:hover{
 .nav a.is-active::after{
   background:#00837e !important;
 }
+
+
+/* Content-navigation actions should look editorial, not like CTAs */
+.editorial-link-row{
+  margin:24px 0 0;
+}
+.editorial-link{
+  display:inline-block;
+  color:#1b2326 !important;
+  font-weight:700;
+  text-decoration:none !important;
+  border-bottom:1px solid #9ca2a5;
+  padding-bottom:3px;
+}
+.editorial-link:hover{
+  color:#000 !important;
+  border-bottom-color:#000;
+}
+
+/* Keep filled buttons only for true conversion actions */
+.btn,
+.btn-primary{
+  color:#fff !important;
+}
+.btn-secondary{
+  background:#fff !important;
+  color:#1b2326 !important;
+  border-color:#7c8487 !important;
+}
+
+/* Contact page: remove large card treatment */
+.contact-editorial{
+  max-width:980px;
+}
+.contact-primary{
+  padding:0 0 42px;
+  border-bottom:1px solid #d9dedd;
+}
+.contact-label{
+  display:block;
+  margin-bottom:14px;
+  color:#697277;
+  font-size:13px;
+  font-weight:700;
+  letter-spacing:.06em;
+  text-transform:uppercase;
+}
+.contact-email-line{
+  margin:0 0 18px;
+  font-size:clamp(30px,4vw,46px);
+  line-height:1.15;
+  font-weight:800;
+  letter-spacing:-.03em;
+}
+.contact-email-line a{
+  color:#182124 !important;
+  text-decoration:none !important;
+}
+.contact-email-line a:hover{
+  color:#000 !important;
+}
+.contact-note{
+  max-width:760px;
+  margin:0;
+  color:#687176;
+  font-size:16px;
+}
+.contact-details{
+  padding-top:42px;
+  max-width:760px;
+}
+.contact-details h2{
+  font-size:28px;
+  margin-bottom:20px;
+}
+.contact-checklist{
+  list-style:none;
+  padding:0;
+  margin:0;
+  border-top:1px solid #d9dedd;
+}
+.contact-checklist li{
+  padding:14px 0;
+  border-bottom:1px solid #e5e8e7;
+  color:#394448;
+  font-size:17px;
+}
+
+/* Old contact card, if encountered elsewhere, becomes neutral and light */
+.contact-box{
+  padding:0 !important;
+  background:transparent !important;
+  border:0 !important;
+}
+
+/* Guide methodology section should stay editorial */
+.china-media-guide-methodology,
+.methodology-teaser{
+  background:transparent !important;
+  border:0 !important;
+}
+
+/* Ensure guide page H1 / hierarchy reads as a knowledge hub */
+.page-hero h1{
+  color:#182124 !important;
+}
