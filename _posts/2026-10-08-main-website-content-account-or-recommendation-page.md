@@ -1,5 +1,5 @@
 ---
-title: Main Website, Content Account or Recommendation Page: What Are You Actually Buying?
+title: "Main Website, Content Account or Recommendation Page: What Are You Actually Buying?"
 description: How overseas companies can distinguish main-site media pages, content accounts, regional pages and recommendation placements in China before comparing media offers.
 date: 2026-10-08
 last_modified_at: 2026-10-10
