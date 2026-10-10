@@ -75,3 +75,44 @@ GitHub Pages 继续保持：
 - Folder: `/(root)`
 
 不需要修改 DNS、Custom domain 或 HTTPS。
+
+## v2.1 changes
+- Makes **Press Release Distribution in China** the clear primary commercial topic on the homepage.
+- Replaces equal-weight service cards with a primary-service / secondary-service hierarchy.
+- Keeps the core press-release guide visible on the homepage instead of letting recency push it out.
+- Adds a structured homepage FAQ sourced from `_data/home_faq.yml` and matching FAQPage JSON-LD.
+- Adds topic summaries to China Media Guide and keeps AI & GEO as a secondary topic.
+- Makes related articles prefer the same category before suggesting other guides.
+- Adds an external entity link to the official PR Channel brand page in the footer.
+
+## v2.2 core content cluster
+
+This package includes the complete first 10-article content cluster around the primary topic **Press Release Distribution in China**:
+
+1. How Press Release Distribution Works in China
+2. How Much Does Press Release Distribution in China Cost?
+3. How to Choose a Press Release Distribution Service in China
+4. How to Prepare a Press Release for Chinese Media
+5. What Happens After a Press Release Is Submitted to Chinese Media?
+6. Does Press Release Distribution in China Guarantee Publication?
+7. How to Verify a Chinese Media Placement Before You Pay
+8. Main Website, Content Account or Recommendation Page: What Are You Actually Buying?
+9. Press Release Distribution vs Media Invitation in China
+10. Does Press Release Distribution Help Google or AI Visibility?
+
+The homepage now fixes the first article as the **Essential Guide**, then surfaces additional press release guides before secondary topics. This prevents later posts from pushing the core topic out of the homepage hierarchy.
+
+### One-operation deployment
+
+Upload the complete contents of this package to the repository root and overwrite existing files. Do not change GitHub Pages, DNS, Custom Domain or HTTPS settings.
+
+After GitHub Pages finishes building, verify:
+
+- `/`
+- `/china-media-guide/`
+- `/china-media-guide/how-press-release-distribution-works-in-china/`
+- `/china-media-guide/how-much-does-press-release-distribution-in-china-cost/`
+- `/china-media-guide/how-to-choose-a-press-release-distribution-service-in-china/`
+
+The remaining articles will appear automatically in the China Media Guide.
+

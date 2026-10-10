@@ -20,11 +20,19 @@ layout: default
     <section class="related-posts"><span class="eyebrow">Continue reading</span><h2>Related China Media Guides</h2><div class="guide-list">
       {% assign count = 0 %}
       {% for post in site.posts %}
-        {% if post.url != page.url and count < 3 %}
+        {% if post.url != page.url and post.category == page.category and count < 3 %}
         <a class="guide-item" href="{{ post.url }}"><div><strong>{{ post.title }}</strong><span>{{ post.description }}</span></div><b>Read →</b></a>
         {% assign count = count | plus: 1 %}
         {% endif %}
       {% endfor %}
+      {% if count < 3 %}
+        {% for post in site.posts %}
+          {% if post.url != page.url and post.category != page.category and count < 3 %}
+          <a class="guide-item" href="{{ post.url }}"><div><strong>{{ post.title }}</strong><span>{{ post.description }}</span></div><b>Read →</b></a>
+          {% assign count = count | plus: 1 %}
+          {% endif %}
+        {% endfor %}
+      {% endif %}
     </div></section>
   </div>
 </article>
