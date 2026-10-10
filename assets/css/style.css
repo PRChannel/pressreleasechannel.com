@@ -146,3 +146,93 @@
 .site-footer{
   margin-top:0;
 }
+
+/* PR Channel visual refinement: reduce brand-green fatigue
+   Append this block to the END of assets/css/style.css */
+
+/* Keep teal as an accent, not as the default reading color */
+:root{
+  --link-reading:#172326;
+  --link-muted:#4f5d63;
+  --line-neutral:#d9dfdf;
+}
+
+/* Article / guide list titles: charcoal by default */
+.guide-list a,
+.post-list a,
+.article-list a,
+.related-guides a,
+.buyer-guides a,
+.topic-list a,
+.review-index h2 a,
+.review-index-item h2 a {
+  color: var(--link-reading) !important;
+  text-decoration: none;
+}
+
+.guide-list a:hover,
+.post-list a:hover,
+.article-list a:hover,
+.related-guides a:hover,
+.buyer-guides a:hover,
+.topic-list a:hover,
+.review-index h2 a:hover,
+.review-index-item h2 a:hover {
+  color: #00837e !important;
+}
+
+/* De-emphasize utility links so every row is not teal */
+.read-link,
+.text-link,
+.guide-read,
+.article-read {
+  color: var(--link-muted) !important;
+  font-weight: 600;
+}
+
+.read-link:hover,
+.text-link:hover,
+.guide-read:hover,
+.article-read:hover {
+  color: #00837e !important;
+}
+
+/* Metadata should read as editorial metadata, not brand accents */
+.guide-meta,
+.post-meta,
+.article-meta,
+.review-meta,
+.category-label {
+  color: #6b777c !important;
+}
+
+/* Keep only small editorial accents in teal */
+.eyebrow,
+.section-kicker {
+  color: #00837e;
+}
+
+/* Neutral separators */
+.guide-list > *,
+.post-list > *,
+.article-list > *,
+.related-guides > *,
+.review-index-item {
+  border-color: var(--line-neutral) !important;
+}
+
+/* Review index: editorial treatment, no card-color blocks */
+.review-index-item{
+  padding: 28px 0;
+  border-top: 1px solid var(--line-neutral);
+  background: transparent !important;
+}
+
+.review-index-item h2{
+  margin: 8px 0 10px;
+}
+
+.review-index-item p{
+  color:#536067;
+  max-width: 820px;
+}
