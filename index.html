@@ -58,7 +58,7 @@ permalink: /
     </div>
     <div class="subsection-heading"><span class="kicker">For overseas companies</span><h3>Buyer-focused guides</h3></div>
     <div class="latest-list home-latest">{% assign shown_buyers = 0 %}{% for post in site.posts %}{% if post.buyer_intent == true and post.title and shown_buyers < 4 %}<a class="latest-item" href="{{ post.url }}"><div class="meta">Buyer guide<br>{{ post.date | date: '%Y-%m-%d' }}</div><div><h3>{{ post.title }}</h3><p>{{ post.description }}</p></div><b>Read →</b></a>{% assign shown_buyers = shown_buyers | plus: 1 %}{% endif %}{% endfor %}</div>
-    <p style="margin-top:24px"><a class="btn btn-secondary" href="/china-media-guide/">Browse all China Media Guides</a></p>
+    <p class="editorial-link-row"><a class="editorial-link" href="/china-media-guide/">View all China Media Guides →</a></p>
   </div>
 </section>
 
