@@ -1,0 +1,14 @@
+<header class="site-header">
+  <div class="container nav-wrap">
+    <a class="brand" href="/">
+      <span class="brand-mark">PR</span>
+      <span><strong>{{ site.data.company.brand }}</strong><small>{{ site.data.company.tagline }}</small></span>
+    </a>
+    <button class="nav-toggle" aria-label="Toggle navigation" data-nav-toggle>☰</button>
+    <nav class="nav" data-nav>
+      {% for item in site.data.navigation %}
+      <a href="{{ item.url }}"{% if page.url == item.url %} aria-current="page"{% endif %}>{{ item.label }}</a>
+      {% endfor %}
+    </nav>
+  </div>
+</header>

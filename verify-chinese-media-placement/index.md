@@ -1,0 +1,8 @@
+---
+layout: default
+title: How to Verify a Chinese Media Placement
+description: Check the actual domain, page type, accessibility, recommendation claims and editorial boundaries before paying for a Chinese media placement.
+permalink: /verify-chinese-media-placement/
+---
+<section class="page-hero"><div class="container"><nav class="breadcrumbs"><a href="/">Home</a> → Verify a Chinese Media Placement</nav><span class="eyebrow">Before you pay</span><h1>How to Verify a Chinese Media Placement</h1><p class="lead">A recognizable media name does not tell you everything about the page you are buying. Verification should start with the actual URL and publishing context.</p></div></section>
+<section class="section"><div class="container content"><h2>Check the actual domain</h2><p>Look at the live URL rather than relying on a logo or sales description. The domain is one of the first clues to the real publishing environment.</p><h2>Identify the page type</h2><p>Main-site news pages, content accounts, regional pages, special-topic pages and recommendation placements are different products. They should not be treated as interchangeable.</p><h2>Check public accessibility</h2><p>A placement should be independently accessible from a public URL. Screenshots can document a moment in time, but they are not a substitute for a verifiable page.</p><h2>Separate publication from recommendation</h2><p>A page being published does not mean it was shown on a homepage, recommended in an app, indexed by Google or surfaced by an AI system.</p><p><a href="/our-media-placement-principles/">See PR Channel's media placement principles →</a></p></div></section>

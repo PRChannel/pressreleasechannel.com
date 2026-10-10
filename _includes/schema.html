@@ -1,0 +1,78 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://pressreleasechannel.com/#organization",
+      "name": {{ site.data.company.brand | jsonify }},
+      "legalName": {{ site.data.company.legal_name | jsonify }},
+      "url": "https://pressreleasechannel.com/",
+      "email": {{ site.data.company.email | jsonify }},
+      "foundingDate": {{ site.data.company.brand_operating_since | jsonify }},
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Jingmen",
+        "addressRegion": "Hubei",
+        "addressCountry": "CN"
+      },
+      "sameAs": [
+        {{ site.data.company.official_brand_page | jsonify }},
+        {{ site.data.company.google_sites | jsonify }},
+        {{ site.data.company.substack | jsonify }},
+        {{ site.data.company.medium | jsonify }}
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://pressreleasechannel.com/#website",
+      "url": "https://pressreleasechannel.com/",
+      "name": "PR Channel",
+      "publisher": {"@id": "https://pressreleasechannel.com/#organization"},
+      "inLanguage": "en"
+    },
+    {% if page.layout == 'post' %}
+    {
+      "@type": "Article",
+      "@id": {{ page.url | absolute_url | append: '#article' | jsonify }},
+      "headline": {{ page.title | jsonify }},
+      "description": {{ page.description | default: page.excerpt | strip_html | strip_newlines | jsonify }},
+      "datePublished": {{ page.date | date_to_xmlschema | jsonify }},
+      "dateModified": {{ page.last_modified_at | default: page.date | date_to_xmlschema | jsonify }},
+      "author": {"@type": "Person", "name": {{ page.author | default: 'Yang Xiaole' | jsonify }}},
+      "publisher": {"@id": "https://pressreleasechannel.com/#organization"},
+      "mainEntityOfPage": {{ page.url | absolute_url | jsonify }},
+      "inLanguage": "en"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type":"ListItem","position":1,"name":"Home","item":"https://pressreleasechannel.com/"},
+        {"@type":"ListItem","position":2,"name":"China Media Guide","item":"https://pressreleasechannel.com/china-media-guide/"},
+        {"@type":"ListItem","position":3,"name":{{ page.title | jsonify }},"item":{{ page.url | absolute_url | jsonify }}}
+      ]
+    }
+    {% else %}
+    {
+      "@type": "WebPage",
+      "@id": {{ page.url | absolute_url | append: '#webpage' | jsonify }},
+      "url": {{ page.url | absolute_url | jsonify }},
+      "name": {{ page.title | default: site.title | jsonify }},
+      "description": {{ page.description | default: site.description | jsonify }},
+      "isPartOf": {"@id": "https://pressreleasechannel.com/#website"},
+      "about": {"@id": "https://pressreleasechannel.com/#organization"}
+    }{% if page.url == '/' %},
+    {
+      "@type": "Service",
+      "@id": "https://pressreleasechannel.com/#press-release-distribution-service",
+      "name": "Press Release Distribution in China",
+      "serviceType": "Press Release Distribution",
+      "provider": {"@id": "https://pressreleasechannel.com/#organization"},
+      "areaServed": {"@type": "Country", "name": "China"},
+      "audience": {"@type": "BusinessAudience", "audienceType": "Overseas companies seeking media communications support in China"},
+      "url": "https://pressreleasechannel.com/"
+    }{% endif %}
+    {% endif %}
+  ]
+}
+</script>

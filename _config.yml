@@ -1,0 +1,29 @@
+title: PR Channel
+description: China-focused press release distribution, media invitation and media communications support for overseas companies.
+url: https://pressreleasechannel.com
+baseurl: ""
+lang: en
+timezone: Asia/Shanghai
+permalink: /china-media-guide/:title/
+markdown: kramdown
+plugins:
+  - jekyll-sitemap
+exclude:
+  - README.md
+  - ARTICLE_TEMPLATE.md
+  - Gemfile
+  - Gemfile.lock
+collections: {}
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+      author: Yang Xiaole
+      image: /assets/img/og-default.svg
+  - scope:
+      path: ""
+    values:
+      layout: page
+      image: /assets/img/og-default.svg
