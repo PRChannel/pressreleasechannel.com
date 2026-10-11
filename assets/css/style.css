@@ -655,3 +655,12 @@ main .article-content li a:hover{
 .submit-mailbox{background:#f5f8f7;padding:28px;border:1px solid var(--line)}.submit-mailbox h3{font-size:24px;margin:0 0 10px}.submit-mailbox p{color:#627078}.submit-email{display:block;margin-top:18px;font-size:24px;color:var(--brand);font-weight:800}.submit-btn{margin-top:16px}.submit-checklist{margin:16px 0 0;padding-left:20px}.submit-checklist li{margin:8px 0}.submit-section-soft{background:#f7f9f8;border-top:1px solid var(--line)}.submit-next-title{font-size:32px;margin:0 0 18px}.submit-back{margin-top:24px;font-weight:700}
 @media(max-width:980px){.pricing-plans{grid-template-columns:1fr 1fr}.pricing-free-panel,.pricing-important-grid,.pricing-why-grid,.pricing-lead-grid,.submit-grid{grid-template-columns:1fr}.pricing-free-example{border-left:0;border-top:1px solid var(--line)}}
 @media(max-width:640px){.pricing-hero,.submit-hero{padding:52px 0}.pricing-hero h1,.submit-hero h1{font-size:38px}.pricing-lead,.submit-hero p{font-size:17px}.pricing-plans{grid-template-columns:1fr}.pricing-section,.submit-section{padding:52px 0}.pricing-section-head{display:block}.pricing-section-head>p{margin-top:14px}.pricing-plan-desc{min-height:0}.pricing-plan-action{margin-top:18px}}
+
+
+
+
+/* Article body images */
+.article-content-v3 img {
+  border: 1px solid #000;
+  box-sizing: border-box;
+}
