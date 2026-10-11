@@ -664,3 +664,19 @@ main .article-content li a:hover{
   border: 1px solid #000;
   box-sizing: border-box;
 }
+
+
+/* Pricing buttons */
+.plan .btn,
+.plan .btn:link,
+.plan .btn:visited,
+.plan .btn:hover,
+.plan .btn:active,
+.plan .btn.alt,
+.plan .btn.alt:link,
+.plan .btn.alt:visited,
+.plan .btn.alt:hover,
+.plan .btn.alt:active {
+  color: #fff !important;
+  text-decoration: none !important;
+}
