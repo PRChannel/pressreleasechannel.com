@@ -16,7 +16,6 @@ tags:
   - Press Release Distribution
   - China Media
   - Global Newswire
-image: /assets/images/uploads/qq20261011-163813.png
 ---
 For an overseas company trying to build media visibility in China, press release distribution can look deceptively simple.
 
