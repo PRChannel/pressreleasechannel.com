@@ -6,6 +6,8 @@ last_modified_at: 2026-10-10
 author: Yang Xiaole
 category: Press Release Distribution
 hub: press-release-distribution
+url_slug: how-to-prepare-a-press-release-for-chinese-media
+permalink: /china-media-guide/how-to-prepare-a-press-release-for-chinese-media/
 tags:
   - Press Release Writing
   - China Media

@@ -5,6 +5,8 @@ date: 2026-10-10 15:18:00 +0800
 author: Yang Xiaole
 category: Press Release Distribution
 hub: press-release-distribution
+url_slug: mainland-china-press-release-distribution-what-overseas-brands-should-ask-before-paying
+permalink: /china-media-guide/mainland-china-press-release-distribution-what-overseas-brands-should-ask-before-paying/
 buyer_intent: true
 tags:
   - Mainland China

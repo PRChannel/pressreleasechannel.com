@@ -6,6 +6,8 @@ last_modified_at: 2026-10-10
 author: Yang Xiaole
 category: Media Placement
 hub: media-placement-verification
+url_slug: main-website-content-account-or-recommendation-page
+permalink: /china-media-guide/main-website-content-account-or-recommendation-page/
 tags:
   - Media Placement
   - China Media

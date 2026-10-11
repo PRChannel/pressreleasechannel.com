@@ -5,6 +5,8 @@ date: 2026-10-10 15:14:00 +0800
 author: Yang Xiaole
 category: Media Placement
 hub: media-placement-verification
+url_slug: how-to-tell-whether-a-chinese-media-placement-is-actually-valuable
+permalink: /china-media-guide/how-to-tell-whether-a-chinese-media-placement-is-actually-valuable/
 buyer_intent: true
 tags:
   - Chinese Media

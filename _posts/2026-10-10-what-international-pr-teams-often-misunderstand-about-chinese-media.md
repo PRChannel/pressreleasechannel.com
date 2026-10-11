@@ -5,6 +5,8 @@ date: 2026-10-10 15:16:00 +0800
 author: Yang Xiaole
 category: China Media
 hub: media-placement-verification
+url_slug: what-international-pr-teams-often-misunderstand-about-chinese-media
+permalink: /china-media-guide/what-international-pr-teams-often-misunderstand-about-chinese-media/
 buyer_intent: true
 tags:
   - China Media

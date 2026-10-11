@@ -6,6 +6,8 @@ last_modified_at: 2026-10-10
 author: Yang Xiaole
 category: Media Placement
 hub: media-placement-verification
+url_slug: how-to-verify-a-chinese-media-placement-before-you-pay
+permalink: /china-media-guide/how-to-verify-a-chinese-media-placement-before-you-pay/
 tags:
   - Media Verification
   - China Media

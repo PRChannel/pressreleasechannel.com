@@ -6,6 +6,8 @@ last_modified_at: 2026-10-10
 author: Yang Xiaole
 category: Press Release Distribution
 hub: press-release-distribution
+url_slug: does-press-release-distribution-in-china-guarantee-publication
+permalink: /china-media-guide/does-press-release-distribution-in-china-guarantee-publication/
 tags:
   - Editorial Review
   - Press Release Distribution

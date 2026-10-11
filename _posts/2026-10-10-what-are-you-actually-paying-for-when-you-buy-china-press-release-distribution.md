@@ -5,6 +5,8 @@ date: 2026-10-10 15:11:00 +0800
 author: Yang Xiaole
 category: Press Release Distribution
 hub: press-release-distribution
+url_slug: what-are-you-actually-paying-for-when-you-buy-china-press-release-distribution
+permalink: /china-media-guide/what-are-you-actually-paying-for-when-you-buy-china-press-release-distribution/
 buyer_intent: true
 tags:
   - Press Release Distribution

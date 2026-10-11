@@ -6,6 +6,8 @@ last_modified_at: 2026-10-10
 author: Yang Xiaole
 category: Press Release Distribution
 hub: press-release-distribution
+url_slug: how-press-release-distribution-works-in-china
+permalink: /china-media-guide/how-press-release-distribution-works-in-china/
 featured_core: true
 tags:
   - Press Release Distribution

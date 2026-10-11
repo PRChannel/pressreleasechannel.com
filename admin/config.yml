@@ -18,7 +18,8 @@ collections:
     create: true
     extension: "md"
     format: "frontmatter"
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    slug: "{{year}}-{{month}}-{{day}}-{{fields.url_slug}}"
+    preview_path: "china-media-guide/{{fields.url_slug}}/"
     summary: "{{title}} — {{category}}"
     sortable_fields: ["date", "title", "category"]
     view_filters:
@@ -39,6 +40,8 @@ collections:
         pattern: "AI & GEO"
     fields:
       - { label: "Title", name: "title", widget: "string" }
+      - { label: "URL Slug", name: "url_slug", widget: "string", hint: "Article URL path only. Use lowercase words joined with hyphens. Keep this unchanged after publication." }
+      - { label: "Permalink", name: "permalink", widget: "hidden", required: false }
       - { label: "Description", name: "description", widget: "text", hint: "One clear sentence explaining what this article answers." }
       - { label: "Publish Date", name: "date", widget: "datetime", date_format: "YYYY-MM-DD", time_format: "HH:mm", format: "YYYY-MM-DD HH:mm:ss Z" }
       - { label: "Author", name: "author", widget: "string", default: "Yang Xiaole" }

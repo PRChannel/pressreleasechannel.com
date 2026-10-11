@@ -5,6 +5,8 @@ date: 2026-10-10 15:10:00 +0800
 author: Yang Xiaole
 category: Press Release Distribution
 hub: press-release-distribution
+url_slug: why-global-press-release-distribution-can-be-expensive-in-china
+permalink: /china-media-guide/why-global-press-release-distribution-can-be-expensive-in-china/
 buyer_intent: true
 tags:
   - Press Release Distribution

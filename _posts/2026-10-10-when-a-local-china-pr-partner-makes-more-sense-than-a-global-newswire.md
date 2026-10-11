@@ -5,6 +5,8 @@ date: 2026-10-10 15:17:00 +0800
 author: Yang Xiaole
 category: Press Release Distribution
 hub: press-release-distribution
+url_slug: when-a-local-china-pr-partner-makes-more-sense-than-a-global-newswire
+permalink: /china-media-guide/when-a-local-china-pr-partner-makes-more-sense-than-a-global-newswire/
 buyer_intent: true
 tags:
   - China PR

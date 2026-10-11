@@ -5,6 +5,8 @@ date: 2026-10-10 15:19:00 +0800
 author: Yang Xiaole
 category: Media Placement
 hub: media-placement-verification
+url_slug: what-a-china-media-coverage-report-should-actually-show
+permalink: /china-media-guide/what-a-china-media-coverage-report-should-actually-show/
 buyer_intent: true
 tags:
   - Media Coverage Report

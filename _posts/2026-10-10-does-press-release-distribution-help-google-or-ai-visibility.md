@@ -6,6 +6,8 @@ last_modified_at: 2026-10-10
 author: Yang Xiaole
 category: AI & GEO
 hub: search-ai-visibility
+url_slug: does-press-release-distribution-help-google-or-ai-visibility
+permalink: /china-media-guide/does-press-release-distribution-help-google-or-ai-visibility/
 tags:
   - AI Visibility
   - GEO

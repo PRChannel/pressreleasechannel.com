@@ -6,6 +6,8 @@ last_modified_at: 2026-10-10
 author: Yang Xiaole
 category: Press Release Distribution
 hub: press-release-distribution
+url_slug: how-to-choose-a-press-release-distribution-service-in-china
+permalink: /china-media-guide/how-to-choose-a-press-release-distribution-service-in-china/
 tags:
   - Press Release Distribution
   - China PR

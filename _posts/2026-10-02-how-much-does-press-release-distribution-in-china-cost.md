@@ -6,6 +6,8 @@ last_modified_at: 2026-10-10
 author: Yang Xiaole
 category: Press Release Distribution
 hub: press-release-distribution
+url_slug: how-much-does-press-release-distribution-in-china-cost
+permalink: /china-media-guide/how-much-does-press-release-distribution-in-china-cost/
 tags:
   - Press Release Distribution
   - China Media

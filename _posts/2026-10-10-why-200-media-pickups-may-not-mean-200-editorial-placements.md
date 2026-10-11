@@ -5,6 +5,8 @@ date: 2026-10-10 15:13:00 +0800
 author: Yang Xiaole
 category: Media Placement
 hub: media-placement-verification
+url_slug: why-200-media-pickups-may-not-mean-200-editorial-placements
+permalink: /china-media-guide/why-200-media-pickups-may-not-mean-200-editorial-placements/
 buyer_intent: true
 tags:
   - Media Placement

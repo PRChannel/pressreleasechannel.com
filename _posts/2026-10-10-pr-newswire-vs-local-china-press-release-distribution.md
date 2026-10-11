@@ -1,13 +1,12 @@
 ---
-title: "PR Newswire vs Local China Press Release Distribution: What Is the
-  Difference?"
-description: A practical comparison of global newswire distribution and local
-  China media execution, including syndication, individual placements,
-  publishing URLs, media quality and verification.
+title: "PR Newswire vs Local China Press Release Distribution: What Is the Difference?"
+description: "A practical comparison of global newswire distribution and local China media execution, including syndication, individual placements, publishing URLs, media quality and verification."
 date: 2026-10-10 15:12:00 +0800
 author: Yang Xiaole
 category: Press Release Distribution
 hub: press-release-distribution
+url_slug: pr-newswire-vs-local-china-press-release-distribution
+permalink: /china-media-guide/pr-newswire-vs-local-china-press-release-distribution/
 buyer_intent: true
 tags:
   - PR Newswire

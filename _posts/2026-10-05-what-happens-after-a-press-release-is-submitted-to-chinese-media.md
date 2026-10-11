@@ -6,6 +6,8 @@ last_modified_at: 2026-10-10
 author: Yang Xiaole
 category: Press Release Distribution
 hub: press-release-distribution
+url_slug: what-happens-after-a-press-release-is-submitted-to-chinese-media
+permalink: /china-media-guide/what-happens-after-a-press-release-is-submitted-to-chinese-media/
 tags:
   - Editorial Review
   - China Media

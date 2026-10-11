@@ -6,6 +6,8 @@ last_modified_at: 2026-10-10
 author: Yang Xiaole
 category: Media Invitation
 hub: media-invitation
+url_slug: press-release-distribution-vs-media-invitation-in-china
+permalink: /china-media-guide/press-release-distribution-vs-media-invitation-in-china/
 tags:
   - Media Invitation
   - Press Release Distribution

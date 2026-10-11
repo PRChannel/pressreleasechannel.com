@@ -5,6 +5,8 @@ date: 2026-10-10 15:15:00 +0800
 author: Yang Xiaole
 category: Media Placement
 hub: media-placement-verification
+url_slug: why-overseas-companies-should-check-the-real-publishing-url
+permalink: /china-media-guide/why-overseas-companies-should-check-the-real-publishing-url/
 buyer_intent: true
 tags:
   - Chinese Media
