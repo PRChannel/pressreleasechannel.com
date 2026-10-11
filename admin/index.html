@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <title>PR Channel Content Manager</title>
+  <style>
+    :root{--ink:#172126;--muted:#667379;--line:#dfe5e4;--brand:#00837e;--soft:#f6f8f7}
+    *{box-sizing:border-box}body{margin:0;font-family:Inter,ui-sans-serif,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:var(--ink);background:#fff}
+    .setup{max-width:820px;margin:72px auto;padding:0 24px}.brand{display:flex;align-items:center;gap:12px;margin-bottom:40px}.mark{width:40px;height:40px;display:grid;place-items:center;background:var(--brand);color:white;font-weight:800}.brand strong{font-size:18px}.brand small{display:block;color:var(--muted);margin-top:3px}.panel{border-top:3px solid var(--ink);padding-top:28px}.panel h1{font-size:36px;line-height:1.15;margin:0 0 16px}.panel p{font-size:17px;line-height:1.7;color:#425159}.steps{margin-top:30px;border-top:1px solid var(--line)}.step{display:grid;grid-template-columns:42px 1fr;gap:14px;padding:18px 0;border-bottom:1px solid var(--line)}.step b{color:var(--brand)}code{background:var(--soft);padding:2px 6px}.note{margin-top:26px;padding:16px 18px;background:var(--soft);border-left:3px solid var(--brand);color:#46545a}.hidden{display:none}
+  </style>
+</head>
+<body>
+  <div id="setup" class="setup hidden">
+    <div class="brand"><span class="mark">PR</span><div><strong>PR Channel</strong><small>Content Manager setup</small></div></div>
+    <div class="panel">
+      <h1>One secure login step remains</h1>
+      <p>The CMS files are installed. To enable GitHub-backed publishing, create a free Decap Turbo site and paste its Site ID into <code>admin/config.yml</code>.</p>
+      <div class="steps">
+        <div class="step"><b>1</b><div>Create a Decap Turbo account and organization.</div></div>
+        <div class="step"><b>2</b><div>Connect GitHub and grant the Decap Turbo GitHub App access only to <code>PRChannel/pressreleasechannel.com</code>.</div></div>
+        <div class="step"><b>3</b><div>Create a site for this repository, branch <code>main</code>, config path <code>admin/config.yml</code>, admin URL <code>https://pressreleasechannel.com/admin/</code>.</div></div>
+        <div class="step"><b>4</b><div>Copy the Site ID and replace <code>REPLACE_WITH_YOUR_DECAP_TURBO_SITE_ID</code> in <code>admin/config.yml</code>.</div></div>
+      </div>
+      <div class="note"><strong>Security:</strong> your GitHub password is never stored in this repository or in the CMS page. Authentication is handled by GitHub/Decap; do not paste a GitHub password, personal access token, client secret or API key into this repository.</div>
+    </div>
+  </div>
+  <script>
+    fetch('/admin/config.yml', {cache:'no-store'})
+      .then(r => r.text())
+      .then(config => {
+        if (config.includes('REPLACE_WITH_YOUR_DECAP_TURBO_SITE_ID')) {
+          document.getElementById('setup').classList.remove('hidden');
+          return;
+        }
+        const s=document.createElement('script');
+        s.src='https://cdn.jsdelivr.net/npm/decap-cms@beta/dist/decap-cms.js';
+        document.body.appendChild(s);
+      })
+      .catch(() => document.getElementById('setup').classList.remove('hidden'));
+  </script>
+</body>
+</html>

@@ -1,0 +1,90 @@
+backend:
+  name: turbo-github
+  turbo_site_id: REPLACE_WITH_YOUR_DECAP_TURBO_SITE_ID
+  branch: main
+
+site_url: https://pressreleasechannel.com
+display_url: https://pressreleasechannel.com
+logo_url: https://pressreleasechannel.com/assets/img/favicon.svg
+
+media_folder: "assets/images/uploads"
+public_folder: "/assets/images/uploads"
+
+collections:
+  - name: "posts"
+    label: "Articles"
+    label_singular: "Article"
+    folder: "_posts"
+    create: true
+    extension: "md"
+    format: "frontmatter"
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    summary: "{{title}} — {{category}}"
+    sortable_fields: ["date", "title", "category"]
+    view_filters:
+      - label: "Buyer Intent"
+        field: buyer_intent
+        pattern: true
+      - label: "Press Release Distribution"
+        field: category
+        pattern: "Press Release Distribution"
+      - label: "Media Placement"
+        field: category
+        pattern: "Media Placement"
+      - label: "Media Invitation"
+        field: category
+        pattern: "Media Invitation"
+      - label: "AI & GEO"
+        field: category
+        pattern: "AI & GEO"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Description", name: "description", widget: "text", hint: "One clear sentence explaining what this article answers." }
+      - { label: "Publish Date", name: "date", widget: "datetime", date_format: "YYYY-MM-DD", time_format: "HH:mm", format: "YYYY-MM-DD HH:mm:ss Z" }
+      - { label: "Author", name: "author", widget: "string", default: "Yang Xiaole" }
+      - label: "Category"
+        name: "category"
+        widget: "select"
+        options:
+          - "Press Release Distribution"
+          - "Media Placement"
+          - "Media Invitation"
+          - "AI & GEO"
+          - "China Media Guide"
+      - label: "Topic Hub"
+        name: "hub"
+        widget: "select"
+        required: false
+        options:
+          - { label: "Press Release Distribution", value: "press-release-distribution" }
+          - { label: "Media Placement & Verification", value: "media-placement-verification" }
+          - { label: "Media Invitation", value: "media-invitation" }
+          - { label: "Search & AI Visibility", value: "search-ai-visibility" }
+      - { label: "Buyer Intent", name: "buyer_intent", widget: "boolean", required: false, default: false }
+      - { label: "Tags", name: "tags", widget: "list", required: false, allow_add: true }
+      - { label: "Featured / Article Image", name: "image", widget: "image", required: false, hint: "Uploads are stored in assets/images/uploads/. You can also insert more images inside the article body." }
+      - { label: "Last Modified", name: "last_modified_at", widget: "datetime", required: false, date_format: "YYYY-MM-DD", time_format: "HH:mm", format: "YYYY-MM-DD HH:mm:ss Z" }
+      - { label: "Body", name: "body", widget: "markdown", modes: ["rich_text", "raw"], hint: "Use the image button to upload or reuse images from the media library." }
+
+  - name: "site_data"
+    label: "Site Data"
+    files:
+      - label: "Company Information"
+        name: "company"
+        file: "_data/company.yml"
+        fields:
+          - { label: "Brand", name: "brand", widget: "string" }
+          - { label: "Legal Name", name: "legal_name", widget: "string" }
+          - { label: "Company Founded", name: "company_founded", widget: "number", value_type: "int" }
+          - { label: "Brand Operating Since", name: "brand_operating_since", widget: "number", value_type: "int" }
+          - { label: "Location", name: "location", widget: "string" }
+          - { label: "Country Code", name: "country_code", widget: "string" }
+          - { label: "Email", name: "email", widget: "string" }
+          - { label: "Primary Service", name: "primary_service", widget: "string" }
+          - { label: "Tagline", name: "tagline", widget: "string" }
+          - { label: "Author Name", name: "author_name", widget: "string" }
+          - { label: "Author URL", name: "author_url", widget: "string" }
+          - { label: "Official Brand Page", name: "official_brand_page", widget: "string", required: false }
+          - { label: "Google Sites", name: "google_sites", widget: "string", required: false }
+          - { label: "Substack", name: "substack", widget: "string", required: false }
+          - { label: "Medium", name: "medium", widget: "string", required: false }
