@@ -14,9 +14,11 @@
   <meta property="og:description" content="{{ page_desc | strip_html | strip_newlines | escape }}">
   <meta property="og:url" content="{{ canonical }}">
   <meta property="og:site_name" content="PR Channel">
-  <meta name="twitter:card" content="summary">
+  {% if page.image %}<meta property="og:image" content="{{ page.image | absolute_url }}">{% endif %}
+  <meta name="twitter:card" content="{% if page.image %}summary_large_image{% else %}summary{% endif %}">
   <meta name="twitter:title" content="{{ full_title | escape }}">
   <meta name="twitter:description" content="{{ page_desc | strip_html | strip_newlines | escape }}">
+  {% if page.image %}<meta name="twitter:image" content="{{ page.image | absolute_url }}">{% endif %}
   <link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="/assets/css/style.css">
   {% include schema.html %}
