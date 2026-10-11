@@ -8,7 +8,15 @@
     "coverage": "National / Global",
     "status": "Domain checked",
     "checked": "2026-10-11",
-    "notes": "Main public website of People's Daily online operations; multiple national and local channels."
+    "notes": "Main public website of People's Daily online operations; multiple national and local channels.",
+    "main_environment": "Official public website",
+    "channel_environment": "Multiple national, subject and regional channels",
+    "app_client": "人民网+; 人民日报客户端 ecosystem",
+    "creator_platform": "Not separately verified",
+    "other_environment": "人民日报图文数据库; 领导留言板 / service products",
+    "layer2_status": "Layer 2 checked",
+    "layer2_checked": "2026-10-11",
+    "layer2_source": "https://www.people.com.cn/app/download.html"
   },
   {
     "name": "新华网",
@@ -19,7 +27,15 @@
     "coverage": "National / Global",
     "status": "Domain checked",
     "checked": "2026-10-11",
-    "notes": "Official public website of Xinhua News Agency."
+    "notes": "Official public website of Xinhua News Agency.",
+    "main_environment": "Official public website",
+    "channel_environment": "Multiple subject channels; local / regional channel structure",
+    "app_client": "Mobile web confirmed; dedicated app not separately verified here",
+    "creator_platform": "Not separately verified",
+    "other_environment": "Mobile site; overseas / multilingual sections",
+    "layer2_status": "Partial check",
+    "layer2_checked": "2026-10-11 (partial)",
+    "layer2_source": "https://www.xinhuanet.com/shouji/normal/local.htm"
   },
   {
     "name": "央视网",
@@ -30,7 +46,15 @@
     "coverage": "National / Global",
     "status": "Domain checked",
     "checked": "2026-10-11",
-    "notes": "Official CCTV web platform with program, video and news publishing environments."
+    "notes": "Official CCTV web platform with program, video and news publishing environments.",
+    "main_environment": "Official public website",
+    "channel_environment": "CCTV program, news, video and subject channels",
+    "app_client": "央视影音; 央视频 ecosystem",
+    "creator_platform": "Not separately verified",
+    "other_environment": "CCTV program site (tv.cctv.com); live / on-demand video",
+    "layer2_status": "Layer 2 checked",
+    "layer2_checked": "2026-10-11",
+    "layer2_source": "https://app.cctv.com/"
   },
   {
     "name": "中国网",
@@ -41,7 +65,15 @@
     "coverage": "National / Global",
     "status": "Needs review",
     "checked": "—",
-    "notes": "Tracked official domain; current public-site response and channel structure should be checked again."
+    "notes": "Tracked official domain; current public-site response and channel structure should be checked again.",
+    "main_environment": "Main website tracked; recheck needed",
+    "channel_environment": "Not yet verified",
+    "app_client": "Not yet verified",
+    "creator_platform": "Not yet verified",
+    "other_environment": "Not yet verified",
+    "layer2_status": "Not yet checked",
+    "layer2_checked": "—",
+    "layer2_source": "https://www.china.com.cn/"
   },
   {
     "name": "中国日报网",
@@ -52,7 +84,15 @@
     "coverage": "National / Global",
     "status": "Domain checked",
     "checked": "2026-10-11",
-    "notes": "China Daily's public online platform, including Chinese- and international-facing content."
+    "notes": "China Daily's public online platform, including Chinese- and international-facing content.",
+    "main_environment": "Official public website",
+    "channel_environment": "Chinese, English and subject-channel structure",
+    "app_client": "China Daily mobile products exist; exact current app mapping not checked here",
+    "creator_platform": "Not separately verified",
+    "other_environment": "International / multilingual publishing environments",
+    "layer2_status": "Partial check",
+    "layer2_checked": "2026-10-11 (partial)",
+    "layer2_source": "https://cn.chinadaily.com.cn/"
   },
   {
     "name": "央广网",
@@ -63,7 +103,15 @@
     "coverage": "National",
     "status": "Domain checked",
     "checked": "2026-10-11",
-    "notes": "Central broadcasting news platform with national and regional channels."
+    "notes": "Central broadcasting news platform with national and regional channels.",
+    "main_environment": "Official public website",
+    "channel_environment": "National and regional channels",
+    "app_client": "Not separately verified",
+    "creator_platform": "Not separately verified",
+    "other_environment": "Audio / radio-oriented publishing environments",
+    "layer2_status": "Partial check",
+    "layer2_checked": "2026-10-11 (partial)",
+    "layer2_source": "https://www.cnr.cn/"
   },
   {
     "name": "光明网",
@@ -74,7 +122,15 @@
     "coverage": "National",
     "status": "Domain checked",
     "checked": "2026-10-11",
-    "notes": "National news website with strong culture, education and theory coverage."
+    "notes": "National news website with strong culture, education and theory coverage.",
+    "main_environment": "Official public website",
+    "channel_environment": "Culture, education, theory and other vertical channels",
+    "app_client": "Not separately verified",
+    "creator_platform": "Not separately verified",
+    "other_environment": "Digital newspaper / thematic content environments",
+    "layer2_status": "Partial check",
+    "layer2_checked": "2026-10-11 (partial)",
+    "layer2_source": "https://www.gmw.cn/"
   },
   {
     "name": "中国新闻网",
@@ -85,7 +141,15 @@
     "coverage": "National / Global",
     "status": "Domain checked",
     "checked": "2026-10-11",
-    "notes": "Public website of China News Service with national, regional and overseas coverage."
+    "notes": "Public website of China News Service with national, regional and overseas coverage.",
+    "main_environment": "Official public website",
+    "channel_environment": "International, finance, auto, education, health, culture and regional channels",
+    "app_client": "中新网客户端; 中新经纬客户端; 侨宝客户端; 英文网客户端",
+    "creator_platform": "Not separately verified",
+    "other_environment": "Picture, video and overseas-Chinese content environments",
+    "layer2_status": "Layer 2 checked",
+    "layer2_checked": "2026-10-11",
+    "layer2_source": "https://www.chinanews.com.cn/app/chinanews/index.shtml"
   },
   {
     "name": "环球网",
@@ -96,7 +160,15 @@
     "coverage": "National / Global",
     "status": "Domain checked",
     "checked": "2026-10-11",
-    "notes": "Public news portal associated with Global Times, with strong international coverage."
+    "notes": "Public news portal associated with Global Times, with strong international coverage.",
+    "main_environment": "Official public website",
+    "channel_environment": "International, military, society, finance and other vertical channels",
+    "app_client": "Not separately verified",
+    "creator_platform": "Not separately verified",
+    "other_environment": "Video / topic environments",
+    "layer2_status": "Partial check",
+    "layer2_checked": "2026-10-11 (partial)",
+    "layer2_source": "https://www.huanqiu.com/"
   },
   {
     "name": "海外网",
@@ -107,7 +179,15 @@
     "coverage": "National / Global",
     "status": "Needs review",
     "checked": "—",
-    "notes": "Tracked national-facing media website; current domain and channel structure should be checked before final publication."
+    "notes": "Tracked national-facing media website; current domain and channel structure should be checked before final publication.",
+    "main_environment": "Main website tracked; recheck needed",
+    "channel_environment": "Not yet verified",
+    "app_client": "Not yet verified",
+    "creator_platform": "Not yet verified",
+    "other_environment": "Not yet verified",
+    "layer2_status": "Not yet checked",
+    "layer2_checked": "—",
+    "layer2_source": "https://www.haiwainet.cn/"
   },
   {
     "name": "中国经济网",
@@ -118,7 +198,15 @@
     "coverage": "National",
     "status": "Needs review",
     "checked": "—",
-    "notes": "Tracked economic news domain; current public response and channel structure should be rechecked."
+    "notes": "Tracked economic news domain; current public response and channel structure should be rechecked.",
+    "main_environment": "Main website tracked; recheck needed",
+    "channel_environment": "Not yet verified",
+    "app_client": "Not yet verified",
+    "creator_platform": "Not yet verified",
+    "other_environment": "Not yet verified",
+    "layer2_status": "Not yet checked",
+    "layer2_checked": "—",
+    "layer2_source": "https://www.ce.cn/"
   },
   {
     "name": "中国青年网",
@@ -129,7 +217,15 @@
     "coverage": "National",
     "status": "Domain checked",
     "checked": "2026-10-11",
-    "notes": "Youth-oriented central news website with broad general and vertical coverage."
+    "notes": "Youth-oriented central news website with broad general and vertical coverage.",
+    "main_environment": "Official public website",
+    "channel_environment": "Vertical / regional structure not separately verified",
+    "app_client": "Not yet verified",
+    "creator_platform": "Not yet verified",
+    "other_environment": "Not yet verified",
+    "layer2_status": "Not yet checked",
+    "layer2_checked": "—",
+    "layer2_source": "https://www.youth.cn/"
   },
   {
     "name": "中国质量新闻网",
@@ -140,7 +236,15 @@
     "coverage": "National",
     "status": "Domain checked",
     "checked": "2026-10-11",
-    "notes": "Focused on quality, market regulation, consumer issues and industry news."
+    "notes": "Focused on quality, market regulation, consumer issues and industry news.",
+    "main_environment": "Official public website",
+    "channel_environment": "Vertical / regional structure not separately verified",
+    "app_client": "Not yet verified",
+    "creator_platform": "Not yet verified",
+    "other_environment": "Not yet verified",
+    "layer2_status": "Not yet checked",
+    "layer2_checked": "—",
+    "layer2_source": "https://www.cqn.com.cn/"
   },
   {
     "name": "中国科技网",
@@ -151,7 +255,15 @@
     "coverage": "National",
     "status": "Domain checked",
     "checked": "2026-10-11",
-    "notes": "Technology Daily's public online news platform focused on science, technology and innovation."
+    "notes": "Technology Daily's public online news platform focused on science, technology and innovation.",
+    "main_environment": "Official public website",
+    "channel_environment": "Vertical / regional structure not separately verified",
+    "app_client": "Not yet verified",
+    "creator_platform": "Not yet verified",
+    "other_environment": "Not yet verified",
+    "layer2_status": "Not yet checked",
+    "layer2_checked": "—",
+    "layer2_source": "https://www.stdaily.com/"
   },
   {
     "name": "证券时报网",
@@ -162,7 +274,15 @@
     "coverage": "National",
     "status": "Needs review",
     "checked": "—",
-    "notes": "Tracked securities and capital-markets website; current site response should be rechecked."
+    "notes": "Tracked securities and capital-markets website; current site response should be rechecked.",
+    "main_environment": "Main website tracked; recheck needed",
+    "channel_environment": "Not yet verified",
+    "app_client": "Not yet verified",
+    "creator_platform": "Not yet verified",
+    "other_environment": "Not yet verified",
+    "layer2_status": "Not yet checked",
+    "layer2_checked": "—",
+    "layer2_source": "https://www.stcn.com/"
   },
   {
     "name": "中国证券网",
@@ -173,7 +293,15 @@
     "coverage": "National",
     "status": "Domain checked",
     "checked": "2026-10-11",
-    "notes": "Shanghai Securities News online platform focused on securities and financial markets."
+    "notes": "Shanghai Securities News online platform focused on securities and financial markets.",
+    "main_environment": "Official public website",
+    "channel_environment": "Vertical / regional structure not separately verified",
+    "app_client": "Not yet verified",
+    "creator_platform": "Not yet verified",
+    "other_environment": "Not yet verified",
+    "layer2_status": "Not yet checked",
+    "layer2_checked": "—",
+    "layer2_source": "https://www.cnstock.com/"
   },
   {
     "name": "证券日报网",
@@ -184,7 +312,15 @@
     "coverage": "National",
     "status": "Needs review",
     "checked": "—",
-    "notes": "Tracked securities-focused financial news domain; current website response should be rechecked."
+    "notes": "Tracked securities-focused financial news domain; current website response should be rechecked.",
+    "main_environment": "Main website tracked; recheck needed",
+    "channel_environment": "Not yet verified",
+    "app_client": "Not yet verified",
+    "creator_platform": "Not yet verified",
+    "other_environment": "Not yet verified",
+    "layer2_status": "Not yet checked",
+    "layer2_checked": "—",
+    "layer2_source": "https://www.zqrb.cn/"
   },
   {
     "name": "中国经营网",
@@ -195,7 +331,15 @@
     "coverage": "National",
     "status": "Needs review",
     "checked": "—",
-    "notes": "Tracked business and corporate news website; current site response should be rechecked."
+    "notes": "Tracked business and corporate news website; current site response should be rechecked.",
+    "main_environment": "Main website tracked; recheck needed",
+    "channel_environment": "Not yet verified",
+    "app_client": "Not yet verified",
+    "creator_platform": "Not yet verified",
+    "other_environment": "Not yet verified",
+    "layer2_status": "Not yet checked",
+    "layer2_checked": "—",
+    "layer2_source": "https://www.cb.com.cn/"
   },
   {
     "name": "界面新闻",
@@ -206,7 +350,15 @@
     "coverage": "National",
     "status": "Domain checked",
     "checked": "2026-10-11",
-    "notes": "Digital news platform with substantial business, finance and corporate coverage."
+    "notes": "Digital news platform with substantial business, finance and corporate coverage.",
+    "main_environment": "Official public website",
+    "channel_environment": "70+ vertical channels reported by publisher",
+    "app_client": "界面新闻 APP; mobile site",
+    "creator_platform": "界面号",
+    "other_environment": "WeChat, Weibo, Douyin, Xiaohongshu, Bilibili and content IP matrix",
+    "layer2_status": "Layer 2 checked",
+    "layer2_checked": "2026-10-11",
+    "layer2_source": "https://www.jiemian.com/about/index.do"
   },
   {
     "name": "澎湃新闻",
@@ -217,7 +369,15 @@
     "coverage": "National",
     "status": "Needs review",
     "checked": "—",
-    "notes": "Tracked digital news platform; current homepage response should be rechecked."
+    "notes": "Tracked digital news platform; current homepage response should be rechecked.",
+    "main_environment": "Official public website",
+    "channel_environment": "News / government-affairs and topic channels",
+    "app_client": "澎湃新闻客户端 (Android / iPhone / iPad)",
+    "creator_platform": "澎湃号; 派生万物开放平台",
+    "other_environment": "IP SHANGHAI; SIXTH TONE; social matrix",
+    "layer2_status": "Layer 2 checked",
+    "layer2_checked": "2026-10-11",
+    "layer2_source": "https://www.thepaper.cn/contact_us"
   },
   {
     "name": "第一财经",
@@ -228,7 +388,15 @@
     "coverage": "National",
     "status": "Needs review",
     "checked": "—",
-    "notes": "Tracked business and financial news platform; current website response should be rechecked."
+    "notes": "Tracked business and financial news platform; current website response should be rechecked.",
+    "main_environment": "Official public website",
+    "channel_environment": "Business, markets and subject channels",
+    "app_client": "第一财经 APP; Yicai Global APP",
+    "creator_platform": "Not separately verified",
+    "other_environment": "WeChat service/subscription accounts; Douyin; WeChat Channels; mini program",
+    "layer2_status": "Layer 2 checked",
+    "layer2_checked": "2026-10-11",
+    "layer2_source": "https://www.yicai.com/others/aboutus.html"
   },
   {
     "name": "每日经济新闻",
@@ -239,7 +407,15 @@
     "coverage": "National",
     "status": "Needs review",
     "checked": "—",
-    "notes": "Tracked business and financial news domain; current website response should be rechecked."
+    "notes": "Tracked business and financial news domain; current website response should be rechecked.",
+    "main_environment": "Official public website",
+    "channel_environment": "Finance / company / investment and other vertical channels",
+    "app_client": "每经新闻客户端",
+    "creator_platform": "Not separately verified",
+    "other_environment": "Website; newspaper; WeChat matrix; official Weibo",
+    "layer2_status": "Layer 2 checked",
+    "layer2_checked": "2026-10-11",
+    "layer2_source": "https://www.nbd.com.cn/corp/2016products/index.html"
   },
   {
     "name": "21世纪经济报道",
@@ -250,7 +426,15 @@
     "coverage": "National",
     "status": "Domain checked",
     "checked": "2026-10-11",
-    "notes": "Official website of 21st Century Business Herald / 21 Economics."
+    "notes": "Official website of 21st Century Business Herald / 21 Economics.",
+    "main_environment": "Official public website",
+    "channel_environment": "Finance / Greater Bay Area / investment and other channels",
+    "app_client": "21财经 APP",
+    "creator_platform": "南财号 creator ecosystem; multiple platform accounts",
+    "other_environment": "Newspaper + website + app + WeChat / Weibo matrix",
+    "layer2_status": "Layer 2 checked",
+    "layer2_checked": "2026-10-11",
+    "layer2_source": "https://www.21jingji.com/channel/aboutus/"
   },
   {
     "name": "财联社",
@@ -261,7 +445,15 @@
     "coverage": "National",
     "status": "Domain checked",
     "checked": "2026-10-11",
-    "notes": "Financial news group and financial information platform focused on fast market coverage."
+    "notes": "Financial news group and financial information platform focused on fast market coverage.",
+    "main_environment": "Official public website",
+    "channel_environment": "A-share / finance / market data channels",
+    "app_client": "财联社客户端 (iOS / Android); desktop client",
+    "creator_platform": "Not separately verified",
+    "other_environment": "Desktop terminal / real-time market information environment",
+    "layer2_status": "Layer 2 checked",
+    "layer2_checked": "2026-10-11",
+    "layer2_source": "https://www.cls.cn/download"
   },
   {
     "name": "经济观察网",
@@ -272,7 +464,15 @@
     "coverage": "National",
     "status": "Needs review",
     "checked": "—",
-    "notes": "Tracked business and economic news website; current public response should be rechecked."
+    "notes": "Tracked business and economic news website; current public response should be rechecked.",
+    "main_environment": "Main website tracked; recheck needed",
+    "channel_environment": "Not yet verified",
+    "app_client": "Not yet verified",
+    "creator_platform": "Not yet verified",
+    "other_environment": "Not yet verified",
+    "layer2_status": "Not yet checked",
+    "layer2_checked": "—",
+    "layer2_source": "https://www.eeo.com.cn/"
   },
   {
     "name": "北京商报",
@@ -283,7 +483,15 @@
     "coverage": "National / Beijing",
     "status": "Needs review",
     "checked": "—",
-    "notes": "Tracked business news domain; current public response should be rechecked."
+    "notes": "Tracked business news domain; current public response should be rechecked.",
+    "main_environment": "Main website tracked; recheck needed",
+    "channel_environment": "Not yet verified",
+    "app_client": "Not yet verified",
+    "creator_platform": "Not yet verified",
+    "other_environment": "Not yet verified",
+    "layer2_status": "Not yet checked",
+    "layer2_checked": "—",
+    "layer2_source": "https://www.bbtnews.com.cn/"
   },
   {
     "name": "新京报",
@@ -294,7 +502,15 @@
     "coverage": "National / Beijing",
     "status": "Domain checked",
     "checked": "2026-10-11",
-    "notes": "General news platform with broad current-affairs and urban coverage."
+    "notes": "General news platform with broad current-affairs and urban coverage.",
+    "main_environment": "Official public website",
+    "channel_environment": "Vertical / regional structure not separately verified",
+    "app_client": "Not yet verified",
+    "creator_platform": "Not yet verified",
+    "other_environment": "Not yet verified",
+    "layer2_status": "Not yet checked",
+    "layer2_checked": "—",
+    "layer2_source": "https://www.bjnews.com.cn/"
   },
   {
     "name": "新浪网",
@@ -305,7 +521,15 @@
     "coverage": "National",
     "status": "Domain checked",
     "checked": "2026-10-11",
-    "notes": "Large general internet portal with multiple news and vertical content channels."
+    "notes": "Large general internet portal with multiple news and vertical content channels.",
+    "main_environment": "Official public website",
+    "channel_environment": "News, finance, sports, entertainment, technology and other portals",
+    "app_client": "新浪新闻客户端; 新浪财经客户端 and other mobile products",
+    "creator_platform": "新浪看点 referenced in official help; exact contributor model not classified here",
+    "other_environment": "Mobile Sina; multiple vertical clients",
+    "layer2_status": "Layer 2 checked",
+    "layer2_checked": "2026-10-11",
+    "layer2_source": "https://help.sina.com.cn/"
   },
   {
     "name": "搜狐",
@@ -316,7 +540,15 @@
     "coverage": "National",
     "status": "Needs review",
     "checked": "—",
-    "notes": "Large portal and content platform; page type should be distinguished between editorial channels and account content."
+    "notes": "Large portal and content platform; page type should be distinguished between editorial channels and account content.",
+    "main_environment": "Official public website",
+    "channel_environment": "News, finance, auto and multiple vertical channels",
+    "app_client": "搜狐新闻客户端; 搜狐新闻汽车端",
+    "creator_platform": "搜狐号",
+    "other_environment": "Mobile web / app publishing environments",
+    "layer2_status": "Layer 2 checked",
+    "layer2_checked": "2026-10-11",
+    "layer2_source": "https://www.k.sohu.com/"
   },
   {
     "name": "网易",
@@ -327,7 +559,15 @@
     "coverage": "National",
     "status": "Needs review",
     "checked": "—",
-    "notes": "Large portal and content platform; editorial pages and account-content environments should be distinguished."
+    "notes": "Large portal and content platform; editorial pages and account-content environments should be distinguished.",
+    "main_environment": "Main website tracked; recheck needed",
+    "channel_environment": "Not yet verified",
+    "app_client": "Not yet verified",
+    "creator_platform": "Not yet verified",
+    "other_environment": "Not yet verified",
+    "layer2_status": "Not yet checked",
+    "layer2_checked": "—",
+    "layer2_source": "https://www.163.com/"
   },
   {
     "name": "腾讯新闻",
@@ -338,7 +578,15 @@
     "coverage": "National",
     "status": "Domain checked",
     "checked": "2026-10-11",
-    "notes": "Tencent's public news domain. Do not automatically treat other Tencent content-account URLs as the same page type."
+    "notes": "Tencent's public news domain. Do not automatically treat other Tencent content-account URLs as the same page type.",
+    "main_environment": "Official public website",
+    "channel_environment": "News and multiple subject channels on news.qq.com",
+    "app_client": "腾讯新闻客户端 exists; exact current product mapping should be rechecked",
+    "creator_platform": "Content-creator platforms should be classified separately from news.qq.com",
+    "other_environment": "Main-site news pages and creator-platform pages must not be treated as the same environment",
+    "layer2_status": "Partial check",
+    "layer2_checked": "2026-10-11 (partial)",
+    "layer2_source": "https://news.qq.com/"
   },
   {
     "name": "凤凰网",
@@ -349,7 +597,15 @@
     "coverage": "National / Global",
     "status": "Needs review",
     "checked": "—",
-    "notes": "Tracked general news portal; current homepage response should be rechecked."
+    "notes": "Tracked general news portal; current homepage response should be rechecked.",
+    "main_environment": "Official public website",
+    "channel_environment": "News, finance, tech, culture and other vertical channels",
+    "app_client": "凤凰新闻; 凤凰视频",
+    "creator_platform": "大风号 / self-media platform referenced by Phoenix app pages",
+    "other_environment": "Mobile and video publishing environments",
+    "layer2_status": "Layer 2 checked",
+    "layer2_checked": "2026-10-11",
+    "layer2_source": "https://apps.ifeng.com/platform/android.shtml"
   },
   {
     "name": "36氪",
@@ -360,7 +616,15 @@
     "coverage": "National",
     "status": "Domain checked",
     "checked": "2026-10-11",
-    "notes": "New-economy media and services platform focused on technology, startups and investment."
+    "notes": "New-economy media and services platform focused on technology, startups and investment.",
+    "main_environment": "Official public website",
+    "channel_environment": "Technology, startup, investment and enterprise-service channels",
+    "app_client": "36氪 APP (iOS / Android)",
+    "creator_platform": "Not separately verified",
+    "other_environment": "鲸准 and other related product environments should be treated separately",
+    "layer2_status": "Layer 2 checked",
+    "layer2_checked": "2026-10-11",
+    "layer2_source": "https://www.36kr.com/app/"
   },
   {
     "name": "钛媒体",
@@ -371,7 +635,15 @@
     "coverage": "National",
     "status": "Domain checked",
     "checked": "2026-10-11",
-    "notes": "Technology and business media platform focused on TMT, innovation and companies."
+    "notes": "Technology and business media platform focused on TMT, innovation and companies.",
+    "main_environment": "Official public website",
+    "channel_environment": "Vertical / regional structure not separately verified",
+    "app_client": "Not yet verified",
+    "creator_platform": "Not yet verified",
+    "other_environment": "Not yet verified",
+    "layer2_status": "Not yet checked",
+    "layer2_checked": "—",
+    "layer2_source": "https://www.tmtpost.com/"
   },
   {
     "name": "虎嗅",
@@ -382,7 +654,15 @@
     "coverage": "National",
     "status": "Needs review",
     "checked": "—",
-    "notes": "Tracked technology and business media platform; current public response should be rechecked."
+    "notes": "Tracked technology and business media platform; current public response should be rechecked.",
+    "main_environment": "Main website tracked; recheck needed",
+    "channel_environment": "Not yet verified",
+    "app_client": "Not yet verified",
+    "creator_platform": "Not yet verified",
+    "other_environment": "Not yet verified",
+    "layer2_status": "Not yet checked",
+    "layer2_checked": "—",
+    "layer2_source": "https://www.huxiu.com/"
   },
   {
     "name": "雷锋网",
@@ -393,7 +673,15 @@
     "coverage": "National",
     "status": "Needs review",
     "checked": "—",
-    "notes": "Tracked technology media domain; official URL is established, but current public response should be checked again."
+    "notes": "Tracked technology media domain; official URL is established, but current public response should be checked again.",
+    "main_environment": "Main website tracked; recheck needed",
+    "channel_environment": "Not yet verified",
+    "app_client": "Not yet verified",
+    "creator_platform": "Not yet verified",
+    "other_environment": "Not yet verified",
+    "layer2_status": "Not yet checked",
+    "layer2_checked": "—",
+    "layer2_source": "https://www.leiphone.com/"
   },
   {
     "name": "亿欧",
@@ -404,7 +692,15 @@
     "coverage": "National",
     "status": "Domain checked",
     "checked": "2026-10-11",
-    "notes": "Industry and technology information platform covering business innovation and vertical sectors."
+    "notes": "Industry and technology information platform covering business innovation and vertical sectors.",
+    "main_environment": "Official public website",
+    "channel_environment": "Vertical / regional structure not separately verified",
+    "app_client": "Not yet verified",
+    "creator_platform": "Not yet verified",
+    "other_environment": "Not yet verified",
+    "layer2_status": "Not yet checked",
+    "layer2_checked": "—",
+    "layer2_source": "https://www.iyiou.com/"
   },
   {
     "name": "创业邦",
@@ -415,7 +711,15 @@
     "coverage": "National",
     "status": "Needs review",
     "checked": "—",
-    "notes": "Tracked startup and venture-capital media domain; current public response should be rechecked."
+    "notes": "Tracked startup and venture-capital media domain; current public response should be rechecked.",
+    "main_environment": "Main website tracked; recheck needed",
+    "channel_environment": "Not yet verified",
+    "app_client": "Not yet verified",
+    "creator_platform": "Not yet verified",
+    "other_environment": "Not yet verified",
+    "layer2_status": "Not yet checked",
+    "layer2_checked": "—",
+    "layer2_source": "https://www.cyzone.cn/"
   },
   {
     "name": "投资界",
@@ -426,7 +730,15 @@
     "coverage": "National",
     "status": "Domain checked",
     "checked": "2026-10-11",
-    "notes": "Startup and investment information platform focused on venture capital, private equity and financing."
+    "notes": "Startup and investment information platform focused on venture capital, private equity and financing.",
+    "main_environment": "Official public website",
+    "channel_environment": "Vertical / regional structure not separately verified",
+    "app_client": "Not yet verified",
+    "creator_platform": "Not yet verified",
+    "other_environment": "Not yet verified",
+    "layer2_status": "Not yet checked",
+    "layer2_checked": "—",
+    "layer2_source": "https://www.pedaily.cn/"
   },
   {
     "name": "汽车之家",
@@ -437,7 +749,15 @@
     "coverage": "National",
     "status": "Domain checked",
     "checked": "2026-10-11",
-    "notes": "Large automotive vertical platform covering vehicles, reviews, shopping and industry information."
+    "notes": "Large automotive vertical platform covering vehicles, reviews, shopping and industry information.",
+    "main_environment": "Official public website",
+    "channel_environment": "National + city pages; article, video, live, forum and model channels",
+    "app_client": "汽车之家 APP; mobile site; mini program",
+    "creator_platform": "车家号",
+    "other_environment": "Forum, dealership, used-car and local-service environments",
+    "layer2_status": "Layer 2 checked",
+    "layer2_checked": "2026-10-11",
+    "layer2_source": "https://www.autohome.com.cn/"
   },
   {
     "name": "易车",
@@ -448,7 +768,15 @@
     "coverage": "National",
     "status": "Needs review",
     "checked": "—",
-    "notes": "Tracked automotive platform; current public response should be rechecked."
+    "notes": "Tracked automotive platform; current public response should be rechecked.",
+    "main_environment": "Main website tracked; recheck needed",
+    "channel_environment": "Not yet verified",
+    "app_client": "Not yet verified",
+    "creator_platform": "Not yet verified",
+    "other_environment": "Not yet verified",
+    "layer2_status": "Not yet checked",
+    "layer2_checked": "—",
+    "layer2_source": "https://www.yiche.com/"
   },
   {
     "name": "懂车帝",
@@ -459,7 +787,15 @@
     "coverage": "National",
     "status": "Needs review",
     "checked": "—",
-    "notes": "Tracked automotive content platform; current public response and publishing environment should be rechecked."
+    "notes": "Tracked automotive content platform; current public response and publishing environment should be rechecked.",
+    "main_environment": "Official public website",
+    "channel_environment": "Vehicle, news, video and owner-community channels",
+    "app_client": "懂车帝 APP",
+    "creator_platform": "Creator ecosystem not separately classified here",
+    "other_environment": "Vehicle database / owner community / video environments",
+    "layer2_status": "Layer 2 checked",
+    "layer2_checked": "2026-10-11",
+    "layer2_source": "https://www.dongchedi.com/download/"
   },
   {
     "name": "太平洋汽车",
@@ -470,7 +806,15 @@
     "coverage": "National",
     "status": "Needs review",
     "checked": "—",
-    "notes": "Tracked automotive vertical media domain; current site response should be rechecked."
+    "notes": "Tracked automotive vertical media domain; current site response should be rechecked.",
+    "main_environment": "Official public website",
+    "channel_environment": "Vehicle, dealer, community and local-city channels",
+    "app_client": "综合客户端; 汽车论坛; mobile site / iPad",
+    "creator_platform": "Not separately verified",
+    "other_environment": "WeChat products including 太平洋汽车资讯 / 口袋买车",
+    "layer2_status": "Layer 2 checked",
+    "layer2_checked": "2026-10-11",
+    "layer2_source": "https://app.pcauto.com.cn/wap/"
   },
   {
     "name": "爱卡汽车",
@@ -481,7 +825,15 @@
     "coverage": "National",
     "status": "Needs review",
     "checked": "—",
-    "notes": "Tracked automotive media and community platform; current site response should be rechecked."
+    "notes": "Tracked automotive media and community platform; current site response should be rechecked.",
+    "main_environment": "Main website tracked; recheck needed",
+    "channel_environment": "Not yet verified",
+    "app_client": "Not yet verified",
+    "creator_platform": "Not yet verified",
+    "other_environment": "Not yet verified",
+    "layer2_status": "Not yet checked",
+    "layer2_checked": "—",
+    "layer2_source": "https://www.xcar.com.cn/"
   },
   {
     "name": "中国教育在线",
@@ -492,7 +844,15 @@
     "coverage": "National",
     "status": "Domain checked",
     "checked": "2026-10-11",
-    "notes": "Education information platform covering schools, higher education, examinations and related services."
+    "notes": "Education information platform covering schools, higher education, examinations and related services.",
+    "main_environment": "Official public website",
+    "channel_environment": "Vertical / regional structure not separately verified",
+    "app_client": "Not yet verified",
+    "creator_platform": "Not yet verified",
+    "other_environment": "Not yet verified",
+    "layer2_status": "Not yet checked",
+    "layer2_checked": "—",
+    "layer2_source": "https://www.eol.cn/"
   },
   {
     "name": "中国教育新闻网",
@@ -503,7 +863,15 @@
     "coverage": "National",
     "status": "Needs review",
     "checked": "—",
-    "notes": "Tracked national education news website; current public response should be rechecked."
+    "notes": "Tracked national education news website; current public response should be rechecked.",
+    "main_environment": "Main website tracked; recheck needed",
+    "channel_environment": "Not yet verified",
+    "app_client": "Not yet verified",
+    "creator_platform": "Not yet verified",
+    "other_environment": "Not yet verified",
+    "layer2_status": "Not yet checked",
+    "layer2_checked": "—",
+    "layer2_source": "https://www.jyb.cn/"
   },
   {
     "name": "健康时报",
@@ -514,7 +882,15 @@
     "coverage": "National",
     "status": "Domain checked",
     "checked": "2026-10-11",
-    "notes": "Health news and service website covering medical, public-health and consumer-health topics."
+    "notes": "Health news and service website covering medical, public-health and consumer-health topics.",
+    "main_environment": "Official public website",
+    "channel_environment": "Vertical / regional structure not separately verified",
+    "app_client": "Not yet verified",
+    "creator_platform": "Not yet verified",
+    "other_environment": "Not yet verified",
+    "layer2_status": "Not yet checked",
+    "layer2_checked": "—",
+    "layer2_source": "https://www.jksb.com.cn/"
   },
   {
     "name": "生命时报",
@@ -525,7 +901,15 @@
     "coverage": "National",
     "status": "Domain checked",
     "checked": "2026-10-11",
-    "notes": "Health-focused media website covering medical news, prevention, lifestyle and health education."
+    "notes": "Health-focused media website covering medical news, prevention, lifestyle and health education.",
+    "main_environment": "Official public website",
+    "channel_environment": "Vertical / regional structure not separately verified",
+    "app_client": "Not yet verified",
+    "creator_platform": "Not yet verified",
+    "other_environment": "Not yet verified",
+    "layer2_status": "Not yet checked",
+    "layer2_checked": "—",
+    "layer2_source": "https://www.lifetimes.cn/"
   },
   {
     "name": "健康界",
@@ -536,7 +920,15 @@
     "coverage": "National",
     "status": "Domain checked",
     "checked": "2026-10-11",
-    "notes": "Healthcare-industry information platform focused on hospitals, policy, management and industry developments."
+    "notes": "Healthcare-industry information platform focused on hospitals, policy, management and industry developments.",
+    "main_environment": "Official public website",
+    "channel_environment": "Vertical / regional structure not separately verified",
+    "app_client": "Not yet verified",
+    "creator_platform": "Not yet verified",
+    "other_environment": "Not yet verified",
+    "layer2_status": "Not yet checked",
+    "layer2_checked": "—",
+    "layer2_source": "https://www.cn-healthcare.com/"
   },
   {
     "name": "丁香园",
@@ -547,6 +939,14 @@
     "coverage": "National",
     "status": "Domain checked",
     "checked": "2026-10-11",
-    "notes": "Medical professional platform with clinical, healthcare-industry and professional content environments."
+    "notes": "Medical professional platform with clinical, healthcare-industry and professional content environments.",
+    "main_environment": "Official public website",
+    "channel_environment": "Vertical / regional structure not separately verified",
+    "app_client": "Not yet verified",
+    "creator_platform": "Not yet verified",
+    "other_environment": "Not yet verified",
+    "layer2_status": "Not yet checked",
+    "layer2_checked": "—",
+    "layer2_source": "https://www.dxy.cn/"
   }
 ]
