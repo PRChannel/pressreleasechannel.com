@@ -34,7 +34,9 @@ layout: default
           </div>
         </header>
 
-        {% if page.image %}
+        {% assign has_article_cover = false %}
+        {% if page.image and page.image != '/assets/img/og-default.svg' %}{% assign has_article_cover = true %}{% endif %}
+        {% if has_article_cover %}
         <figure class="article-cover">
           <img src="{{ page.image }}" alt="{{ page.image_alt | default: page.title | escape }}" loading="eager">
           {% if page.image_caption %}<figcaption>{{ page.image_caption }}</figcaption>{% endif %}
@@ -66,7 +68,7 @@ layout: default
             {% for post in site.posts %}
               {% if post.url != page.url and post.hub == page.hub and post.title and post.title != '' and related_count < 5 %}
               <a class="sidebar-related-item" href="{{ post.url }}">
-                {% if post.image %}<img src="{{ post.image }}" alt="" loading="lazy">{% else %}<span class="sidebar-thumb-placeholder">PR</span>{% endif %}
+                {% if post.image and post.image != '/assets/img/og-default.svg' %}<img src="{{ post.image }}" alt="" loading="lazy">{% else %}<span class="sidebar-thumb-placeholder">PR</span>{% endif %}
                 <span><strong>{{ post.title }}</strong><small>{{ post.date | date: '%b %-d, %Y' }}</small></span>
               </a>
               {% assign related_count = related_count | plus: 1 %}
@@ -76,7 +78,7 @@ layout: default
               {% for post in site.posts %}
                 {% if post.url != page.url and post.hub != page.hub and post.title and post.title != '' and related_count < 5 %}
                 <a class="sidebar-related-item" href="{{ post.url }}">
-                  {% if post.image %}<img src="{{ post.image }}" alt="" loading="lazy">{% else %}<span class="sidebar-thumb-placeholder">PR</span>{% endif %}
+                  {% if post.image and post.image != '/assets/img/og-default.svg' %}<img src="{{ post.image }}" alt="" loading="lazy">{% else %}<span class="sidebar-thumb-placeholder">PR</span>{% endif %}
                   <span><strong>{{ post.title }}</strong><small>{{ post.date | date: '%b %-d, %Y' }}</small></span>
                 </a>
                 {% assign related_count = related_count | plus: 1 %}
