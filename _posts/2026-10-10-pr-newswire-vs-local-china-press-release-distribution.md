@@ -16,13 +16,13 @@ tags:
   - Press Release Distribution
   - China Media
   - Global Newswire
-image: /assets/images/uploads/qq20261011-163813.png
+image: ""
 ---
 For an overseas company trying to build media visibility in China, press release distribution can look deceptively simple.
 
 Choose a package. Submit a release. Select China as a target market. Receive a distribution report.
 
-![](/assets/images/uploads/qq20261011-163813.png)
+![PR Channel](/assets/images/uploads/qq20261011-163813.png "PR Channel")
 
 But the underlying distribution model can be very different from the way press release placement is commonly handled inside China.
 
