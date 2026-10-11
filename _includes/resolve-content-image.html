@@ -1,0 +1,19 @@
+{%- assign resolved_image = '' -%}
+{%- assign item = include.item -%}
+{%- if item.image and item.image != '' and item.image != '/assets/img/og-default.svg' -%}
+  {%- assign resolved_image = item.image -%}
+{%- else -%}
+  {%- assign rendered_body = item.content | markdownify -%}
+  {%- if rendered_body contains '<img ' -%}
+    {%- assign image_parts = rendered_body | split: '<img ' -%}
+    {%- assign first_image_tag = image_parts[1] -%}
+    {%- if first_image_tag contains 'src="' -%}
+      {%- assign src_parts = first_image_tag | split: 'src="' -%}
+      {%- assign resolved_image = src_parts[1] | split: '"' | first -%}
+    {%- elsif first_image_tag contains "src='" -%}
+      {%- assign src_parts = first_image_tag | split: "src='" -%}
+      {%- assign resolved_image = src_parts[1] | split: "'" | first -%}
+    {%- endif -%}
+  {%- endif -%}
+{%- endif -%}
+{{- resolved_image -}}

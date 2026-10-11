@@ -34,14 +34,7 @@ layout: default
           </div>
         </header>
 
-        {% assign has_article_cover = false %}
-        {% if page.image and page.image != '/assets/img/og-default.svg' %}{% assign has_article_cover = true %}{% endif %}
-        {% if has_article_cover %}
-        <figure class="article-cover">
-          <img src="{{ page.image }}" alt="{{ page.image_alt | default: page.title | escape }}" loading="eager">
-          {% if page.image_caption %}<figcaption>{{ page.image_caption }}</figcaption>{% endif %}
-        </figure>
-        {% endif %}
+        {% comment %}Featured image is metadata for lists/social previews only. Article body images stay exactly where the editor placed them.{% endcomment %}
 
         <div class="article-content article-content-v3">
           {{ content }}
@@ -67,10 +60,12 @@ layout: default
             {% assign related_count = 0 %}
             {% for post in site.posts %}
               {% if post.url != page.url and post.hub == page.hub and post.title and post.title != '' and related_count < 5 %}
+              {% capture related_image %}{% include resolve-content-image.html item=post %}{% endcapture %}
+              {% assign related_image = related_image | strip %}
               {% assign related_has_image = false %}
-              {% if post.image and post.image != '/assets/img/og-default.svg' %}{% assign related_has_image = true %}{% endif %}
+              {% if related_image != '' %}{% assign related_has_image = true %}{% endif %}
               <a class="sidebar-related-item{% if related_has_image %} has-thumb{% else %} no-thumb{% endif %}" href="{{ post.url }}">
-                {% if related_has_image %}<img src="{{ post.image }}" alt="" loading="lazy">{% endif %}
+                {% if related_has_image %}<img src="{{ related_image }}" alt="" loading="lazy">{% endif %}
                 <span><strong>{{ post.title }}</strong><small>{{ post.date | date: '%b %-d, %Y' }}</small></span>
               </a>
               {% assign related_count = related_count | plus: 1 %}
@@ -79,10 +74,12 @@ layout: default
             {% if related_count < 5 %}
               {% for post in site.posts %}
                 {% if post.url != page.url and post.hub != page.hub and post.title and post.title != '' and related_count < 5 %}
+                {% capture related_image %}{% include resolve-content-image.html item=post %}{% endcapture %}
+                {% assign related_image = related_image | strip %}
                 {% assign related_has_image = false %}
-                {% if post.image and post.image != '/assets/img/og-default.svg' %}{% assign related_has_image = true %}{% endif %}
+                {% if related_image != '' %}{% assign related_has_image = true %}{% endif %}
                 <a class="sidebar-related-item{% if related_has_image %} has-thumb{% else %} no-thumb{% endif %}" href="{{ post.url }}">
-                  {% if related_has_image %}<img src="{{ post.image }}" alt="" loading="lazy">{% endif %}
+                  {% if related_has_image %}<img src="{{ related_image }}" alt="" loading="lazy">{% endif %}
                   <span><strong>{{ post.title }}</strong><small>{{ post.date | date: '%b %-d, %Y' }}</small></span>
                 </a>
                 {% assign related_count = related_count | plus: 1 %}

@@ -36,6 +36,21 @@
         }
         const s=document.createElement('script');
         s.src='https://cdn.jsdelivr.net/npm/decap-cms@beta/dist/decap-cms.js';
+        s.onload = () => {
+          // Decap can leave an old optional image key in front matter after the image is cleared.
+          // Normalize empty Featured Image values before saving so `image:` is actually removed.
+          CMS.registerEventListener({
+            name: 'preSave',
+            handler: ({ entry }) => {
+              let data = entry.get('data');
+              const image = data.get('image');
+              if (image === null || image === undefined || String(image).trim() === '') {
+                data = data.delete('image');
+              }
+              return data;
+            },
+          });
+        };
         document.body.appendChild(s);
       })
       .catch(() => document.getElementById('setup').classList.remove('hidden'));

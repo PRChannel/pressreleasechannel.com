@@ -2,6 +2,9 @@
 {% if page.url == '/' %}{% assign full_title = page_title %}{% else %}{% assign full_title = page_title | append: ' | PR Channel' %}{% endif %}
 {% assign page_desc = page.description | default: site.description %}
 {% assign canonical = page.canonical | default: page.url | absolute_url %}
+{% capture resolved_social_image %}{% include resolve-content-image.html item=page %}{% endcapture %}
+{% assign resolved_social_image = resolved_social_image | strip %}
+{% if resolved_social_image == '' and page.image %}{% assign resolved_social_image = page.image %}{% endif %}
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -14,11 +17,11 @@
   <meta property="og:description" content="{{ page_desc | strip_html | strip_newlines | escape }}">
   <meta property="og:url" content="{{ canonical }}">
   <meta property="og:site_name" content="PR Channel">
-  {% if page.image %}<meta property="og:image" content="{{ page.image | absolute_url }}">{% endif %}
-  <meta name="twitter:card" content="{% if page.image %}summary_large_image{% else %}summary{% endif %}">
+  {% if resolved_social_image != '' %}<meta property="og:image" content="{{ resolved_social_image | absolute_url }}">{% endif %}
+  <meta name="twitter:card" content="{% if resolved_social_image != '' %}summary_large_image{% else %}summary{% endif %}">
   <meta name="twitter:title" content="{{ full_title | escape }}">
   <meta name="twitter:description" content="{{ page_desc | strip_html | strip_newlines | escape }}">
-  {% if page.image %}<meta name="twitter:image" content="{{ page.image | absolute_url }}">{% endif %}
+  {% if resolved_social_image != '' %}<meta name="twitter:image" content="{{ resolved_social_image | absolute_url }}">{% endif %}
   <link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="/assets/css/style.css">
   {% include schema.html %}

@@ -1,15 +1,22 @@
-PR Channel article layout hotfix
+PR Channel Featured Image logic fix
 
-Cause fixed:
-_config.yml provides /assets/img/og-default.svg as the default social image for posts.
-The article-v3 template mistakenly treated that default social image as a visible cover image.
+Upload these paths to the same locations in the GitHub repository:
+- _layouts/post.html
+- _includes/head.html
+- _includes/resolve-content-image.html (new)
+- admin/config.yml
+- admin/index.html
 
-Upload and replace only:
-_layouts/post.html
+Final behavior:
+1. Featured Image is metadata only. It is NOT rendered as a separate image on an article page.
+2. Body images remain exactly where they were inserted in the article. Nothing is removed or moved.
+3. If Featured Image is set manually, lists/social previews use it.
+4. If Featured Image is empty, lists/social previews automatically use the first image found in the article body.
+5. Clearing Featured Image in Decap CMS removes the stale `image` key on the next save.
 
-Do NOT replace admin/config.yml. Your Decap Turbo Site ID remains untouched.
-
-After GitHub Pages rebuilds:
-- Posts without a manually selected image: no large cover image is shown.
-- Related posts without a manually selected image: compact PR placeholder is shown.
-- Posts with a real image selected in CMS: that image is shown as the article cover.
+For an article that currently has a stale image value:
+- upload this patch
+- reopen the article in /admin/
+- click Remove image (if shown) or leave Featured Image empty
+- save/publish once
+The preSave cleanup will remove the old `image:` front-matter key.
