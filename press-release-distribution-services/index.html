@@ -1,0 +1,79 @@
+---
+layout: default
+title: "Global Press Release Distribution Directory"
+description: "Compare press release distribution services by distribution model, public starting price, China coverage, local execution, media-selection options and result type."
+permalink: /press-release-distribution-services/
+---
+<section class="page-hero directory-hero">
+  <div class="container">
+    <nav class="breadcrumbs"><a href="/">Home</a> → Global Press Release Distribution Directory</nav>
+    <span class="eyebrow">Data resource</span>
+    <h1>Global Press Release Distribution Directory</h1>
+    <p class="lead">Compare press release distribution services by business model, public starting price, China coverage, local execution, media-selection options and the type of result a buyer actually receives.</p>
+    <div class="directory-disclosure"><strong>Disclosure:</strong> PR Channel operates this directory and is included as one of the 30 tracked providers. The directory is not a ranking. Information can change and should be checked again before purchase.</div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    {% assign verified_count = site.data.global_pr_services | where: "status", "Verified" | size %}
+    <div class="directory-stats">
+      <div><strong>{{ site.data.global_pr_services | size }}</strong><span>providers tracked</span></div>
+      <div><strong>{{ verified_count }}</strong><span>manually checked entries</span></div>
+      <div><strong>{{ site.data.global_pr_services | size | minus: verified_count }}</strong><span>entries needing more verification</span></div>
+      <div><strong>2026-10-11</strong><span>directory review date</span></div>
+    </div>
+
+    <div class="directory-intro">
+      <div>
+        <span class="eyebrow">What this directory is for</span>
+        <h2>Not every service selling “press release distribution” sells the same thing.</h2>
+        <p>A global newswire, a self-service public publishing platform and a local media execution service can use similar language while delivering very different outcomes.</p>
+        <p>PR Channel is intentionally included in the same table rather than placed outside the comparison. Its China-focused model can therefore be compared against global newswire and self-service models using the same fields.</p>
+      </div>
+      <aside class="directory-method">
+        <h3>Core data fields</h3>
+        <ul><li>Official website</li><li>Distribution model</li><li>Starting price</li><li>Free option</li><li>China coverage</li><li>Local China execution</li><li>Specific-media selection</li><li>Result type</li><li>Verification status</li><li>Last verified date</li></ul>
+      </aside>
+    </div>
+
+    <div class="directory-toolbar">
+      <input id="directory-search" type="search" placeholder="Search provider, country, notes..." aria-label="Search providers">
+      <select id="directory-model"><option value="">All models</option><option>Global newswire</option><option>Newswire network</option><option>Self-service distribution</option><option>Self-service publishing</option><option>Local China execution</option></select>
+      <select id="directory-china"><option value="">China coverage: All</option><option value="Available">Available</option><option value="China-focused">China-focused</option><option value="Not China-focused">Not China-focused</option></select>
+      <select id="directory-free"><option value="">Free option: All</option><option value="Yes">Yes</option><option value="No">No</option></select>
+      <select id="directory-status"><option value="">Verification: All</option><option value="Verified">Verified</option><option value="Needs review">Needs review</option></select>
+    </div>
+
+    <div class="directory-countline"><span><strong id="directory-count">{{ site.data.global_pr_services | size }}</strong> providers shown</span><span>Provider names link to official websites</span></div>
+
+    <div class="directory-table-wrap"><table class="directory-table">
+      <thead><tr><th>Provider / Official Website</th><th>Model</th><th>Starting Price</th><th>Free Option</th><th>China Coverage</th><th>Local China Execution</th><th>Specific Media</th><th>Result Type</th><th>Verification</th><th>Distribution Notes</th></tr></thead>
+      <tbody>
+      {% for p in site.data.global_pr_services %}
+      <tr class="directory-provider{% if p.name == 'PR Channel' %} is-pr-channel{% endif %}" data-model="{{ p.model | escape }}" data-china="{{ p.china | escape }}" data-free="{{ p.free | escape }}" data-status="{{ p.status | escape }}">
+        <td class="directory-provider-name"><a href="{{ p.url }}" target="_blank" rel="noopener"><strong>{{ p.name }}</strong> ↗</a><small>{{ p.country }}</small></td>
+        <td>{{ p.model }}</td><td>{{ p.price }}</td><td>{{ p.free }}</td><td>{{ p.china }}</td><td>{{ p.local }}</td><td>{{ p.specific }}</td><td>{{ p.result }}</td>
+        <td><span class="directory-status{% if p.status == 'Verified' %} is-verified{% else %} is-pending{% endif %}">{{ p.status }}</span><small>{{ p.verified }}</small></td>
+        <td class="directory-notes">{{ p.notes }}</td>
+      </tr>
+      {% endfor %}
+      </tbody>
+    </table></div>
+    <p class="directory-legend">“Verified” means the entry was checked against current provider information during this directory review. “Needs review” means one or more important fields still require manual confirmation.</p>
+  </div>
+</section>
+
+<section class="section section-soft"><div class="container">
+  <div class="section-title"><span class="eyebrow">China-focused execution</span><h2>Need to know where your release actually appears in China?</h2><p>PR Channel focuses on local media matching, editorial submission, actual publishing URLs and page-type verification rather than media-count claims alone.</p></div>
+  <p class="editorial-link-row"><a class="editorial-link" href="/pricing/">View China distribution pricing →</a></p>
+</div></section>
+
+<script>
+(function(){
+  const q=document.getElementById('directory-search'), model=document.getElementById('directory-model'), china=document.getElementById('directory-china'), free=document.getElementById('directory-free'), status=document.getElementById('directory-status');
+  const rows=[...document.querySelectorAll('.directory-provider')], count=document.getElementById('directory-count');
+  function filterRows(){let n=0,query=(q.value||'').trim().toLowerCase();rows.forEach(r=>{const show=(!query||r.innerText.toLowerCase().includes(query))&&(!model.value||r.dataset.model===model.value)&&(!china.value||r.dataset.china.includes(china.value))&&(!free.value||r.dataset.free===free.value)&&(!status.value||r.dataset.status===status.value);r.style.display=show?'table-row':'none';if(show)n++;});count.textContent=n;}
+  [q,model,china,free,status].forEach(el=>el.addEventListener('input',filterRows));
+})();
+</script>
