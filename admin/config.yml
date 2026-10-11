@@ -1,6 +1,6 @@
 backend:
   name: turbo-github
-  turbo_site_id: REPLACE_WITH_YOUR_DECAP_TURBO_SITE_ID
+  turbo_site_id: d06b1061-4fb2-4773-b0d0-882ce54f83ae
   branch: main
 
 site_url: https://pressreleasechannel.com
