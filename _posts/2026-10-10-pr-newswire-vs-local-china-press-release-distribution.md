@@ -22,8 +22,6 @@ For an overseas company trying to build media visibility in China, press release
 
 Choose a package. Submit a release. Select China as a target market. Receive a distribution report.
 
-![PR Channel](/assets/images/uploads/qq20261011-163813.png "PR Channel")
-
 But the underlying distribution model can be very different from the way press release placement is commonly handled inside China.
 
 The most important distinction is not simply global provider versus local provider.
@@ -64,6 +62,8 @@ rather than:
 A common model in China works differently.
 
 A media distribution provider may present a list of individual publishing options.
+
+![PR Channel](/assets/images/uploads/qq20261011-163813.png "PR Channel")
 
 Each outlet may have its own:
 
