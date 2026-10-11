@@ -680,3 +680,19 @@ main .article-content li a:hover{
   color: #fff !important;
   text-decoration: none !important;
 }
+
+
+/* Pricing & submit page CTA buttons */
+main .pricing-page a.pricing-btn,
+main .pricing-page a.pricing-btn:link,
+main .pricing-page a.pricing-btn:visited,
+main .pricing-page a.pricing-btn:hover,
+main .pricing-page a.pricing-btn:active,
+main .submit-page a.submit-btn,
+main .submit-page a.submit-btn:link,
+main .submit-page a.submit-btn:visited,
+main .submit-page a.submit-btn:hover,
+main .submit-page a.submit-btn:active {
+  color: #fff !important;
+  text-decoration: none !important;
+}
