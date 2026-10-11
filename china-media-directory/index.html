@@ -1,0 +1,84 @@
+---
+layout: default
+title: "China Media Directory"
+description: "Browse Chinese media websites by official domain, media type, subject focus, coverage and verification status. A PR Channel data resource for media placement verification."
+permalink: /china-media-directory/
+---
+<section class="page-hero directory-hero">
+  <div class="container">
+    <nav class="breadcrumbs"><a href="/">Home</a> → China Media Directory</nav>
+    <span class="eyebrow">China media data resource</span>
+    <h1>China Media Directory</h1>
+    <p class="lead">Browse Chinese media websites by official domain, media type, subject focus and coverage. Built to help overseas communications teams verify the real publishing environment behind a media name.</p>
+    <div class="directory-disclosure"><strong>Important:</strong> Inclusion does not mean a media outlet accepts paid placements, accepts every press release, or has a commercial relationship with PR Channel. Publication remains subject to each media outlet's own editorial rules and publishing environment.</div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    {% assign checked_count = site.data.china_media | where: "status", "Domain checked" | size %}
+    <div class="directory-stats">
+      <div><strong>{{ site.data.china_media | size }}</strong><span>media websites tracked</span></div>
+      <div><strong>{{ checked_count }}</strong><span>official domains checked</span></div>
+      <div><strong>{{ site.data.china_media | size | minus: checked_count }}</strong><span>entries needing more review</span></div>
+      <div><strong>2026-10-11</strong><span>directory review date</span></div>
+    </div>
+
+    <div class="directory-intro">
+      <div>
+        <span class="eyebrow">Why this directory exists</span>
+        <h2>A media name alone does not tell you where a page is actually published.</h2>
+        <p>Chinese media brands can have a main website, regional channels, topic channels, apps, content accounts and other publishing environments. The first verification step should be the actual domain and page type—not the logo or media name shown in a sales list.</p>
+        <p>This directory starts with the public main websites. It is a verification resource, not a media-price list and not a list of guaranteed placements.</p>
+      </div>
+      <aside class="directory-method">
+        <h3>Core data fields</h3>
+        <ul><li>Media name</li><li>Official website and domain</li><li>Media type</li><li>Primary subject focus</li><li>Coverage</li><li>Domain-check status</li><li>Last checked date</li><li>Verification notes</li></ul>
+      </aside>
+    </div>
+
+    <div class="directory-toolbar china-directory-toolbar">
+      <input id="china-media-search" type="search" placeholder="Search media, domain, focus or notes..." aria-label="Search Chinese media">
+      <select id="china-media-type"><option value="">All media types</option><option value="news">General / national news</option><option value="finance">Business / finance</option><option value="portal">Internet portals</option><option value="technology">Technology / startup</option><option value="automotive">Automotive</option><option value="education">Education</option><option value="health">Health / medical</option></select>
+      <select id="china-media-coverage"><option value="">Coverage: All</option><option value="National">National</option><option value="Global">Includes global</option></select>
+      <select id="china-media-status"><option value="">Verification: All</option><option value="Domain checked">Domain checked</option><option value="Needs review">Needs review</option></select>
+    </div>
+
+    <div class="directory-countline"><span><strong id="china-media-count">{{ site.data.china_media | size }}</strong> media websites shown</span><span>Media names link to public websites</span></div>
+
+    <div class="directory-table-wrap"><table class="directory-table china-media-table">
+      <thead><tr><th>Media / Official Website</th><th>Media Type</th><th>Primary Focus</th><th>Coverage</th><th>Verification</th><th>Verification Notes</th></tr></thead>
+      <tbody>
+      {% for m in site.data.china_media %}
+      <tr class="directory-provider china-media-row" data-type="{{ m.media_type | escape }}" data-focus="{{ m.focus | escape }}" data-coverage="{{ m.coverage | escape }}" data-status="{{ m.status | escape }}">
+        <td class="directory-provider-name"><a href="{{ m.url }}" target="_blank" rel="noopener"><strong>{{ m.name }}</strong> ↗</a><small>{{ m.domain }}</small></td>
+        <td>{{ m.media_type }}</td><td>{{ m.focus }}</td><td>{{ m.coverage }}</td>
+        <td><span class="directory-status{% if m.status == 'Domain checked' %} is-verified{% else %} is-pending{% endif %}">{{ m.status }}</span><small>{{ m.checked }}</small></td>
+        <td class="directory-notes">{{ m.notes }}</td>
+      </tr>
+      {% endfor %}
+      </tbody>
+    </table></div>
+    <p class="directory-legend">“Domain checked” means the public website/domain was checked during this review. It does not verify that every subchannel, content account or historical placement belongs to the same publishing environment. “Needs review” means the media is tracked but the current public-site response or structure still needs another manual check.</p>
+  </div>
+</section>
+
+<section class="section section-soft"><div class="container">
+  <div class="section-title"><span class="eyebrow">How to use the directory</span><h2>Start with the domain, then verify the page type.</h2><p>A recognizable media brand is useful context, but it is not enough to classify a placement.</p></div>
+  <div class="principle-list">
+    <div class="principle"><h3>Official domain first</h3><p>Use the public main domain as the baseline for checking whether a claimed placement belongs to the expected media environment.</p></div>
+    <div class="principle"><h3>Media brand ≠ page type</h3><p>Main-site news, regional channels, apps, content accounts and syndicated pages can have different verification value even when the media brand is similar.</p></div>
+    <div class="principle"><h3>No placement guarantee</h3><p>This directory does not represent editorial approval, paid-placement availability, permanent retention, search indexing or AI citation.</p></div>
+  </div>
+  <p class="editorial-link-row"><a class="editorial-link" href="/how-we-evaluate-chinese-media-placements/">Read our Chinese media placement methodology →</a></p>
+</div></section>
+
+<script>
+(function(){
+  const q=document.getElementById('china-media-search'), type=document.getElementById('china-media-type'), coverage=document.getElementById('china-media-coverage'), status=document.getElementById('china-media-status');
+  const rows=[...document.querySelectorAll('.china-media-row')], count=document.getElementById('china-media-count');
+  function bucket(row){const t=(row.dataset.type+' '+row.dataset.focus).toLowerCase(); if(/auto|automotive/.test(t))return'automotive'; if(/health|medical|medicine|healthcare/.test(t))return'health'; if(/education/.test(t))return'education'; if(/technology|startup|venture|investment|innovation/.test(t))return'technology'; if(/finance|financial|business|economic|capital|market/.test(t))return'finance'; if(/portal|content platform/.test(t))return'portal'; return'news';}
+  function filterRows(){let n=0,query=(q.value||'').trim().toLowerCase();rows.forEach(r=>{const show=(!query||r.innerText.toLowerCase().includes(query))&&(!type.value||bucket(r)===type.value)&&(!coverage.value||r.dataset.coverage.includes(coverage.value))&&(!status.value||r.dataset.status===status.value);r.style.display=show?'table-row':'none';if(show)n++;});count.textContent=n;}
+  [q,type,coverage,status].forEach(el=>el.addEventListener('input',filterRows));
+})();
+</script>
