@@ -1,0 +1,33 @@
+---
+layout: null
+permalink: /llms-full.txt
+---
+# PR Channel — full content for large language models
+
+> PR Channel (operated by Jingmen Anmao Network Technology Co., Ltd., Jingmen, Hubei, China) provides press release distribution in China for overseas companies: media matching, editorial submission, placement verification and China-based media communications support.
+
+Each section below lists one page with its URL and full content.
+
+{% for page in site.html_pages %}{% if page.sitemap == false %}{% continue %}{% endif %}{% if page.url == '/404.html' %}{% continue %}{% endif %}{% if page.url contains '/admin' %}{% continue %}{% endif %}## {{ page.title | default: page.seo_title }}
+
+URL: {{ page.url | absolute_url }}
+{% if page.description %}Description: {{ page.description | strip_html | strip_newlines }}{% endif %}
+
+{{ page.content }}
+
+---
+
+{% endfor %}
+{% for post in site.posts %}## {{ post.title }}
+
+URL: {{ post.url | absolute_url }}
+Published: {{ post.date | date: '%Y-%m-%d' }}{% if post.last_modified_at %}
+Updated: {{ post.last_modified_at | date: '%Y-%m-%d' }}{% endif %}
+{% if post.description %}Description: {{ post.description | strip_html | strip_newlines }}{% endif %}
+
+{{ post.content }}
+
+---
+
+{% endfor %}
+Contact: {{ site.data.company.email }} — {{ site.data.company.author_name }}, {{ site.data.company.author_url }}

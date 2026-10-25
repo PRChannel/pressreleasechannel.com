@@ -16,7 +16,8 @@
       "foundingDate": {{ site.data.company.company_founded | jsonify }},
       "email": {{ site.data.company.email | jsonify }},
       "address": {"@type":"PostalAddress","addressLocality":"Jingmen","addressRegion":"Hubei","addressCountry":"CN"},
-      "brand": {"@id":"https://pressreleasechannel.com/#brand"}
+      "brand": {"@id":"https://pressreleasechannel.com/#brand"},
+      "logo": {"@type":"ImageObject","url":"https://pressreleasechannel.com/assets/img/og-default.png","width":1200,"height":630}
     },
     {
       "@type": "Brand",
@@ -65,6 +66,7 @@
       "publisher": {"@id":"https://pressreleasechannel.com/#organization"},
       "about": [{"@id":"https://pressreleasechannel.com/#brand"},{"@id":"https://pressreleasechannel.com/#press-release-distribution-service"}],
       "mainEntityOfPage": {{ page.url | absolute_url | jsonify }},
+      "image": {{ page.image | default: '/assets/img/og-default.png' | absolute_url | jsonify }},
       "inLanguage": "en"
     },
     {

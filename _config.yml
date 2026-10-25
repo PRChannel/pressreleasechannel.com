@@ -8,6 +8,7 @@ permalink: /china-media-guide/:title/
 markdown: kramdown
 plugins:
   - jekyll-sitemap
+  - jekyll-feed
 exclude:
   - README.md
   - ARTICLE_TEMPLATE.md
@@ -21,9 +22,9 @@ defaults:
     values:
       layout: post
       author: Yang Xiaole
-      image: /assets/img/og-default.svg
+      image: /assets/img/og-default.png
   - scope:
       path: ""
     values:
       layout: page
-      image: /assets/img/og-default.svg
+      image: /assets/img/og-default.png
