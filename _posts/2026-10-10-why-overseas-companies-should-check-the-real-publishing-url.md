@@ -13,6 +13,13 @@ tags:
   - Media Verification
   - Publishing URL
   - Press Release Distribution
+faq:
+  - q: "Why should I check the real publishing URL of my China media placement?"
+    a: "A media name is only a label, while the URL is evidence showing the actual domain, page, article structure, and public accessibility. The same brand may operate main websites, regional sections, subdomains, content accounts, and partner systems, so the brand name alone cannot tell you where the release actually appears."
+  - q: "What should I check when I receive the published URL for my Chinese media article?"
+    a: "The article lists nine checks, including whether the domain matches expectations, whether the page opens publicly, whether the company name and headline are correct, whether content is complete, whether the date is visible, whether the page type matches the package description, whether it can be shared outside China, and whether it stays live."
+  - q: "Is a screenshot of my China media coverage enough as proof?"
+    a: "Screenshots are useful but secondary. They can document temporary recommendation positions or how a page looked at publication time, but should not replace a live URL when the page is expected to remain publicly accessible."
 ---
 
 When buying Chinese media distribution, overseas companies often receive a media list before publication.

@@ -17,6 +17,13 @@ tags:
   - China Media
   - Global Newswire
 image: ""
+faq:
+  - q: "What is the difference between using PR Newswire-style global distribution and a local China press release service?"
+    a: "Global newswires sell access to a distribution infrastructure built for scale and syndication, while the common China model is media-by-media placement where each outlet has its own price, editorial requirements, page type, and support conditions. The article frames the key distinction as distribution infrastructure versus individual media placement."
+  - q: "Does \"distributed to 50 Chinese media outlets\" mean my release was published on 50 editorial sites?"
+    a: "Not necessarily. A distribution report may mix established media websites, syndicated press release pages, content accounts, self-publishing platforms, aggregators, and pages with limited editorial review. The article stresses these should not automatically be counted as equivalent to independent editorial placements."
+  - q: "Why do some global China press release packages look stronger than their actual placements?"
+    a: "Some international providers apply the same standardized package model to many countries, treating China as just another geographic target. That simplifies purchasing but gives limited visibility into the Chinese publishing environment, where one media brand can span main sites, regional channels, content accounts, and syndicated pages."
 ---
 For an overseas company trying to build media visibility in China, press release distribution can look deceptively simple.
 

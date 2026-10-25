@@ -13,6 +13,13 @@ tags:
   - Press Release Distribution
   - Syndication
   - Coverage Reporting
+faq:
+  - q: "Does \"200 media pickups\" mean 200 journalists covered my press release?"
+    a: "No. A pickup can mean an original editorial article, a syndicated copy, an automatically distributed partner page, a content feed, a regional mirror, or a republished version. The article stresses it does not necessarily mean 200 journalists independently reviewed and chose to cover the story."
+  - q: "Why can a press release appear multiple times under the same media organization in China?"
+    a: "The same media organization may operate multiple regional sites, partner domains, content feeds, app pages, or related publishing properties. If a report counts every URL separately, the number can look much larger than the number of distinct editorial decisions."
+  - q: "What questions should I ask when I see a large pickup number in a coverage report?"
+    a: "The article suggests five: how many URLs are unique media properties, how many are syndicated copies, how many involve editorial review, what types of pages are included, and whether you can verify the URLs directly."
 ---
 
 A press release distribution report may say “200 media pickups.” That number looks impressive.

@@ -3,7 +3,7 @@
 {% include head.html %}
 <body>
 {% include header.html %}
-<main>{{ content }}</main>
+<main>{{ content }}{% if page.faq %}{% include faq-section.html %}{% endif %}</main>
 {% include footer.html %}
 </body>
 </html>

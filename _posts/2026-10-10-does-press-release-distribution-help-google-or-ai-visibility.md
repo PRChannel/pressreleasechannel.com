@@ -13,6 +13,13 @@ tags:
   - GEO
   - Press Release Distribution
   - Search Visibility
+faq:
+  - q: "Does press release distribution in China help my Google ranking or AI visibility?"
+    a: "It can help by creating public references, consistent company facts, dated announcements, and pages where a brand and topic appear together. However, the article is clear that publication does not guarantee Google indexing, ranking, AI citation, or inclusion in a generated answer — those systems make independent decisions."
+  - q: "Why did my article get published but never show up in Google or AI answers?"
+    a: "The article breaks visibility into four stages: publication, crawling/indexing or retrieval, citation, and inclusion in the final answer. A page can be publicly accessible yet remain unindexed, be ignored by a particular AI system, or be retrieved without being visibly cited, so each stage can break the chain."
+  - q: "Will publishing the same press release on many pages improve my GEO results?"
+    a: "No. The article says publishing the same claim on many low-value pages does not necessarily make an AI system trust or use it. Useful factors include clear entity names, consistent facts, independent references, accessible pages, and corroboration across different sources."
 ---
 Press release distribution can create public information about a company, but publication should not be confused with guaranteed Google ranking or AI visibility.
 

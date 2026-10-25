@@ -13,6 +13,13 @@ tags:
   - China Media
   - Media Buying
   - PR Procurement
+faq:
+  - q: "What am I actually paying for when I buy China press release distribution?"
+    a: "The fee can cover media selection, translation and localization, editorial submission and revision handling, the placement itself, publication verification, reporting, after-publication support, and international account management overhead. The article argues separating these parts makes quotes easier to compare."
+  - q: "Is translation the same as localization for a China press release?"
+    a: "No. The article notes translation converts the language, while localization involves adjusting headlines, company descriptions, technical terms, unsupported claims, and background context so the release suits Chinese editorial review. A provider that only translates is not doing the same work as one that localizes."
+  - q: "Will paying for China press release distribution get me traffic, leads, or sales?"
+    a: "The article says publication does not automatically guarantee homepage recommendation, journalist-written features, long-term search rankings, Google or Baidu indexing, AI citation, traffic, leads, or sales. These outcomes may happen but should not be treated as automatic consequences of publication."
 ---
 
 When an overseas company buys press release distribution in China, the invoice may look simple. The service may be described as “China press release distribution.” But that single line can hide several very different types of work.

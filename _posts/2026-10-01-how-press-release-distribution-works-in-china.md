@@ -13,6 +13,13 @@ tags:
   - Press Release Distribution
   - China Media
   - Media Relations
+faq:
+  - q: "How does press release distribution actually work in China?"
+    a: "It starts with a clear, factual announcement, followed by media selection based on relevance, submission to editorial review, publication, and verification of the live URL. The article describes an eight-step workflow that separates publication from later outcomes like search indexing or AI visibility."
+  - q: "Do Chinese media outlets edit or reject press releases before publishing them?"
+    a: "Yes. Depending on the outlet, editors may accept the release, request changes, edit the headline or body, delay publication, or reject the submission entirely, so distribution is not the same as automatic posting."
+  - q: "Does getting published on a Chinese media site mean my article will be recommended or featured?"
+    a: "No. A published article may simply exist as a public page without being recommended on a homepage, featured in an app, pushed via notification, or ranked prominently in search. If recommendation is part of a media offer, it should be described separately from the publication itself."
 ---
 For overseas companies, press release distribution in China can look simple from the outside: prepare an announcement, choose media and publish it.
 

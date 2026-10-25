@@ -12,6 +12,13 @@ tags:
   - Media Invitation
   - Press Release Distribution
   - Journalist Coordination
+faq:
+  - q: "What is the difference between press release distribution and media invitation in China?"
+    a: "Press release distribution publishes an announcement that already exists through selected media, while media invitation brings journalists to an event, demonstration, interview, or site visit where new reporting can happen. They solve different communication problems and choosing the wrong one can create unnecessary cost."
+  - q: "If I invite journalists to my event in China, is the coverage guaranteed?"
+    a: "No. A journalist may attend and still decide not to publish, because coverage depends on news value, audience relevance, editorial judgment, competing news, and the journalist's own assessment. The article stresses media invitation creates an opportunity for independent reporting, not a purchase of guaranteed coverage."
+  - q: "Should I invite many journalists or just a few relevant ones to my China event?"
+    a: "The article argues a smaller group of relevant journalists may be more useful than a large group with little connection to the subject — for example, technology media for a technical launch or regional media for a local expansion. Relevance matters more than filling a room."
 ---
 Press release distribution and media invitation are often grouped together as PR services, but they solve different communication problems.
 

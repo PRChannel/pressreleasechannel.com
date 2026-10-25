@@ -12,6 +12,13 @@ tags:
   - Press Release Writing
   - China Media
   - Press Release Distribution
+faq:
+  - q: "How should I write a press release for Chinese media as a foreign company?"
+    a: "Start with a real news development, put the main fact in the first paragraphs, keep claims supportable, distinguish facts from executive opinions, and explain your foreign company name consistently. The article stresses that a release suitable for Chinese media is clear, factual, and easy for editors to evaluate — not merely translated."
+  - q: "What kinds of claims should I avoid in a press release for China?"
+    a: "Statements like \"leading,\" \"best,\" \"first,\" \"largest,\" \"revolutionary,\" or \"industry-changing\" should be used carefully and removed or rewritten precisely if they cannot be supported. Exaggerated or unverifiable claims make editorial review more difficult."
+  - q: "Does my press release just need to be translated into Chinese?"
+    a: "No. A polished translation is helpful, but accuracy comes first: verify company names, titles, dates, locations, product names, technical terminology, and numbers during translation. The article notes a fluent translation with incorrect facts creates more problems than a simple but accurate version."
 ---
 A press release does not become suitable for Chinese media simply because it has been translated into Chinese.
 

@@ -1,0 +1,19 @@
+{% if page.faq and page.faq != empty %}
+<section class="section section-soft" aria-label="Frequently asked questions">
+  <div class="container">
+    <div class="section-title">
+      <span class="eyebrow">FAQ</span>
+      <h2>{{ page.faq_title | default: 'Frequently asked questions' }}</h2>
+    </div>
+    <div class="faq">
+      {% for item in page.faq %}
+      <div class="faq-item">
+        <button class="faq-q" type="button">{{ item.q }}</button>
+        <div class="faq-a"><p>{{ item.a }}</p></div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+<script>if(!window.__faqInit){window.__faqInit=true;document.addEventListener('click',function(e){var b=e.target.closest('.faq-q');if(b)b.parentElement.classList.toggle('open');});}</script>
+{% endif %}

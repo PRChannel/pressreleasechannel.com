@@ -13,6 +13,13 @@ tags:
   - China Media
   - Media Verification
   - Press Release Distribution
+faq:
+  - q: "What should a good China media coverage report contain?"
+    a: "The article recommends media name, live publishing URL, actual domain, publication date, page type, media category, publication status, editorial versus syndicated distinction, accessibility notes, and a verification date. A practical table format is: Media, Domain, Page Type, Category, Date, URL, Status, Notes."
+  - q: "Why does page type matter in a press release distribution report?"
+    a: "Page type is described as one of the most useful and most frequently missing fields, with labels like standard media article, industry channel, regional page, content account, syndicated placement, or mobile page. It helps the buyer understand what each placement actually is rather than just counting rows."
+  - q: "Does a large coverage report with many media names prove my campaign succeeded?"
+    a: "Not by itself. The article says the best report is not the one with the most rows but the one that helps the buyer understand real publishing results with the least ambiguity, and that a report should not imply audience reach, traffic, ranking, AI citation, or permanent page availability."
 ---
 
 A media coverage report should help a company understand what happened.

@@ -13,6 +13,13 @@ tags:
   - Global Newswire
   - Press Release Distribution
   - Media Relations
+faq:
+  - q: "When should I use a local China PR partner instead of a global newswire?"
+    a: "A local partner makes more sense when China is the main or only market, page-level detail matters, the media mix needs flexibility, localization requires judgment, or you need media invitation and journalist coordination. A global newswire is more suitable for worldwide distribution, standardized reporting, and global vendor requirements."
+  - q: "Can I use both a global newswire and a local China PR partner?"
+    a: "Yes. The article describes multinationals using a global wire for international disclosure and broad distribution while a local China partner manages selected Chinese media, verification, and event-related execution."
+  - q: "Which is better for China press releases — a global newswire or a local partner?"
+    a: "Neither model is universally better. The article says the decision should start with the campaign objective: local partners suit campaigns depending on local detail, flexible media selection and direct execution, while global newswires suit scale, standardization, and international coordination."
 ---
 
 A global newswire can be the right tool for many campaigns. But not every China press release requires a global distribution system.

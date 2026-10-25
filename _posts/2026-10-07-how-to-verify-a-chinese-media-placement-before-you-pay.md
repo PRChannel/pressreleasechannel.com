@@ -12,6 +12,13 @@ tags:
   - Media Verification
   - China Media
   - Press Release Distribution
+faq:
+  - q: "How can I verify a Chinese media placement before paying for it?"
+    a: "Ask for a recent comparable example and open the URL yourself to check the actual domain, page type, and public accessibility in a normal browser. The article advises judging the placement by what type of page you are actually buying, not by the media name or logo."
+  - q: "Why do screenshots alone not prove a Chinese media placement?"
+    a: "Screenshots document a moment in time but may not show the real domain, the page type, whether the content is still accessible, or whether the image represents publication or recommendation. A live, publicly accessible URL is usually more useful for verification."
+  - q: "What questions should I ask about recommendation claims in a China media package?"
+    a: "Ask where the recommendation appears, how it can be verified, how long it is expected to remain visible, and whether it can be reproduced later. The article notes this is especially important for short-lived featured placements."
 ---
 When evaluating a Chinese media placement, the media name is only the starting point.
 

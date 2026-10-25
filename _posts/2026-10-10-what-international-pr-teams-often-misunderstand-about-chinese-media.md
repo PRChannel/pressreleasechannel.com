@@ -13,6 +13,13 @@ tags:
   - International PR
   - Media Relations
   - Press Release Distribution
+faq:
+  - q: "What do international PR teams most often get wrong about Chinese media?"
+    a: "Common misunderstandings include assuming a familiar media brand means a main-site editorial page, confusing distribution with journalist coverage, treating translation as localization, judging plans by media list size, assuming a published URL is discoverable, relying on screenshots, and treating China as one single media audience."
+  - q: "If my press release is widely distributed in China, will journalists write original stories about it?"
+    a: "Not automatically. The article explains syndication can create broad public availability, but journalist coverage requires additional editorial interest. If the objective is interviews or original reporting, media relations activity may be needed in addition to distribution."
+  - q: "Is a bigger media list always a better media plan for China?"
+    a: "No. The article warns large distribution lists can mix highly relevant media, low-relevance media, syndicated pages, duplicate properties, and different page types. Media selection should start with the story and audience, not the target number of logos."
 ---
 
 International PR teams are usually experienced buyers of media services. The problem is not a lack of communications knowledge.

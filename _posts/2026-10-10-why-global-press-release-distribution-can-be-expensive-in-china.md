@@ -13,6 +13,13 @@ tags:
   - China Media
   - Global Newswire
   - PR Cost
+faq:
+  - q: "Why is press release distribution in China so expensive through global newswires?"
+    a: "Because global providers charge for more than the Chinese placements — international account management, centralized billing, multilingual support, distribution infrastructure, compliance processes, and multi-market coordination. The article suggests asking which parts of the price are useful for your specific campaign."
+  - q: "Is a 100-placement China package better value than a 20-placement package?"
+    a: "Not automatically. The article says the comparison should include page type, relevance, accessibility, editorial process, verifiability, and campaign fit, because two packages can both claim China distribution while delivering very different page types."
+  - q: "When is a global newswire worth the higher cost for China distribution?"
+    a: "The article says a global provider may be the better choice when a company needs simultaneous multi-country distribution, centralized procurement, one globally recognized vendor, consolidated reporting, or one workflow across several languages. For China-only campaigns with detailed media needs, a local partner may be more efficient."
 ---
 
 For an overseas company, buying press release distribution in China can be surprisingly expensive.

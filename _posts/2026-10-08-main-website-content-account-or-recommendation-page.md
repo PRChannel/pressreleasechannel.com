@@ -12,6 +12,13 @@ tags:
   - Media Placement
   - China Media
   - Media Verification
+faq:
+  - q: "What is the difference between a main-site page and a content account placement in China?"
+    a: "A main-site page is hosted within the media organization's primary web environment, while a content account operates on a larger content platform with a different technical environment. Neither is automatically invalid, but the placement should be described accurately, and buyers should ask about the actual domain and how the publisher identity is displayed."
+  - q: "Two media placements show the same Chinese media brand — are they the same product?"
+    a: "Not necessarily. The article says a placement should be evaluated at several levels: media brand, actual domain, page type, publishing account, regional or national scope, and recommendation status. The brand name alone cannot answer all of these questions."
+  - q: "Can a recommended article on a Chinese media site lose its recommendation later?"
+    a: "Yes. Recommendation is a separate layer from publication and can be time-sensitive — a page that was featured for several hours may later exist only as a normal article page. If recommendation is sold as part of a package, ask how it can be verified."
 ---
 Two Chinese media placements can display the same recognizable brand name and still represent different products.
 

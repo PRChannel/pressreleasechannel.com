@@ -12,6 +12,13 @@ tags:
   - Editorial Review
   - Press Release Distribution
   - China Media
+faq:
+  - q: "Does press release distribution in China guarantee publication?"
+    a: "No. Distribution describes the submission and placement process, but the final publication decision may still depend on editorial review. Outlets can reject releases for reasons including irrelevance, promotional tone, unsupported claims, restricted topics, or changed publishing policies."
+  - q: "What support do I get if my published article disappears from a Chinese media site?"
+    a: "The article notes media pages may be removed, redesigned, or restructured, and that any explicit support period should be understood before purchase. It states PR Channel's policy that where a resource has an explicit support period, that period applies; otherwise the default support period is one month."
+  - q: "If a Chinese media outlet publishes my release, will it also get homepage or app recommendation?"
+    a: "Not automatically. Homepage recommendation, app recommendation, prominent channel placement, large readership, and social distribution are separate outcomes from publication. If recommendation is included in a package, the method of verification should be explained."
 ---
 No. Press release distribution in China does not automatically guarantee publication on every selected media outlet.
 

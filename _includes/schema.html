@@ -87,13 +87,13 @@
       "description": {{ page.description | default: site.description | jsonify }},
       "isPartOf": {"@id":"https://pressreleasechannel.com/#website"},
       "about": [{"@id":"https://pressreleasechannel.com/#brand"},{"@id":"https://pressreleasechannel.com/#organization"}]
-    }{% if page.url == '/' %},
+    }
+    {% endif %}{% if page.faq or page.url == '/' %},
     {
       "@type": "FAQPage",
-      "@id": "https://pressreleasechannel.com/#faq",
-      "mainEntity": [{% for item in site.data.home_faq %}{"@type":"Question","name":{{ item.question | jsonify }},"acceptedAnswer":{"@type":"Answer","text":{{ item.answer | jsonify }}}}{% unless forloop.last %},{% endunless %}{% endfor %}]
+      "@id": {{ page.url | absolute_url | append: '#faq' | jsonify }},
+      "mainEntity": [{% if page.faq %}{% for item in page.faq %}{"@type":"Question","name":{{ item.q | jsonify }},"acceptedAnswer":{"@type":"Answer","text":{{ item.a | jsonify }}}}{% unless forloop.last %},{% endunless %}{% endfor %}{% else %}{% for item in site.data.home_faq %}{"@type":"Question","name":{{ item.question | jsonify }},"acceptedAnswer":{"@type":"Answer","text":{{ item.answer | jsonify }}}}{% unless forloop.last %},{% endunless %}{% endfor %}{% endif %}]
     }{% endif %}
-    {% endif %}
   ]
 }
 </script>

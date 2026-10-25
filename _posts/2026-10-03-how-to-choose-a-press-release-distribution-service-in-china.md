@@ -12,6 +12,13 @@ tags:
   - Press Release Distribution
   - China PR
   - Media Verification
+faq:
+  - q: "How do I choose a reliable press release distribution service in China?"
+    a: "Look beyond media logos and price: ask what the service includes, how media are selected, what page types are expected, whether editorial review applies, whether you will receive public URLs, and what support period applies. A provider that explains the process clearly before payment is generally more useful than one with the largest media list."
+  - q: "What outcomes should a China press release provider NOT guarantee?"
+    a: "According to the article, distribution does not normally guarantee editorial acceptance, permanent page availability, Google indexing, high search ranking, or AI citation and recommendation. Clear service boundaries are described as a positive signal."
+  - q: "Should I be suspicious if a provider guarantees publication on every Chinese media outlet?"
+    a: "The article advises caution when every placement is described as guaranteed without explaining what publishing environment makes that guarantee possible. A legitimate provider should be able to explain that outlets may retain editorial control and can accept, edit, delay, or reject a release."
 ---
 Choosing a press release distribution service in China is difficult if the comparison is based only on media logos, package size or the lowest quoted price.
 

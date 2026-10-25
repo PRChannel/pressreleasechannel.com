@@ -13,6 +13,13 @@ tags:
   - Press Release Distribution
   - Overseas Brands
   - Media Buying
+faq:
+  - q: "What should I ask a China press release distribution provider before paying?"
+    a: "The article lists ten questions, including what is being distributed, which media categories are included, what the actual publishing domains are, whether publication is guaranteed, how recommendation claims are verified, what the report contains, and what support applies after publication."
+  - q: "What should a China media coverage report include at minimum?"
+    a: "At minimum, ask for media name, live URL, and publication date. A stronger report may also include page type, media category, publication status, accessibility notes, and distinctions between editorial and syndicated placements."
+  - q: "Can a China PR provider guarantee Google indexing or AI citation for my release?"
+    a: "The article advises being cautious if a provider says yes. Publication does not automatically guarantee Google indexing, Baidu indexing, ranking, AI retrieval, or AI citation — those are separate outcomes from publication."
 ---
 
 Buying press release distribution in Mainland China can be difficult for an overseas brand because much of the media environment is unfamiliar.

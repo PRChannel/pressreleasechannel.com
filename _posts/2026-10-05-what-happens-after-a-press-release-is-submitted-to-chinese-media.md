@@ -12,6 +12,13 @@ tags:
   - Editorial Review
   - China Media
   - Press Release Distribution
+faq:
+  - q: "What happens after I submit a press release to Chinese media?"
+    a: "The release is matched to selected media, undergoes editorial review, may be edited or sent back for revisions, and can be accepted or rejected. The article summarizes the process as: submission → review → possible revision → acceptance or rejection → publication → verification."
+  - q: "Why do some Chinese media placements take longer to publish than others?"
+    a: "Publication timing varies because of editorial schedules, weekends, holidays, or major news events. The article advises companies planning a launch not to assume all media will publish at the same minute and to discuss timing before distribution if it is critical."
+  - q: "What should I keep for my records after my press release is published in China?"
+    a: "Save the final published URL, publication date, media name, page type, a copy or screenshot if needed, and any agreed support period. The article says this creates a clearer record than simply keeping the original media list."
 ---
 For overseas companies, the period after a press release is submitted can feel unclear.
 

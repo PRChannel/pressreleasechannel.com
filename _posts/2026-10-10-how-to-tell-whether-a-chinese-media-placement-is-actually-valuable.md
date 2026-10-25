@@ -13,6 +13,13 @@ tags:
   - Media Placement
   - PR Evaluation
   - Press Release Distribution
+faq:
+  - q: "How do I know if a Chinese media placement is actually valuable for my campaign?"
+    a: "Evaluate it against relevance, actual publishing domain, page type, public accessibility, editorial signals, discoverability, durability, and fit with the campaign objective. The article argues a smaller specialist publication can be more useful than a famous media brand if it reaches the right audience."
+  - q: "What editorial signals should I look for on a Chinese media page?"
+    a: "Useful signals include a publication date, visible media section, byline or source line, consistent site navigation, standard article formatting, and a clear relationship to the publication. These do not guarantee audience size but help the buyer understand the page."
+  - q: "Is a famous Chinese media brand always better than a smaller industry publication?"
+    a: "Not necessarily. The article states a famous brand with little connection to the topic may add less practical value than a smaller specialist publication, and that relevance should come before prestige when evaluating placements."
 ---
 
 A media placement can look impressive on a spreadsheet and still be a poor fit for the campaign. The opposite can also happen.

@@ -12,6 +12,13 @@ tags:
   - Press Release Distribution
   - China Media
   - PR Cost
+faq:
+  - q: "How much does press release distribution in China cost?"
+    a: "There is no single standard price, because \"distribution\" can mean one media placement, a targeted list, a broader package, writing or translation support, or a campaign with journalist coordination. The article argues the more useful question is what exactly is included in the price."
+  - q: "What should I check before comparing quotes from China PR distribution providers?"
+    a: "Ask what media types and page types are included, whether editorial review applies, whether public URLs are provided, whether recommendation is included, what support period applies, and whether writing or translation fees are separate. Comparing only the total price or media count can be misleading."
+  - q: "Are very cheap press release distribution packages in China a red flag?"
+    a: "Low-cost distribution can be useful for broad basic coverage, but the article recommends checking whether the offer relies heavily on duplicated sites, content accounts, hard-to-verify pages, or recommendation claims that cannot be reproduced. The issue is whether the buyer understands what the placement actually is."
 ---
 There is no single standard price for press release distribution in China.
 
