@@ -12,7 +12,8 @@
     "result": "Individual verified URLs / page-type classification",
     "status": "Verified",
     "verified": "2026-10-11",
-    "notes": "China-focused local media matching, manual submission, verified publishing URLs and placement-type classification."
+    "notes": "China-focused local media matching, manual submission, verified publishing URLs and placement-type classification.",
+    "subpage": "/press-release-distribution-china/"
   },
   {
     "name": "EIN Presswire",
@@ -59,7 +60,8 @@
     "result": "Newswire distribution",
     "status": "Verified",
     "verified": "2026-10-11",
-    "notes": "Global corporate and financial news distribution service; pricing is generally quote-based."
+    "notes": "Global corporate and financial news distribution service; pricing is generally quote-based.",
+    "subpage": "/press-release-distribution-services/business-wire-china/"
   },
   {
     "name": "GlobeNewswire",
@@ -90,7 +92,8 @@
     "result": "Network distribution / reporting",
     "status": "Verified",
     "verified": "2026-10-11",
-    "notes": "Tiered paid distribution with online, national and international options; reporting includes published-site visibility."
+    "notes": "Tiered paid distribution with online, national and international options; reporting includes published-site visibility.",
+    "subpage": "/press-release-distribution-services/newswire-com-china/"
   },
   {
     "name": "ACCESS Newswire",
@@ -105,7 +108,8 @@
     "result": "Newswire distribution / analytics",
     "status": "Verified",
     "verified": "2026-10-11",
-    "notes": "Per-release distribution plus PR software subscriptions; international markets are available by quote."
+    "notes": "Per-release distribution plus PR software subscriptions; international markets are available by quote.",
+    "subpage": "/press-release-distribution-services/access-newswire-china/"
   },
   {
     "name": "IssueWire",
@@ -120,7 +124,8 @@
     "result": "Online distribution / pickup report",
     "status": "Verified",
     "verified": "2026-10-11",
-    "notes": "Low-cost self-service model with tiered distribution and online posting reports."
+    "notes": "Low-cost self-service model with tiered distribution and online posting reports.",
+    "subpage": "/press-release-distribution-services/issuewire-china/"
   },
   {
     "name": "PRLog",
@@ -135,7 +140,8 @@
     "result": "Public PR page / optional distribution",
     "status": "Verified",
     "verified": "2026-10-11",
-    "notes": "Free public press release publishing with paid package upgrades. Useful as a public information node rather than China media placement."
+    "notes": "Free public press release publishing with paid package upgrades. Useful as a public information node rather than China media placement.",
+    "subpage": "/press-release-distribution-services/prlog-china/"
   },
   {
     "name": "openPR",
@@ -150,7 +156,8 @@
     "result": "Public PR page / distribution options",
     "status": "Verified",
     "verified": "2026-10-11",
-    "notes": "International public press release publishing platform. Treat public posting separately from editorial media coverage."
+    "notes": "International public press release publishing platform. Treat public posting separately from editorial media coverage.",
+    "subpage": "/press-release-distribution-services/openpr-china/"
   },
   {
     "name": "PR.com",
@@ -165,7 +172,8 @@
     "result": "Online distribution / syndication",
     "status": "Verified",
     "verified": "2026-10-11",
-    "notes": "Press release distribution with multiple distribution and syndication features."
+    "notes": "Press release distribution with multiple distribution and syndication features.",
+    "subpage": "/press-release-distribution-services/pr-com-china/"
   },
   {
     "name": "eReleases",
@@ -180,7 +188,8 @@
     "result": "Newswire-powered distribution",
     "status": "Verified",
     "verified": "2026-10-11",
-    "notes": "Managed paid distribution with writing and additional targeting options."
+    "notes": "Managed paid distribution with writing and additional targeting options.",
+    "subpage": "/press-release-distribution-services/ereleases-china/"
   },
   {
     "name": "TMX Newsfile",
@@ -195,7 +204,8 @@
     "result": "Newswire / investor distribution",
     "status": "Verified",
     "verified": "2026-10-11",
-    "notes": "Global press release and disclosure service with editorial oversight and financial-platform distribution."
+    "notes": "Global press release and disclosure service with editorial oversight and financial-platform distribution.",
+    "subpage": "/press-release-distribution-services/tmx-newsfile-china/"
   },
   {
     "name": "Send2Press",
@@ -210,7 +220,8 @@
     "result": "Network distribution / media push",
     "status": "Verified",
     "verified": "2026-10-11",
-    "notes": "Pay-per-release model with targeted editor outreach and syndication options."
+    "notes": "Pay-per-release model with targeted editor outreach and syndication options.",
+    "subpage": "/press-release-distribution-services/send2press-china/"
   },
   {
     "name": "Pressat",
@@ -225,7 +236,8 @@
     "result": "Syndication / media subscribers / analytics",
     "status": "Verified",
     "verified": "2026-10-11",
-    "notes": "UK-focused service with pay-as-you-go and subscription packages."
+    "notes": "UK-focused service with pay-as-you-go and subscription packages.",
+    "subpage": "/press-release-distribution-services/pressat-china/"
   },
   {
     "name": "Presswire",
@@ -240,7 +252,8 @@
     "result": "Distribution / online syndication",
     "status": "Verified",
     "verified": "2026-10-11",
-    "notes": "Offers individual press release distribution, tracking and online syndication services."
+    "notes": "Offers individual press release distribution, tracking and online syndication services.",
+    "subpage": "/press-release-distribution-services/presswire-china/"
   },
   {
     "name": "PRLeap",
@@ -255,7 +268,8 @@
     "result": "Guaranteed network distribution",
     "status": "Verified",
     "verified": "2026-10-11",
-    "notes": "Pay-as-you-go and annual plans with guaranteed distribution to participating outlets and a publicity report."
+    "notes": "Pay-as-you-go and annual plans with guaranteed distribution to participating outlets and a publicity report.",
+    "subpage": "/press-release-distribution-services/prleap-china/"
   },
   {
     "name": "The News Guy",
@@ -270,7 +284,8 @@
     "result": "Network distribution / reporting",
     "status": "Verified",
     "verified": "2026-10-11",
-    "notes": "One-time press release packages with broader international distribution at higher tiers."
+    "notes": "One-time press release packages with broader international distribution at higher tiers.",
+    "subpage": "/press-release-distribution-services/the-news-guy-china/"
   },
   {
     "name": "PR Underground",
@@ -285,7 +300,8 @@
     "result": "Syndication / coverage report",
     "status": "Verified",
     "verified": "2026-10-11",
-    "notes": "Basic and national distribution tiers with pickup reporting and syndication."
+    "notes": "Basic and national distribution tiers with pickup reporting and syndication.",
+    "subpage": "/press-release-distribution-services/pr-underground-china/"
   },
   {
     "name": "King Newswire",
@@ -300,7 +316,8 @@
     "result": "Guaranteed-placement packages",
     "status": "Verified",
     "verified": "2026-10-11",
-    "notes": "Low-cost packages advertising fixed placement counts. Buyers should verify the publishing environments behind those placements."
+    "notes": "Low-cost packages advertising fixed placement counts. Buyers should verify the publishing environments behind those placements.",
+    "subpage": "/press-release-distribution-services/king-newswire-china/"
   },
   {
     "name": "24-7 Press Release",
@@ -315,7 +332,8 @@
     "result": "Public posting / distribution tiers",
     "status": "Verified",
     "verified": "2026-10-11",
-    "notes": "Multiple paid tiers from simple on-site posting to broader distribution."
+    "notes": "Multiple paid tiers from simple on-site posting to broader distribution.",
+    "subpage": "/press-release-distribution-services/24-7-press-release-china/"
   },
   {
     "name": "NewswireJet",
@@ -330,7 +348,8 @@
     "result": "Network distribution",
     "status": "Verified",
     "verified": "2026-10-11",
-    "notes": "Tiered distribution packages with discounts for multiple releases."
+    "notes": "Tiered distribution packages with discounts for multiple releases.",
+    "subpage": "/press-release-distribution-services/newswirejet-china/"
   },
   {
     "name": "PRWeb",
@@ -345,7 +364,8 @@
     "result": "Online syndication / journalist lists",
     "status": "Verified",
     "verified": "2026-10-11",
-    "notes": "Online syndication service with higher tiers adding broader distribution features."
+    "notes": "Online syndication service with higher tiers adding broader distribution features.",
+    "subpage": "/press-release-distribution-services/prweb-china/"
   },
   {
     "name": "WebWire",
@@ -360,7 +380,8 @@
     "result": "Public posting / wire / targeted media",
     "status": "Verified",
     "verified": "2026-10-11",
-    "notes": "Products range from direct web posting to targeted media and wire distribution."
+    "notes": "Products range from direct web posting to targeted media and wire distribution.",
+    "subpage": "/press-release-distribution-services/webwire-china/"
   },
   {
     "name": "1888PressRelease",
@@ -375,7 +396,8 @@
     "result": "Public PR page / enhanced distribution",
     "status": "Verified",
     "verified": "2026-10-11",
-    "notes": "Free press release submission plus paid enhancement and distribution tiers."
+    "notes": "Free press release submission plus paid enhancement and distribution tiers.",
+    "subpage": "/press-release-distribution-services/1888pressrelease-china/"
   },
   {
     "name": "PR Fire",
@@ -390,7 +412,8 @@
     "result": "Journalist/editor outreach",
     "status": "Verified",
     "verified": "2026-10-11",
-    "notes": "Managed targeted outreach with custom-built media lists."
+    "notes": "Managed targeted outreach with custom-built media lists.",
+    "subpage": "/press-release-distribution-services/pr-fire-china/"
   },
   {
     "name": "ACN Newswire",
@@ -405,7 +428,8 @@
     "result": "Newswire / financial platforms",
     "status": "Verified",
     "verified": "2026-10-11",
-    "notes": "Asia-focused multilingual press release and financial distribution service."
+    "notes": "Asia-focused multilingual press release and financial distribution service.",
+    "subpage": "/press-release-distribution-services/acn-newswire-china/"
   },
   {
     "name": "Media OutReach Newswire",
@@ -420,7 +444,8 @@
     "result": "Newswire distribution",
     "status": "Needs review",
     "verified": "—",
-    "notes": "Asia-oriented newswire provider. Current China-specific delivery details should be rechecked before public launch."
+    "notes": "Asia-oriented newswire provider. Current China-specific delivery details should be rechecked before public launch.",
+    "subpage": "/press-release-distribution-services/media-outreach-china/"
   },
   {
     "name": "Linking News",
@@ -435,7 +460,8 @@
     "result": "Distribution / syndication",
     "status": "Needs review",
     "verified": "—",
-    "notes": "Tracked provider; current pricing and China delivery details still need manual verification."
+    "notes": "Tracked provider; current pricing and China delivery details still need manual verification.",
+    "subpage": "/press-release-distribution-services/linking-news-china/"
   },
   {
     "name": "ReleaseWire",
@@ -450,6 +476,7 @@
     "result": "Newswire / CRM-integrated distribution",
     "status": "Verified",
     "verified": "2026-10-11",
-    "notes": "PR platform combining distribution, hosted newsroom and CRM-style functions."
+    "notes": "PR platform combining distribution, hosted newsroom and CRM-style functions.",
+    "subpage": "/press-release-distribution-services/releasewire-china/"
   }
 ]
