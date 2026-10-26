@@ -2,6 +2,7 @@
 title: "Why 200 Media Pickups May Not Mean 200 Editorial Placements"
 description: "Why large pickup counts can include syndication, aggregation and duplicate distribution, and how buyers can evaluate the real meaning of a press release coverage report."
 date: 2026-10-10 15:13:00 +0800
+last_modified_at: 2026-10-26
 author: Yang Xiaole
 category: Media Placement
 hub: media-placement-verification
@@ -93,3 +94,5 @@ The better question is: **What kinds of placements are inside that number?**
 PR Channel focuses on helping buyers distinguish between media names, actual publishing pages and different placement types in China.
 
 For more detail, see [How to Verify a Chinese Media Placement Before You Pay](https://pressreleasechannel.com/china-media-guide/how-to-verify-a-chinese-media-placement-before-you-pay/).
+
+And for the deliberately inflated versions of this pattern — fixed placement counts built from low-cost publishing environments — see [Fake Media Placement in China](https://pressreleasechannel.com/china-media-guide/fake-media-placement-china-media-list-scams/), or compare providers in the [Global Press Release Distribution Directory](https://pressreleasechannel.com/press-release-distribution-services/), where each entry links to a page-type-level China review.

@@ -2,7 +2,7 @@
 title: "Main Website, Content Account or Recommendation Page: What Are You Actually Buying?"
 description: "How overseas companies can distinguish main-site media pages, content accounts, regional pages and recommendation placements in China before comparing media offers."
 date: 2026-10-08
-last_modified_at: 2026-10-10
+last_modified_at: 2026-10-26
 author: Yang Xiaole
 category: Media Placement
 hub: media-placement-verification
@@ -134,3 +134,5 @@ Ask:
 > **“What type of placement am I actually getting?”**
 
 That question is more useful for pricing, verification and long-term record keeping.
+
+The same brand-versus-environment distinction applies to social platforms: WeChat and Weibo publishing runs on account-based environments with their own verification logic, covered in [WeChat and Weibo Press Release Publishing in China](https://pressreleasechannel.com/china-media-guide/wechat-weibo-press-release-publishing-china/).

@@ -2,7 +2,7 @@
 title: "How to Verify a Chinese Media Placement Before You Pay"
 description: "A practical checklist for overseas companies evaluating Chinese media placements before paying, including domain, page type, accessibility and recommendation claims."
 date: 2026-10-07
-last_modified_at: 2026-10-10
+last_modified_at: 2026-10-26
 author: Yang Xiaole
 category: Media Placement
 hub: media-placement-verification
@@ -127,3 +127,5 @@ Before buying a Chinese media placement, confirm:
 9. whether search or AI visibility is being presented as a separate outcome.
 
 The clearest buying decision comes from understanding the placement itself before asking what secondary visibility it may create.
+
+For the dishonest end of this spectrum — fabricated screenshots, lookalike domains and padded media lists — see [Fake Media Placement in China: How Media List Scams Work](https://pressreleasechannel.com/china-media-guide/fake-media-placement-china-media-list-scams/).
