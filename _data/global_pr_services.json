@@ -27,7 +27,8 @@
     "result": "Network distribution / syndication",
     "status": "Verified",
     "verified": "2026-10-11",
-    "notes": "Pay-as-you-go global newswire model. Country and industry targeting are available; downstream pickup can depend on relevance."
+    "notes": "Pay-as-you-go global newswire model. Country and industry targeting are available; downstream pickup can depend on relevance.",
+    "subpage": "/press-release-distribution-services/ein-presswire-china/"
   },
   {
     "name": "PR Newswire",
@@ -42,7 +43,8 @@
     "result": "Newswire distribution",
     "status": "Verified",
     "verified": "2026-10-11",
-    "notes": "Large global newswire network with regional and industry distribution options."
+    "notes": "Large global newswire network with regional and industry distribution options.",
+    "subpage": "/press-release-distribution-services/pr-newswire-china/"
   },
   {
     "name": "Business Wire",
@@ -72,7 +74,8 @@
     "result": "Newswire distribution / syndication",
     "status": "Verified",
     "verified": "2026-10-11",
-    "notes": "Global distribution across many countries and languages with regional, industry and financial targeting."
+    "notes": "Global distribution across many countries and languages with regional, industry and financial targeting.",
+    "subpage": "/press-release-distribution-services/globenewswire-china/"
   },
   {
     "name": "Newswire.com",

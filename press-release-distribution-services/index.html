@@ -52,7 +52,7 @@ permalink: /press-release-distribution-services/
       <tbody>
       {% for p in site.data.global_pr_services %}
       <tr class="directory-provider{% if p.name == 'PR Channel' %} is-pr-channel{% endif %}" data-model="{{ p.model | escape }}" data-china="{{ p.china | escape }}" data-free="{{ p.free | escape }}" data-status="{{ p.status | escape }}">
-        <td class="directory-provider-name"><a href="{{ p.url }}" target="_blank" rel="noopener"><strong>{{ p.name }}</strong> ↗</a><small>{{ p.country }}</small></td>
+        <td class="directory-provider-name"><a href="{{ p.url }}" target="_blank" rel="noopener"><strong>{{ p.name }}</strong> ↗</a><small>{{ p.country }}</small>{% if p.subpage %}<small><a href="{{ p.subpage }}">→ China review</a></small>{% endif %}</td>
         <td>{{ p.model }}</td><td>{{ p.price }}</td><td>{{ p.free }}</td><td>{{ p.china }}</td><td>{{ p.local }}</td><td>{{ p.specific }}</td><td>{{ p.result }}</td>
         <td><span class="directory-status{% if p.status == 'Verified' %} is-verified{% else %} is-pending{% endif %}">{{ p.status }}</span><small>{{ p.verified }}</small></td>
         <td class="directory-notes">{{ p.notes }}</td>
