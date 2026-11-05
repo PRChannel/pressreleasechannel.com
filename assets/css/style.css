@@ -780,3 +780,16 @@ main .submit-page a.submit-btn:active {
 .answer-box li{margin-bottom:10px;font-size:16px;line-height:1.62}
 .answer-note{font-size:13.5px;color:var(--muted);margin:0;padding-top:13px;border-top:1px solid #e2e7e8}
 @media(max-width:640px){.section-answer{padding-top:24px}.answer-box{padding:20px 18px}.answer-lead{font-size:17px}.answer-box li{font-size:15.5px}}
+
+/* PR agencies in China — directory table */
+.agency-table-wrap{overflow-x:auto;border:1px solid var(--line)}
+.agency-table{border-collapse:collapse;width:100%;min-width:900px}
+.agency-table th,.agency-table td{border-bottom:1px solid var(--line);padding:15px 18px;text-align:left;vertical-align:top;font-size:15px;line-height:1.6}
+.agency-table tbody tr:last-child td{border-bottom:0}
+.agency-table thead th{background:#f4f6f5;font-size:12px;font-weight:800;letter-spacing:.05em;text-transform:uppercase;color:#44545c;white-space:nowrap}
+.agency-table td:first-child{min-width:210px}
+.agency-table td:nth-child(3){white-space:nowrap;color:#44545c}
+.agency-table td:nth-child(4){color:#53636b}
+.agency-table a{font-size:13px;font-weight:700}
+.agency-table strong{font-size:16px}
+@media(max-width:640px){.agency-table th,.agency-table td{padding:12px 12px;font-size:14px}}

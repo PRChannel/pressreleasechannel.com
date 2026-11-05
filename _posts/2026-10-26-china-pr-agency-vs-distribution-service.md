@@ -73,6 +73,8 @@ If the agency route is the right one, evaluate it with the same discipline:
 * **Written deliverables and reporting.** Retainer work drifts without defined outputs; agree on what each month produces.
 * **Auditable media claims.** Any media relationship claim should survive the same checks as a purchased placement. Claims that resist verification follow the patterns in [fake media placement and media list scams](/china-media-guide/fake-media-placement-china-media-list-scams/).
 
+For the shortlist itself — which firms operate in China, what type each one is, and the entity checks to run before paying a retainer — see [PR agencies in China](/pr-agencies-in-china/).
+
 ## The bottom line
 
 "China PR agency" and "China press release distribution" overlap in language but not in product. Agencies sell ongoing capability; distribution services sell verifiable announcement coverage. Matching the purchase to the actual need — and applying URL-level verification to either — prevents both overspending on retainers for what a single release achieves, and under-delivering on a market entry that genuinely needed agency capacity.
