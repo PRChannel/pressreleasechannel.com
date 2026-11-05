@@ -759,3 +759,14 @@ main .submit-page a.submit-btn:active {
 .china-directory-toolbar-v2{grid-template-columns:1.55fr .85fr .85fr .85fr;}
 @media(max-width:900px){.china-directory-toolbar-v2{grid-template-columns:1fr 1fr;}.environment-list>div{grid-template-columns:110px 1fr;}}
 @media(max-width:620px){.china-directory-toolbar-v2{grid-template-columns:1fr;}}
+
+/* Submit page: review boundaries (what we do not accept) */
+.submit-reject-lead{max-width:820px;color:#5d686e;margin:0 0 30px;font-size:16px;line-height:1.7}
+.submit-reject{display:grid;grid-template-columns:repeat(2,1fr);border-top:2px solid #182328;border-left:1px solid var(--line)}
+.submit-reject-item{padding:22px 24px;border-right:1px solid var(--line);border-bottom:1px solid var(--line)}
+.submit-reject-item h3{font-size:18px;margin:0 0 8px;padding-left:22px;position:relative;line-height:1.35}
+.submit-reject-item h3:before{content:"\00d7";position:absolute;left:0;top:-2px;color:#a8503f;font-weight:700;font-size:21px}
+.submit-reject-item p{margin:0;color:#5d686e;font-size:15px;line-height:1.65}
+.submit-reject-foot{margin-top:28px;padding:20px 22px;border-left:3px solid #a8503f;background:#fbf7f5;color:#536167;font-size:15px;line-height:1.7;max-width:900px}
+.submit-reject-foot strong{color:#182328}
+@media(max-width:860px){.submit-reject{grid-template-columns:1fr}}
