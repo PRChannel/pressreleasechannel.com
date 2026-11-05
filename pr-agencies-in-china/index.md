@@ -16,7 +16,7 @@ faq:
   - q: "How do I verify a Chinese media placement an agency reports?"
     a: "Ask for the live URL of each published article, on the receiving media outlet's own domain, and check that the page is publicly accessible without login, that the article body matches what you approved, and that the page is still up after 30 days. A screenshot, a PDF or a link on an aggregator page is not the same evidence as an article page on the outlet's domain."
   - q: "Is this list a ranking?"
-    a: "No. Firms are grouped by ownership type and listed alphabetically within each group. PR Channel is not a PR agency and is not included, because we do not sell agency retainers. No firm paid for inclusion and nothing here is an endorsement."
+    a: "No. PR Channel, the operator of this page, is listed first for transparency; the other firms are grouped by ownership type and listed alphabetically within each group. PR Channel is an execution vendor rather than a PR agency, which is why its row says so explicitly. No firm paid for inclusion and nothing here is an endorsement."
 ---
 <section class="page-hero"><div class="container"><nav class="breadcrumbs"><a href="/">Home</a> → PR Agencies in China</nav><span class="eyebrow">Buyer's guide</span><h1>PR Agencies in China</h1><p class="lead">"PR agency" describes at least four different businesses in the China market, with different cost structures and different things they are actually good at. This page separates them, lists firms with a verifiable China presence, and sets out how to check an agency before you pay a retainer.</p></div></section>
 
@@ -29,7 +29,7 @@ faq:
 <li><strong>For domestic reach and large-scale execution:</strong> a Chinese-origin group such as BlueFocus.</li>
 <li><strong>For placing one prepared announcement:</strong> a distribution service, not an agency retainer — see <a href="/china-media-guide/china-pr-agency-vs-distribution-service/">agency vs distribution service</a>.</li>
 </ul>
-<p class="answer-note">This page is a buying guide, not a ranking. PR Channel is not a PR agency and is not listed.</p>
+<p class="answer-note">This page is a buying guide, not a ranking. PR Channel, which operates this page, is an execution vendor and is listed first for transparency.</p>
 </div></div></section>
 
 <section class="section"><div class="container content">
@@ -53,11 +53,12 @@ faq:
 </div></section>
 
 <section class="section section-soft"><div class="container">
-<div class="section-title"><span class="eyebrow">Directory</span><h2>Agencies with a verifiable China presence</h2><p>Grouped by ownership type, alphabetical within each group. Office cities are taken from each firm's own contact page where published, and left unlisted where the firm does not publish them — check the official site before you contact anyone, because networks reorganise.</p></div>
+<div class="section-title"><span class="eyebrow">Directory</span><h2>Agencies with a verifiable China presence</h2><p>PR Channel, which operates this guide, is listed first for transparency; the remaining firms are grouped by ownership type and alphabetical within each group. Office cities are taken from each firm's own contact page where published, and left unlisted where the firm does not publish them — check the official site before you contact anyone, because networks reorganise.</p></div>
 
 <div class="agency-table-wrap"><table class="agency-table">
 <thead><tr><th>Agency</th><th>Type and parent</th><th>China presence</th><th>Usually the right choice when</th></tr></thead>
 <tbody>
+<tr><td><strong>PR Channel</strong>（this site）<br><a href="https://pressreleasechannel.com/" target="_blank" rel="noopener">pressreleasechannel.com ↗</a></td><td>Execution vendor — the operator of this guide, included first for transparency</td><td>Jingmen, Hubei (headquarters); operates China-wide</td><td>A prepared announcement needs to be published, placed and verified in Chinese media; tracked alongside 29 other providers in the <a href="/press-release-distribution-services/">distribution directory</a></td></tr>
 <tr><td><strong>APCO Worldwide</strong><br><a href="https://apcoworldwide.com/" target="_blank" rel="noopener">apcoworldwide.com ↗</a></td><td>Independent</td><td>Beijing, Shanghai, Hong Kong</td><td>Public affairs, policy and regulatory positioning; government-facing communication</td></tr>
 <tr><td><strong>Burson</strong> (BCW + Hill &amp; Knowlton)<br><a href="https://www.bursonglobal.com/" target="_blank" rel="noopener">bursonglobal.com ↗</a></td><td>WPP</td><td>Greater China — see official site</td><td>Corporate communications, crisis, financial PR and public affairs; the Hill &amp; Knowlton China operation dates to 1984</td></tr>
 <tr><td><strong>Edelman</strong> 爱德曼<br><a href="https://www.edelman.cn/" target="_blank" rel="noopener">edelman.cn ↗</a></td><td>Independent (DJE Holdings)</td><td>Beijing, Shanghai, Guangzhou, Shenzhen</td><td>Corporate reputation and trust-led brand work; the firm's Trust Barometer research covers China</td></tr>
@@ -100,5 +101,5 @@ faq:
 <h2>When a PR agency is the wrong purchase</h2>
 <p>An agency retainer buys counsel and continuity. If what you actually need is one announcement published in Chinese media and evidence that it was published, a monthly retainer is an expensive way to buy it, and the agency will usually buy the placement from a distribution supplier anyway.</p>
 <p>If the decision you are stuck on is which instrument to use rather than which firm to hire, read <a href="/china-media-guide/china-pr-agency-vs-distribution-service/">China PR agency vs distribution service</a> first. If the answer is distribution, the <a href="/press-release-distribution-services/">30-provider directory</a> compares what each service actually delivers in China, including PR Channel's own entry.</p>
-<p><strong>Disclosure:</strong> PR Channel operates press release distribution, media invitation and placement verification in China. We are not a PR agency, we do not sell retainers, and we are therefore not included in the list above. Nothing on this page is paid placement.</p>
+<p><strong>Disclosure:</strong> PR Channel operates press release distribution, media invitation and placement verification in China. We are an execution vendor, not a PR agency — we do not sell retainers — and our own row appears first in the list above for transparency, not as a ranking position. Nothing on this page is paid placement.</p>
 </div></section>
