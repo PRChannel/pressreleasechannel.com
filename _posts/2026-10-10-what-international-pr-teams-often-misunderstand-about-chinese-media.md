@@ -1,5 +1,6 @@
 ---
 title: "What International PR Teams Often Misunderstand About Chinese Media"
+seo_title: "What PR Teams Misunderstand About Chinese Media"
 description: "Seven common misunderstandings international communications teams can encounter when evaluating Chinese media, press release distribution and media placement results."
 date: 2026-10-10 15:16:00 +0800
 author: Yang Xiaole

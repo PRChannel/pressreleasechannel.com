@@ -1,5 +1,6 @@
 ---
 title: "What Are You Actually Paying for When You Buy China Press Release Distribution?"
+seo_title: "What You Actually Pay for in China PR Distribution"
 description: "A buyer-focused breakdown of what a China press release distribution fee can include, from media selection and editorial submission to localization, verification and reporting."
 date: 2026-10-10 15:11:00 +0800
 author: Yang Xiaole

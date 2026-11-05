@@ -1,5 +1,6 @@
 ---
 title: "How to Tell Whether a Chinese Media Placement Is Actually Valuable"
+seo_title: "How to Tell If a China Media Placement Is Valuable"
 description: "A practical framework for evaluating Chinese media placements based on relevance, page type, accessibility, verifiability and campaign purpose rather than media name alone."
 date: 2026-10-10 15:14:00 +0800
 author: Yang Xiaole

@@ -1,6 +1,7 @@
 ---
 title: "Fake Media Placement in China: How Media List Scams Work and How to
   Avoid Them"
+seo_title: "Fake Media Placement in China: How the Scams Work"
 url_slug: fake-media-placement-china-media-list-scams
 permalink: /china-media-guide/fake-media-placement-china-media-list-scams/
 description: A field guide to fake media placement and media list scams in

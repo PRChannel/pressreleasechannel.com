@@ -13,6 +13,7 @@
       "@id": "https://pressreleasechannel.com/#organization",
       "name": {{ site.data.company.legal_name | jsonify }},
       "legalName": {{ site.data.company.legal_name | jsonify }},
+      "alternateName": ["PR Channel", "Channel PR", "PRChannel", "PR Channel China"],
       "foundingDate": {{ site.data.company.company_founded | jsonify }},
       "email": {{ site.data.company.email | jsonify }},
       "address": {"@type":"PostalAddress","addressLocality":"Jingmen","addressRegion":"Hubei","addressCountry":"CN"},
@@ -23,6 +24,7 @@
       "@type": "Brand",
       "@id": "https://pressreleasechannel.com/#brand",
       "name": {{ site.data.company.brand | jsonify }},
+      "alternateName": ["Channel PR", "PRChannel", "PR Channel China"],
       "url": "https://pressreleasechannel.com/",
       "slogan": "Be Seen. Be Trusted. Be Remembered.",
       "sameAs": [{{ site.data.company.official_brand_page | jsonify }},{{ site.data.company.google_sites | jsonify }},{{ site.data.company.substack | jsonify }},{{ site.data.company.medium | jsonify }}]

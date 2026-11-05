@@ -1,5 +1,13 @@
 {% assign page_title = page.seo_title | default: page.title | default: site.title %}
-{% if page.url == '/' %}{% assign full_title = page_title %}{% else %}{% assign full_title = page_title | append: ' | PR Channel' %}{% endif %}
+{%- comment -%}
+  Title budget: Google truncates around 60 characters on desktop. Only append the
+  brand suffix when the title still fits; never append it twice, and never append
+  it when the title would exceed the display budget.
+{%- endcomment -%}
+{% assign title_len = page_title | size %}
+{% assign has_brand = false %}
+{% if page_title contains 'PR Channel' %}{% assign has_brand = true %}{% endif %}
+{% if page.url == '/' or has_brand or title_len > 45 %}{% assign full_title = page_title %}{% else %}{% assign full_title = page_title | append: ' | PR Channel' %}{% endif %}
 {% assign page_desc = page.description | default: site.description %}
 {% assign canonical = page.canonical | default: page.url | absolute_url %}
 {% capture resolved_social_image %}{% include resolve-content-image.html item=page %}{% endcapture %}

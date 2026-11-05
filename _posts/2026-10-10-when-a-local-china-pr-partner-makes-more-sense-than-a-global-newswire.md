@@ -1,5 +1,6 @@
 ---
 title: "When a Local China PR Partner Makes More Sense Than a Global Newswire"
+seo_title: "Local China PR Partner vs Global Newswire"
 description: "A practical decision guide for overseas companies choosing between a local China PR partner and a global newswire for press release distribution and media execution."
 date: 2026-10-10 15:17:00 +0800
 last_modified_at: 2026-10-26

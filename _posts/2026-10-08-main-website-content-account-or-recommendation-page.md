@@ -1,5 +1,6 @@
 ---
 title: "Main Website, Content Account or Recommendation Page: What Are You Actually Buying?"
+seo_title: "Main Site vs Content Account vs Recommendation Page"
 description: "How overseas companies can distinguish main-site media pages, content accounts, regional pages and recommendation placements in China before comparing media offers."
 date: 2026-10-08
 last_modified_at: 2026-10-26
