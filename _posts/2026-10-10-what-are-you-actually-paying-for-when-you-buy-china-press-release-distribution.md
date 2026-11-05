@@ -105,4 +105,4 @@ Different providers bundle those elements differently. The best buyer is not the
 
 PR Channel focuses on making those distinctions clearer for overseas companies working with Chinese media.
 
-Read more in our guide to [press release distribution in China](https://pressreleasechannel.com/china-media-guide/how-press-release-distribution-works-in-china/).
+Read more in our guide to [press release distribution in China](https://pressreleasechannel.com/china-media-guide/how-press-release-distribution-works-in-china/) and the [China press release distribution cost reference](https://pressreleasechannel.com/china-media-guide/how-much-does-press-release-distribution-in-china-cost/). To judge the delivered result rather than the invoice, see [how we evaluate Chinese media placements](https://pressreleasechannel.com/how-we-evaluate-chinese-media-placements/).

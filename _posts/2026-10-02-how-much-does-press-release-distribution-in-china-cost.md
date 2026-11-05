@@ -158,3 +158,5 @@ That is why PR Channel does not treat a media count as a complete description of
 A useful quote should explain **what is being distributed, where it may be published, what type of placement is expected and what is not guaranteed**.
 
 For overseas companies, that level of clarity is more useful than a single “China press release distribution price” presented without context.
+
+Related reading: [why global press release distribution can be expensive in China](https://pressreleasechannel.com/china-media-guide/why-global-press-release-distribution-can-be-expensive-in-china/) explains what sits inside a global newswire quote, and [what you are actually paying for when you buy China press release distribution](https://pressreleasechannel.com/china-media-guide/what-are-you-actually-paying-for-when-you-buy-china-press-release-distribution/) breaks the invoice into its real components.

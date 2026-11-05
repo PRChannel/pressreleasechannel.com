@@ -98,8 +98,8 @@ Once these questions are answered, the price becomes much easier to evaluate.
 
 Global press release distribution can be expensive in China because the buyer may be paying for much more than local media placement. That does not make global newswires bad. Their scale, process and international infrastructure can be valuable.
 
-But when China is the only market that matters, a company should ask whether it needs a global distribution machine or a local partner that can explain and execute the Chinese part in greater detail.
+But when China is the only market that matters, a company should ask whether it needs a global distribution machine or [a local partner that can explain and execute the Chinese part in greater detail](https://pressreleasechannel.com/china-media-guide/when-a-local-china-pr-partner-makes-more-sense-than-a-global-newswire/).
 
 At PR Channel, our focus is not to replace every global distribution model. It is to help overseas companies understand the local Chinese media environment, select relevant placements and verify what they actually receive.
 
-For more background, see the [China Media Guide](https://pressreleasechannel.com/china-media-guide/).
+For the budget side of the same decision, see the [China press release distribution cost reference](https://pressreleasechannel.com/china-media-guide/how-much-does-press-release-distribution-in-china-cost/). For more background, see the [China Media Guide](https://pressreleasechannel.com/china-media-guide/).
