@@ -12,6 +12,8 @@ plugins:
 exclude:
   - README.md
   - ARTICLE_TEMPLATE.md
+  - ARTICLE_IMAGE_GUIDE.md
+  - ADMIN_LIVE_URL_FIX.md
   - Gemfile
   - Gemfile.lock
 collections: {}

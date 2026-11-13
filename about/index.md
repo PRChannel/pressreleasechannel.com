@@ -23,6 +23,8 @@ permalink: /about/
 
       <p>PR Channel primarily supports overseas companies that need to distribute factual business announcements through relevant Chinese media. The work can include media matching, editorial submission, page-type clarification and verification of the final published URL.</p>
 
+      <p>The brand is written <strong>PR Channel</strong>; it is also searched, and sometimes written, as <strong>Channel PR</strong> or <strong>PRChannel</strong>. All three refer to the same service operated by Jingmen Anmao Network Technology Co., Ltd.</p>
+
       <p>PR Channel focuses on helping companies understand not only whether content was published, but also where it appeared, what type of page was used and how the placement can be verified.</p>
 
       <h2>Related services</h2>
