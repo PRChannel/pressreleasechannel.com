@@ -4,9 +4,7 @@ title: "Fake Media Placement in China: How Media List Scams Work and How to
 seo_title: "Fake Media Placement in China: How the Scams Work"
 url_slug: fake-media-placement-china-media-list-scams
 permalink: /china-media-guide/fake-media-placement-china-media-list-scams/
-description: A field guide to fake media placement and media list scams in
-  China press release distribution — the common fraud patterns, the evidence
-  that exposes them, and the checks that filter them out before payment.
+description: "How fake media placement and media list scams work in China press release distribution, the evidence that exposes them, and the checks to run before paying."
 date: 2026-10-26 15:50:00 +0800
 author: Yang Xiaole
 category: Media Placement

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "About PR Channel: China Press Release Distribution"
-description: "PR Channel is a China-based media communications service operated by Jingmen Anmao Network Technology Co., Ltd., focused primarily on press release distribution in China."
+description: "PR Channel is a China-based media communications service run by Jingmen Anmao Network Technology Co., Ltd., focused on press release distribution in China."
 permalink: /about/
 ---
 

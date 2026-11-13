@@ -1,6 +1,6 @@
 ---
 title: "What a China Media Coverage Report Should Actually Show"
-description: "What overseas companies should expect from a useful China media coverage report, including URLs, domains, page types, dates, placement categories and verification notes."
+description: "What a useful China media coverage report should show: URLs, domains, page types, dates, placement categories and verification notes for each item."
 date: 2026-10-10 15:19:00 +0800
 author: Yang Xiaole
 category: Media Placement

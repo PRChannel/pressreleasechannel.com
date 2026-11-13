@@ -1,6 +1,6 @@
 ---
 title: "Why 200 Media Pickups May Not Mean 200 Editorial Placements"
-description: "Why large pickup counts can include syndication, aggregation and duplicate distribution, and how buyers can evaluate the real meaning of a press release coverage report."
+description: "Why large pickup counts can include syndication, aggregation and duplicates, and how buyers can read the real meaning of a coverage report."
 date: 2026-10-10 15:13:00 +0800
 last_modified_at: 2026-10-26
 author: Yang Xiaole

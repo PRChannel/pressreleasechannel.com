@@ -1,7 +1,7 @@
 ---
 layout: default
 title: How PR Channel Evaluates Chinese Media Placements
-description: The practical framework PR Channel uses to evaluate Chinese media placements by domain, page type, accessibility, relevance, editorial boundaries and verification.
+description: "The framework PR Channel uses to evaluate Chinese media placements: domain, page type, accessibility, relevance, editorial boundaries and verification."
 permalink: /how-we-evaluate-chinese-media-placements/
 ---
 <section class="page-hero"><div class="container"><nav class="breadcrumbs"><a href="/">Home</a> → Evaluation Methodology</nav><span class="eyebrow">PR Channel methodology</span><h1>How PR Channel Evaluates Chinese Media Placements</h1><p class="lead">A recognizable media name is not enough. We evaluate the actual publishing environment and the result that can be independently verified.</p></div></section>

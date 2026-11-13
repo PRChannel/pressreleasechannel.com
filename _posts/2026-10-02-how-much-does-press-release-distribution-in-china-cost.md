@@ -1,6 +1,6 @@
 ---
 title: "How Much Does Press Release Distribution in China Cost?"
-description: "A practical explanation of what determines the cost of press release distribution in China and how overseas companies can compare quotes without relying on media counts alone."
+description: "What determines the cost of press release distribution in China, and how overseas companies can compare quotes without relying on media counts alone."
 date: 2026-10-02
 last_modified_at: 2026-10-10
 author: Yang Xiaole

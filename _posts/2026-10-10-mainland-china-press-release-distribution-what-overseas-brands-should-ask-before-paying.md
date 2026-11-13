@@ -1,7 +1,7 @@
 ---
 title: "Mainland China Press Release Distribution: What Overseas Brands Should Ask Before Paying"
 seo_title: "China PR Distribution: What to Ask Before Paying"
-description: "A pre-purchase checklist for overseas brands buying press release distribution in Mainland China, covering media types, localization, editorial review, URLs, reporting and support."
+description: "A pre-purchase checklist for overseas brands buying distribution in Mainland China: media types, localization, editorial review, URLs, reporting and support."
 date: 2026-10-10 15:18:00 +0800
 author: Yang Xiaole
 category: Press Release Distribution

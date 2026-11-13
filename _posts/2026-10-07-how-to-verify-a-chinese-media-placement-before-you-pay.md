@@ -1,6 +1,6 @@
 ---
 title: "How to Verify a Chinese Media Placement Before You Pay"
-description: "A practical checklist for overseas companies evaluating Chinese media placements before paying, including domain, page type, accessibility and recommendation claims."
+description: "A checklist for evaluating Chinese media placements before paying: publishing domain, page type, public accessibility and recommendation claims."
 date: 2026-10-07
 last_modified_at: 2026-10-26
 author: Yang Xiaole

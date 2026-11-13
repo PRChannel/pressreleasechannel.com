@@ -4,9 +4,7 @@ title: "WeChat and Weibo Press Release Publishing in China: What Overseas
 seo_title: "WeChat & Weibo Press Release Publishing in China"
 url_slug: wechat-weibo-press-release-publishing-china
 permalink: /china-media-guide/wechat-weibo-press-release-publishing-china/
-description: How press release content is published on WeChat and Weibo in
-  China, what these channels can and cannot do compared with news website
-  placement, and what overseas companies should confirm before paying.
+description: "How press release content is published on WeChat and Weibo in China, what these channels can and cannot do versus news sites, and what to confirm."
 date: 2026-10-26 15:40:00 +0800
 author: Yang Xiaole
 category: Press Release Distribution

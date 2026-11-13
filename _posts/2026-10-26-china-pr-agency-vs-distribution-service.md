@@ -4,9 +4,7 @@ title: "China PR Agency vs Distribution Service: Which One Does Your Announcemen
 seo_title: "China PR Agency vs Distribution Service"
 url_slug: china-pr-agency-vs-distribution-service
 permalink: /china-media-guide/china-pr-agency-vs-distribution-service/
-description: What a China PR agency does compared with a press release
-  distribution service and a local China PR partner, which outcomes each
-  produces, and how overseas companies should choose between them.
+description: "What a China PR agency, a distribution service and a local China partner each do, which outcomes each produces, and how to choose between them."
 date: 2026-10-26 16:10:00 +0800
 author: Yang Xiaole
 category: Press Release Distribution
